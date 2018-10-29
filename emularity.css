@@ -1,0 +1,65 @@
+* {
+    position: relative;
+}
+
+body {
+    background-color: #f5f5dc;
+}
+
+#main-wrapper {
+    margin-top: 10px;
+}
+
+#emularity-splash-screen {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    background-color: #000000;
+    margin-bottom: -150px;
+    color: #ffffff;
+}
+
+@media (max-width: 600px) {
+    #main-wrapper {
+        margin-top: 3px;
+    }
+    #emularity-splash-screen {
+        width: 100%;
+    }
+}
+
+#emularity-canvas {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#mobile-tools {
+    display: none;
+    margin-top: 4px;
+}
+
+#mobile-tools button {
+    margin: 4px;
+}
+
+#mobile-keyboard-helper {
+    height: 0px;
+    width: 0px;
+    border: none;
+    visibility: hidden;
+}
+
+#introduction {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 960px) {
+    #introduction {
+        margin: 10px;
+    }
+}
