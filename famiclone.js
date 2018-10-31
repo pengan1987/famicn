@@ -10,15 +10,15 @@ function getUrlVars() {
 function runMAME(cart) {
     var emulator = new Emulator(document.querySelector("#emularity-canvas"),
         postRun,
-        new JSMESSLoader(JSMESSLoader.driver("iq501"),
+        new JSMESSLoader(JSMESSLoader.driver("nespal"),
             JSMESSLoader.nativeResolution(640, 480),
-            JSMESSLoader.emulatorJS("mamenes.js"),
-            JSMESSLoader.emulatorWASM("mamenes.wasm"),
-            JSMESSLoader.mountFile(cart,
+            JSMESSLoader.emulatorJS("http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes_wasm.js"),
+            JSMESSLoader.emulatorWASM("http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes_wasm.wasm"),
+            JSMESSLoader.mountFile("game.nes",
                 JSMESSLoader.fetchFile("Game File",
                     cart)),
 
-            JSMESSLoader.peripheral("cart", cart)))
+            JSMESSLoader.peripheral("cart", "game.nes")))
     emulator.setScale(3).start({ waitAfterDownloading: true });
 }
 
@@ -45,9 +45,9 @@ function resizeCanvas() {
 
 $(document).ready(function () {
     console.log("ready!");
-
-    var cart = getUrlVars()["cart"];
-
+    var gameBaseUrl = "http://dnbwg3.cdn.bcebos.com/NES-China/"
+    var game = getUrlVars()["game"];
+    var cart = gameBaseUrl + game + ".nes"
 
     runMAME(cart);
 });
