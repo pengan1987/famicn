@@ -1,6 +1,8 @@
+var machineList;
+var newMachineList = [];
 
 function processJson(data) {
-    var machineList = data;
+    machineList = data;
     machineList = splitArrayByTime(machineList);
     var base = $("#base-cell");
     var machineListContainer = $("#machine-list");
@@ -29,10 +31,30 @@ function splitArrayByTime(someArray) {
     var position = timetoken % someArray.length;
     console.log(position);
     var first = someArray.slice(0, position);
-    var second = someArray.slice(position + 1);
+    var second = someArray.slice(position);
     return second.concat(first);
 }
 
 $(document).ready(function () {
     $.getJSON("games.json", processJson);
 });
+
+function testImage() {
+    for (var i = 0; i < machineList.length; i++) {
+        var machine = machineList[i];
+        $.ajax({
+            url: 'images/' + machine.filename + ".gif",
+            type: 'HEAD',
+            async: false,
+
+            error: function () {
+                //do something depressing
+                newMachineList.push(machine);
+            },
+            success: function () {
+                machine.image = 'images/' + machine.filename + ".gif";
+                newMachineList.push(machine);
+            }
+        });
+    }
+}
