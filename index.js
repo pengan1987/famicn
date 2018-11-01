@@ -1,6 +1,14 @@
 var machineList;
 var newMachineList = [];
 
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+
 function processJson(data) {
     machineList = data;
     machineList = splitArrayByTime(machineList);
@@ -11,6 +19,11 @@ function processJson(data) {
         var clone = base.clone();
         var title = machine.name + " - " + machine.vendor;
         var playerlink = "famiclone.html?game=" + encodeURI(machine.filename);
+
+        if (machine.device) {
+            playerlink = playerlink + "&device=" + machine.device;
+        }
+
         clone.show();
         clone.attr("id", machine.id);
         clone.find("a").attr("href", playerlink);
@@ -36,7 +49,11 @@ function splitArrayByTime(someArray) {
 }
 
 $(document).ready(function () {
-    $.getJSON("games.json", processJson);
+    var menu = getUrlVars()["menu"];
+    if (!menu) {
+        menu = "games.json"
+    }
+    $.getJSON(menu, processJson);
 });
 
 function testImage() {

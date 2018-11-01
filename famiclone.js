@@ -7,17 +7,16 @@ function getUrlVars() {
     return vars;
 }
 
-function runMAME(cart) {
+function runMAME(cart, device) {
     var emulator = new Emulator(document.querySelector("#emularity-canvas"),
         postRun,
-        new JSMESSLoader(JSMESSLoader.driver("nespal"),
+        new JSMESSLoader(JSMESSLoader.driver(device),
             JSMESSLoader.nativeResolution(640, 480),
             JSMESSLoader.emulatorJS("http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes_wasm.js"),
             JSMESSLoader.emulatorWASM("http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes_wasm.wasm"),
             JSMESSLoader.mountFile("game.nes",
                 JSMESSLoader.fetchFile("Game File",
                     cart)),
-
             JSMESSLoader.peripheral("cart", "game.nes")))
     emulator.setScale(3).start({ waitAfterDownloading: true });
 }
@@ -48,6 +47,9 @@ $(document).ready(function () {
     var gameBaseUrl = "http://dnbwg3.cdn.bcebos.com/NES-China/"
     var game = getUrlVars()["game"];
     var cart = gameBaseUrl + game + ".nes"
-
-    runMAME(cart);
+    var device = getUrlVars()["device"];
+    if (!device) {
+        device = "nespal"
+    }
+    runMAME(cart, device);
 });
