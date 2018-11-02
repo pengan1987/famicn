@@ -8,12 +8,17 @@ function getUrlVars() {
 }
 
 function runMAME(cart, device) {
+    var wantsWASM = 'WebAssembly' in window;
+    var wasmjs_filename = "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes_wasm.js";
+    var wasm_filename = "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes_wasm.wasm"
+    var js_filename = "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes.js"
+
     var emulator = new Emulator(document.querySelector("#emularity-canvas"),
         postRun,
         new JSMESSLoader(JSMESSLoader.driver(device),
             JSMESSLoader.nativeResolution(640, 480),
-            JSMESSLoader.emulatorJS("http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes_wasm.js"),
-            JSMESSLoader.emulatorWASM("http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes_wasm.wasm"),
+            JSMESSLoader.emulatorJS(wantsWASM ? wasmjs_filename : js_filename),
+            JSMESSLoader.emulatorWASM(wantsWASM && wasm_filename),
             JSMESSLoader.mountFile("game.nes",
                 JSMESSLoader.fetchFile("Game File",
                     cart)),
@@ -40,6 +45,23 @@ function resizeCanvas() {
         $("#emularity-canvas").width(bodyWidth);
         $("#emularity-canvas").height(newHeight);
     }
+}
+
+//IE 11 string includes ployfill
+if (!String.prototype.includes) {
+    Object.defineProperty(String.prototype, 'includes', {
+        value: function (search, start) {
+            if (typeof start !== 'number') {
+                start = 0
+            }
+
+            if (start + search.length > this.length) {
+                return false
+            } else {
+                return this.indexOf(search, start) !== -1
+            }
+        }
+    })
 }
 
 $(document).ready(function () {
