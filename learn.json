@@ -70,6 +70,13 @@
         "device": "sb486"
     },
     {
+        "name": "图形推理 & 智力拼图",
+        "device": "sb486",
+        "vendor": "先锋卡通",
+        "filename": "图形推理_智力拼图 [先锋卡通]",
+        "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/图形推理 & 智力拼图 [先锋卡通].gif"
+    },
+    {
         "name": "王中霸学习卡",
         "vendor": "荣丰",
         "filename": "王中霸学习卡 [荣丰]",

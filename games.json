@@ -7,18 +7,21 @@
     },
     {
         "name": "75宾果",
+        "device": "nes",
         "vendor": "Sachen",
         "filename": "75宾果 [Sachen]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/75宾果 [Sachen].gif"
     },
     {
         "name": "AV美少女战士",
+        "device": "nes",
         "vendor": "未知",
         "filename": "AV美少女战士 [未知]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/AV美少女战士 [未知].gif"
     },
     {
         "name": "AV麻雀俱乐部",
+        "device": "nes",
         "vendor": "Sachen",
         "filename": "AV麻雀俱乐部 [Sachen]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/AV麻雀俱乐部 [Sachen].gif"
@@ -127,6 +130,7 @@
     },
     {
         "name": "中国大亨",
+        "device": "nes",
         "vendor": "Sachen",
         "filename": "中国大亨 [Sachen]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/中国大亨 [Sachen].gif"
@@ -169,6 +173,7 @@
     },
     {
         "name": "动动脑2 - 国中英文",
+        "device": "nes",
         "vendor": "Sachen",
         "filename": "动动脑2 - 国中英文 [Sachen]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/动动脑2 - 国中英文 [Sachen].gif"
@@ -205,6 +210,7 @@
     },
     {
         "name": "双鹰",
+        "device": "nes",
         "vendor": "Joy Van",
         "filename": "双鹰 [Joy Van]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/双鹰 [Joy Van].gif"
@@ -259,12 +265,14 @@
     },
     {
         "name": "台湾花牌麻雀",
+        "device": "nes",
         "vendor": "Sachen",
         "filename": "台湾花牌麻雀 [Sachen]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/台湾花牌麻雀 [Sachen].gif"
     },
     {
         "name": "台湾麻雀",
+        "device": "nes",
         "vendor": "Sachen",
         "filename": "台湾麻雀 [Sachen]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/台湾麻雀 [Sachen].gif"
@@ -283,21 +291,17 @@
     },
     {
         "name": "四川麻将 - 制服篇",
+        "device": "nes",
         "vendor": "Sachen",
         "filename": "四川麻将 - 制服篇 [Sachen]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/四川麻将 - 制服篇 [Sachen].gif"
     },
     {
         "name": "四川麻将",
+        "device": "nes",
         "vendor": "Joy Van",
         "filename": "四川麻将 [Joy Van]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/四川麻将 [Joy Van].gif"
-    },
-    {
-        "name": "图形推理 & 智力拼图",
-        "vendor": "先锋卡通",
-        "filename": "图形推理 & 智力拼图 [先锋卡通]",
-        "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/图形推理 & 智力拼图 [先锋卡通].gif"
     },
     {
         "name": "圣斗士星矢 - 天马之幻想",
@@ -307,8 +311,9 @@
     },
     {
         "name": "圣火列传",
+        "device": "nes",
         "vendor": "C&E Inc",
-        "filename": "圣火列传 [C&E Inc]",
+        "filename": "圣火列传 [CnE Inc]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/圣火列传 [C&E Inc].gif"
     },
     {
@@ -422,13 +427,14 @@
     {
         "name": "封神榜 - 伏魔三太子",
         "vendor": "C&E Inc (147201688 转简体版)",
-        "filename": "封神榜 - 伏魔三太子 [C&E Inc (147201688 转简体版)]",
+        "filename": "封神榜 - 伏魔三太子 [CnE Inc (147201688 转简体版)]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/封神榜 - 伏魔三太子 [C&E Inc (147201688 转简体版)].gif"
     },
     {
         "name": "封神榜 - 伏魔三太子",
+        "device": "nes",
         "vendor": "C&E Inc",
-        "filename": "封神榜 - 伏魔三太子 [C&E Inc]",
+        "filename": "封神榜 - 伏魔三太子 [CnE Inc]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/封神榜 - 伏魔三太子 [C&E Inc].gif"
     },
     {
@@ -445,6 +451,7 @@
     },
     {
         "name": "小红帽",
+        "device": "nes",
         "vendor": "Joy Van",
         "filename": "小红帽 [Joy Van]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/小红帽 [Joy Van].gif"
@@ -457,6 +464,7 @@
     },
     {
         "name": "少林武者",
+        "device": "nes",
         "vendor": "Sachen",
         "filename": "少林武者 [Sachen]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/少林武者 [Sachen].gif"
@@ -517,8 +525,9 @@
     },
     {
         "name": "战国四川省",
+        "device": "nes",
         "vendor": "C&E Inc",
-        "filename": "战国四川省 [C&E Inc]",
+        "filename": "战国四川省 [CnE Inc]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/战国四川省 [C&E Inc].gif"
     },
     {
@@ -541,12 +550,14 @@
     },
     {
         "name": "扑克集锦",
+        "device": "nes",
         "vendor": "Sachen",
         "filename": "扑克集锦 [Sachen]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/扑克集锦 [Sachen].gif"
     },
     {
         "name": "扑克麻雀",
+        "device": "nes",
         "vendor": "Sachen",
         "filename": "扑克麻雀 [Sachen]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/扑克麻雀 [Sachen].gif"
@@ -619,6 +630,7 @@
     },
     {
         "name": "暗棋",
+        "device": "nes",
         "vendor": "Joy Van",
         "filename": "暗棋 [Joy Van]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/暗棋 [Joy Van].gif"
@@ -649,6 +661,7 @@
     },
     {
         "name": "未来小子",
+        "device": "nes",
         "vendor": "Joy Van",
         "filename": "未来小子 [Joy Van]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/未来小子 [Joy Van].gif"
@@ -835,6 +848,7 @@
     },
     {
         "name": "盗帅",
+        "device": "nes",
         "vendor": "Joy Van",
         "filename": "盗帅 [Joy Van]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/盗帅 [Joy Van].gif"
@@ -901,6 +915,7 @@
     },
     {
         "name": "美女拳",
+        "device": "nes",
         "vendor": "Sachen",
         "filename": "美女拳 [Sachen]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/美女拳 [Sachen].gif"
@@ -979,6 +994,7 @@
     },
     {
         "name": "象棋学园",
+        "device": "nes",
         "vendor": "Sachen",
         "filename": "象棋学园 [Sachen]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/象棋学园 [Sachen].gif"
@@ -1015,6 +1031,7 @@
     },
     {
         "name": "迷宫封印",
+        "device": "nes",
         "vendor": "Sachen",
         "filename": "迷宫封印 [Sachen]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/迷宫封印 [Sachen].gif"
@@ -1111,12 +1128,14 @@
     },
     {
         "name": "麻雀世界 - 歌舞伎町篇",
+        "device": "nes",
         "vendor": "Sachen",
         "filename": "麻雀世界 - 歌舞伎町篇 [Sachen]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/麻雀世界 - 歌舞伎町篇 [Sachen].gif"
     },
     {
         "name": "麻雀世界",
+        "device": "nes",
         "vendor": "Sachen",
         "filename": "麻雀世界 [Sachen]",
         "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/麻雀世界 [Sachen].gif"
