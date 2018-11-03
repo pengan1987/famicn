@@ -1,5 +1,7 @@
 var machineList;
 var newMachineList = [];
+var pages = [];
+var loadedPage = 0;
 
 function getUrlVars() {
     var vars = {};
@@ -12,10 +14,20 @@ function getUrlVars() {
 function processJson(data) {
     machineList = data;
     machineList = splitArrayByTime(machineList);
+
+    var i, j, temparray, chunk = 32;
+    for (i = 0, j = machineList.length; i < j; i += chunk) {
+        temparray = machineList.slice(i, i + chunk);
+        pages.push(temparray);
+    }
+    showMachines(pages[loadedPage]);
+}
+
+function showMachines(machines) {
     var base = $("#base-cell");
     var machineListContainer = $("#machine-list");
-    for (i = 0; i < machineList.length; i++) {
-        var machine = machineList[i];
+    for (i = 0; i < machines.length; i++) {
+        var machine = machines[i];
         var clone = base.clone();
         var title = machine.name + " - " + machine.vendor;
         var playerlink = "famiclone.html?game=" + encodeURI(machine.filename);
@@ -36,7 +48,7 @@ function processJson(data) {
         clone.find(".figure-img").attr("src", imageLink)
         machineListContainer.append(clone);
     }
-
+    loadedPage++;
 }
 
 function splitArrayByTime(someArray) {
@@ -56,6 +68,12 @@ $(document).ready(function () {
         menu = "games.json"
     }
     $.getJSON(menu, processJson);
+});
+
+$(window).scroll(function () {
+    if ($(document).height() - $(window).height() - $(window).scrollTop() < 50 && loadedPage < pages.length) {
+        showMachines(pages[loadedPage]);
+    }
 });
 
 function testImage() {
