@@ -3,70 +3,70 @@
         "name": "Windows 2000",
         "vendor": "未知",
         "filename": "Windows 2000 [未知]",
-        "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/Windows 2000 [未知].gif",
+        "image": "{{image-path}}/Windows 2000 [未知].gif",
         "device": "sb486"
     },
     {
         "name": "智力小状元",
         "vendor": "数奇玉",
         "filename": "智力小状元 [数奇玉]",
-        "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/智力小状元 [数奇玉].gif",
+        "image": "{{image-path}}/智力小状元 [数奇玉].gif",
         "device": "sb486"
     },
     {
         "name": "数学小状元",
         "vendor": "数奇玉",
         "filename": "数学小状元 [数奇玉]",
-        "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/数学小状元 [数奇玉].gif",
+        "image": "{{image-path}}/数学小状元 [数奇玉].gif",
         "device": "sb486"
     },
     {
         "name": "小博士",
         "vendor": "鸿达",
         "filename": "小博士 [鸿达]",
-        "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/小博士 [鸿达].gif",
+        "image": "{{image-path}}/小博士 [鸿达].gif",
         "device": "sb486"
     },
     {
         "name": "英语声霸卡",
         "vendor": "东生",
         "filename": "英语声霸卡 [东生]",
-        "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/英语声霸卡 [东生].gif",
+        "image": "{{image-path}}/英语声霸卡 [东生].gif",
         "device": "sb486"
     },
     {
         "name": "小百科学习机",
         "vendor": "maxzhou88",
         "filename": "小百科学习机 [maxzhou88]",
-        "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/小百科学习机 [maxzhou88].gif",
+        "image": "{{image-path}}/小百科学习机 [maxzhou88].gif",
         "device": "sb486"
     },
     {
         "name": "小霸王学习机V3",
         "vendor": "小霸王",
         "filename": "小霸王学习机V3 [小霸王]",
-        "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/小霸王学习机V3 [小霸王].gif",
+        "image": "{{image-path}}/小霸王学习机V3 [小霸王].gif",
         "device": "sb486"
     },
     {
         "name": "小霸王学习机V4",
         "vendor": "小霸王",
         "filename": "小霸王学习机V4 [小霸王]",
-        "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/小霸王学习机V4 [小霸王].gif",
+        "image": "{{image-path}}/小霸王学习机V4 [小霸王].gif",
         "device": "sb486"
     },
     {
         "name": "小霸王英语词霸卡",
         "vendor": "小霸王",
         "filename": "小霸王英语词霸卡 [小霸王]",
-        "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/小霸王英语词霸卡 [小霸王].gif",
+        "image": "{{image-path}}/小霸王英语词霸卡 [小霸王].gif",
         "device": "sb486"
     },
     {
         "name": "马步迷阵 - 趣味成语屋",
         "vendor": "小霸王",
         "filename": "马步迷阵 - 趣味成语屋 [小霸王]",
-        "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/马步迷阵 - 趣味成语屋 [小霸王].gif",
+        "image": "{{image-path}}/马步迷阵 - 趣味成语屋 [小霸王].gif",
         "device": "sb486"
     },
     {
@@ -74,27 +74,27 @@
         "device": "sb486",
         "vendor": "先锋卡通",
         "filename": "图形推理_智力拼图 [先锋卡通]",
-        "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/图形推理 & 智力拼图 [先锋卡通].gif"
+        "image": "{{image-path}}/图形推理 & 智力拼图 [先锋卡通].gif"
     },
     {
         "name": "王中霸学习卡",
         "vendor": "荣丰",
         "filename": "王中霸学习卡 [荣丰]",
-        "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/王中霸学习卡 [荣丰].gif",
+        "image": "{{image-path}}/王中霸学习卡 [荣丰].gif",
         "device": "sb486"
     },
     {
         "name": "荣丰学习卡",
         "vendor": "荣丰",
         "filename": "荣丰学习卡 [荣丰]",
-        "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/荣丰学习卡 [荣丰].gif",
+        "image": "{{image-path}}/荣丰学习卡 [荣丰].gif",
         "device": "sb486"
     },
     {
         "name": "MXMDHTWO学习卡",
         "vendor": "TXC",
         "filename": "MXMDHTWO学习卡 [TXC]",
-        "image": "http://dnbwg3.cdn.bcebos.com/NES-China/images/MXMDHTWO学习卡 [TXC].gif",
+        "image": "{{image-path}}/MXMDHTWO学习卡 [TXC].gif",
         "device": "sb486"
     }
 ]

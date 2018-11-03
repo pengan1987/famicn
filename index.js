@@ -20,6 +20,11 @@ function processJson(data) {
         var title = machine.name + " - " + machine.vendor;
         var playerlink = "famiclone.html?game=" + encodeURI(machine.filename);
 
+        var imageServer = "http://famicn-1255835060.file.myqcloud.com/game-images";
+        var imageLink = "cart.gif";
+        if (machine.image) {
+            imageLink = machine.image.replace("{{image-path}}", imageServer);
+        }
         if (machine.device) {
             playerlink = playerlink + "&device=" + machine.device;
         }
@@ -28,10 +33,7 @@ function processJson(data) {
         clone.attr("id", machine.id);
         clone.find("a").attr("href", playerlink);
         clone.find("figcaption").text(title)
-        if (!machine.image) {
-            machine.image = "cart.gif"
-        }
-        clone.find(".figure-img").attr("src", machine.image)
+        clone.find(".figure-img").attr("src", imageLink)
         machineListContainer.append(clone);
     }
 
