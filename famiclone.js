@@ -19,10 +19,10 @@ function runMAME(cart, device) {
             JSMESSLoader.nativeResolution(640, 480),
             JSMESSLoader.emulatorJS(wantsWASM ? wasmjs_filename : js_filename),
             JSMESSLoader.emulatorWASM(wantsWASM && wasm_filename),
-            JSMESSLoader.mountFile("game.nes",
+            JSMESSLoader.mountZip("rom",
                 JSMESSLoader.fetchFile("Game File",
                     cart)),
-            JSMESSLoader.peripheral("cart", "game.nes")))
+            JSMESSLoader.extraArgs(["-cart", "/emulator/rom/game.nes"])));
     emulator.setScale(3).start({ waitAfterDownloading: true });
 }
 
@@ -66,9 +66,9 @@ if (!String.prototype.includes) {
 
 $(document).ready(function () {
     console.log("ready!");
-    var gameBaseUrl = "http://dnbwg3.cdn.bcebos.com/NES-China/"
+    var gameBaseUrl = "http://dnbwg3.cdn.bcebos.com/roms-zip/"
     var game = getUrlVars()["game"];
-    var cart = gameBaseUrl + game + ".nes"
+    var cart = gameBaseUrl + game + ".zip"
     var device = getUrlVars()["device"];
     if (!device) {
         device = "nespal"
