@@ -35,8 +35,11 @@
       </li>
     </ul>
   </nav>
-  <div class="feature-wrapper pt-5 pb-5 mt-0 mt-lg-0">
+  <div class="feature-wrapper pb-5 mt-0 mt-lg-0">
     <div class="container">
+      <div class="form-inline">
+        <input class="form-control col-sm-1 col-md-3 my-3" type="search" id="search-text" oninput="search()" placeholder="搜索">
+      </div>
       <div class="row" id="machine-list">
         <div id="base-cell" class="col-sm-12 col-md-3" style="display:none">
 
@@ -49,6 +52,9 @@
         </div>
       </div>
     </div>
+  </div>
+  <div>
+    <a id="loadmore" href="#" onclick="loadmore()">加载更多</a>
   </div>
   <div style="display: none;">
     <img src="cart.gif">

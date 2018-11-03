@@ -59,6 +59,11 @@ a:active {
     text-decoration: none;
 }
 
-figure a{
+figure a {
+    display: block;
+}
+
+#loadmore {
+    text-align: center;
     display: block;
 }

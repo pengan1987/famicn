@@ -13,13 +13,17 @@ function getUrlVars() {
 
 function processJson(data) {
     machineList = data;
-    machineList = splitArrayByTime(machineList);
+    reorderedList = splitArrayByTime(machineList);
 
     var i, j, temparray, chunk = 32;
-    for (i = 0, j = machineList.length; i < j; i += chunk) {
-        temparray = machineList.slice(i, i + chunk);
+    for (i = 0, j = reorderedList.length; i < j; i += chunk) {
+        temparray = reorderedList.slice(i, i + chunk);
         pages.push(temparray);
     }
+    showMachines(pages[loadedPage]);
+}
+
+function loadmore() {
     showMachines(pages[loadedPage]);
 }
 
@@ -44,11 +48,37 @@ function showMachines(machines) {
         clone.show();
         clone.attr("id", machine.id);
         clone.find("a").attr("href", playerlink);
-        clone.find("figcaption").text(title)
-        clone.find(".figure-img").attr("src", imageLink)
+        clone.find("figcaption").text(title);
+        clone.find(".figure-img").attr("src", imageLink);
+        clone.addClass("show-data");
         machineListContainer.append(clone);
     }
     loadedPage++;
+    if (loadedPage >= pages.length) {
+        $("#loadmore").hide();
+    }
+}
+
+function search() {
+
+    var keyword = $("#search-text").val();
+    if (!keyword || keyword.length == 0) {
+        $(".show-data").remove();
+        loadedPage = 0;
+        processJson(machineList);
+        return;
+    }
+    var searchResult = [];
+    for (i = 0; i < machineList.length; i++) {
+        var text = machineList[i].name + machineList[i].vendor;
+        if (text.includes(keyword)) {
+            searchResult.push(machineList[i]);
+        }
+    }
+    pages = [];
+    loadedPage = 0;
+    $(".show-data").remove();
+    showMachines(searchResult);
 }
 
 function splitArrayByTime(someArray) {
