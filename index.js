@@ -2,6 +2,7 @@ var machineList;
 var newMachineList = [];
 var pages = [];
 var loadedPage = 0;
+var platform = "famiclone.html";
 
 function getUrlVars() {
     var vars = {};
@@ -34,7 +35,7 @@ function showMachines(machines) {
         var machine = machines[i];
         var clone = base.clone();
         var title = machine.name + " - " + machine.vendor;
-        var playerlink = "famiclone.html?game=" + encodeURI(machine.filename);
+        var playerlink = platform + "?game=" + encodeURI(machine.filename);
 
         var imageServer = "http://famicn-1255835060.file.myqcloud.com/game-images";
         var imageLink = "cart.gif";
@@ -95,7 +96,9 @@ function splitArrayByTime(someArray) {
 $(document).ready(function () {
     var menu = getUrlVars()["menu"];
     if (!menu) {
-        menu = "games.json"
+        menu = "games.json";
+    } else if (menu.includes("genesis")) {
+        platform = "genesis.html";
     }
     $.getJSON(menu, processJson);
 });

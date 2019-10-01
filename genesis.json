@@ -1,0 +1,79 @@
+[
+    {
+        "name": "太空战士 - 魔法战士",
+        "vendor": "川普科技",
+        "filename": "太空战士 - 魔法战士 (繁) (川普科技)",
+        "image": "{{image-path}}/Windows 2000 [未知].gif",
+        "device": "genesis"
+    },
+    {
+        "name": "水浒传",
+        "vendor": "川普科技",
+        "filename": "水浒传 (繁) (川普科技)",
+        "image": "{{image-path}}/Windows 2000 [未知].gif",
+        "device": "genesis"
+    },
+    {
+        "name": "小魔女铃铃",
+        "vendor": "RED TRADEMARKS",
+        "filename": "小魔女铃铃 (繁) (RED TRADEMARKS)",
+        "image": "{{image-path}}/Windows 2000 [未知].gif",
+        "device": "genesis"
+    },
+    {
+        "name": "悟空外传",
+        "vendor": "RED TRADEMARKS",
+        "filename": "悟空外传 (繁) (RED TRADEMARKS)",
+        "image": "{{image-path}}/数学小状元 [数奇玉].gif",
+        "device": "genesis"
+    },
+    {
+        "name": "台湾大亨",
+        "vendor": "全崴资讯",
+        "filename": "台湾大亨 (繁) (全崴资讯)",
+        "image": "{{image-path}}/Windows 2000 [未知].gif",
+        "device": "genesis"
+    },
+    {
+        "name": "阿Q连环泡",
+        "vendor": "全崴资讯",
+        "filename": "阿Q连环泡 (繁) (全崴资讯)",
+        "image": "{{image-path}}/Windows 2000 [未知].gif",
+        "device": "genesis"
+    },
+    {
+        "name": "超级大富翁",
+        "vendor": "RED TRADEMARKS",
+        "filename": "超级大富翁 (繁) (RED TRADEMARKS)",
+        "image": "{{image-path}}/Windows 2000 [未知].gif",
+        "device": "genesis"
+    },
+    {
+        "name": "帝国皇朝 - 亚瑟传说",
+        "vendor": "川普科技",
+        "filename": "帝国皇朝 - 亚瑟传说 (繁) (川普科技)",
+        "image": "{{image-path}}/Windows 2000 [未知].gif",
+        "device": "genesis"
+    },
+    {
+        "name": "封神英杰传",
+        "vendor": "川普科技",
+        "filename": "封神英杰传 (繁) (川普科技)",
+        "image": "{{image-path}}/Windows 2000 [未知].gif",
+        "device": "genesis"
+    },
+    {
+        "name": "冒险小子",
+        "vendor": "RED TRADEMARKS",
+        "filename": "冒险小子 (繁) (RED TRADEMARKS)",
+        "image": "{{image-path}}/Windows 2000 [未知].gif",
+        "device": "genesis"
+    },
+    {
+        "name": "世界职棒争霸战",
+        "vendor": "RED TRADEMARKS",
+        "filename": "世界职棒争霸战 (繁) (全崴资讯)",
+        "image": "{{image-path}}/Windows 2000 [未知].gif",
+        "device": "genesis"
+    }
+]
