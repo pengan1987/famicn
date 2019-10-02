@@ -9,14 +9,14 @@ function getUrlVars() {
 
 function runMAME(cart, device) {
     var wantsWASM = 'WebAssembly' in window;
-    var wasmjs_filename = "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamegenesis_wasm.js";
-    var wasm_filename = "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamegenesis_wasm.wasm"
-    var js_filename = "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamegenesis.js"
+    var wasmjs_filename = "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamemegadriv_wasm.js";
+    var wasm_filename = "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamemegadriv_wasm.wasm"
+    var js_filename = "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamemegadriv.js"
 
     var emulator = new Emulator(document.querySelector("#emularity-canvas"),
         postRun,
         new JSMESSLoader(JSMESSLoader.driver(device),
-            JSMESSLoader.nativeResolution(640, 480),
+            JSMESSLoader.nativeResolution(640, 448),
             JSMESSLoader.emulatorJS(wantsWASM ? wasmjs_filename : js_filename),
             JSMESSLoader.emulatorWASM(wantsWASM && wasm_filename),
             JSMESSLoader.mountZip("rom",
