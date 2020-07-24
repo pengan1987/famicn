@@ -3,1165 +3,1355 @@
         "name": "1991赌马",
         "vendor": "Idea-Tek",
         "filename": "1991赌马 [Idea-Tek]",
-        "image": "{{image-path}}/1991赌马 [Idea-Tek].gif"
+        "image": "{{image-path-new}}/1991DuMa.gif",
+        "id": "1991DuMa"
     },
     {
         "name": "75宾果",
         "device": "nes",
         "vendor": "Sachen",
         "filename": "75宾果 [Sachen]",
-        "image": "{{image-path}}/75宾果 [Sachen].gif"
+        "image": "{{image-path-new}}/75BinGuo.gif",
+        "id": "75BinGuo"
     },
     {
         "name": "AV美少女战士",
         "device": "nes",
         "vendor": "未知",
         "filename": "AV美少女战士 [未知]",
-        "image": "{{image-path}}/AV美少女战士 [未知].gif"
+        "image": "{{image-path-new}}/AV_MeiShaoNvZhanShi.gif",
+        "id": "AV_MeiShaoNvZhanShi"
     },
     {
         "name": "AV麻雀俱乐部",
         "device": "nes",
         "vendor": "Sachen",
         "filename": "AV麻雀俱乐部 [Sachen]",
-        "image": "{{image-path}}/AV麻雀俱乐部 [Sachen].gif"
+        "image": "{{image-path-new}}/AV_MaQueJuLeBu.gif",
+        "id": "AV_MaQueJuLeBu"
     },
     {
         "name": "Fengli跳舞机",
         "vendor": "maxzhou88",
         "filename": "Fengli跳舞机 [maxzhou88]",
-        "image": "{{image-path}}/Fengli跳舞机 [maxzhou88].gif"
+        "image": "{{image-path-new}}/FengLiTiaoWuJi.gif",
+        "id": "FengLiTiaoWuJi"
     },
     {
         "name": "七国大战",
         "vendor": "南晶科技",
         "filename": "七国大战 [南晶科技]",
-        "image": "{{image-path}}/七国大战 [南晶科技].gif"
+        "image": "{{image-path-new}}/QiGuoDaZhan.gif",
+        "id": "QiGuoDaZhan"
     },
     {
         "name": "七龙珠Z - 超武斗传5 (可选语言版)",
         "vendor": "Rex",
         "filename": "七龙珠Z - 超武斗传5 (可选语言版) [Rex]",
-        "image": "{{image-path}}/七龙珠Z - 超武斗传5 (可选语言版) [Rex].gif"
+        "image": "{{image-path-new}}/QiLongZhu_Z_ChaoWuDouZhuan.gif",
+        "id": "QiLongZhu_Z_ChaoWuDouZhuan"
     },
     {
         "name": "三十六计",
         "vendor": "外星科技",
         "filename": "三十六计 [外星科技]",
-        "image": "{{image-path}}/三十六计 [外星科技].gif"
+        "image": "{{image-path-new}}/SanShiLiuJi.gif",
+        "id": "SanShiLiuJi"
     },
     {
         "name": "三国大乱斗 - 战国",
         "vendor": "南晶科技",
         "filename": "三国大乱斗 - 战国 [南晶科技]",
-        "image": "{{image-path}}/三国大乱斗 - 战国 [南晶科技].gif"
+        "image": "{{image-path-new}}/SanGuoDaLuanDou_ZhanGuo.gif",
+        "id": "SanGuoDaLuanDou_ZhanGuo"
     },
     {
         "name": "三国志 - 曹操传",
         "vendor": "南晶科技",
         "filename": "三国志 - 曹操传 [南晶科技]",
-        "image": "{{image-path}}/三国志 - 曹操传 [南晶科技].gif"
+        "image": "{{image-path-new}}/SanGuoZhi_CaoCaoZhuan.gif",
+        "id": "SanGuoZhi_CaoCaoZhuan"
     },
     {
         "name": "三国志 - 群雄争霸",
         "vendor": "Asder",
         "filename": "三国志 - 群雄争霸 [Asder]",
-        "image": "{{image-path}}/三国志 - 群雄争霸 [Asder].gif"
+        "image": "{{image-path-new}}/SanGuoZhi_QunXiongZhengBa.gif",
+        "id": "SanGuoZhi_QunXiongZhengBa"
     },
     {
         "name": "三国志 - 赤壁之战",
         "vendor": "Asder",
         "filename": "三国志 - 赤壁之战 [Asder]",
-        "image": "{{image-path}}/三国志 - 赤壁之战 [Asder].gif"
+        "image": "{{image-path-new}}/SanGuoZhi_ChiBiZhiZhan.gif",
+        "id": "SanGuoZhi_ChiBiZhiZhan"
     },
     {
         "name": "三国志4 - 赤壁风云",
         "vendor": "Future",
         "filename": "三国志4 - 赤壁风云 [Future]",
-        "image": "{{image-path}}/三国志4 - 赤壁风云 [Future].gif"
+        "image": "{{image-path-new}}/SanGuoZhi4_ChiBiFengYun.gif",
+        "id": "SanGuoZhi4_ChiBiFengYun"
     },
     {
         "name": "三国忠烈传",
         "vendor": "外星科技",
         "filename": "三国忠烈传 [外星科技]",
-        "image": "{{image-path}}/三国忠烈传 [外星科技].gif"
+        "image": "{{image-path-new}}/SanGuoZhongLieZhuan.gif",
+        "id": "SanGuoZhongLieZhuan"
     },
     {
         "name": "三国无双 - 猛将传",
         "vendor": "南晶科技",
         "filename": "三国无双 - 猛将传 [南晶科技]",
-        "image": "{{image-path}}/三国无双 - 猛将传 [南晶科技].gif"
+        "image": "{{image-path-new}}/SanGuoWuShuang_MengJiangZhuan.gif",
+        "id": "SanGuoWuShuang_MengJiangZhuan"
     },
     {
         "name": "三国春秋 - 四川省",
         "vendor": "卡圣",
         "filename": "三国春秋 - 四川省 [卡圣]",
-        "image": "{{image-path}}/三国春秋 - 四川省 [卡圣].gif"
+        "image": "{{image-path-new}}/SanGuoChunQiu_SiChuanSheng.gif",
+        "id": "SanGuoChunQiu_SiChuanSheng"
     },
     {
         "name": "上古神剑",
         "vendor": "恒格电子",
         "filename": "上古神剑 [恒格电子]",
-        "image": "{{image-path}}/上古神剑 [恒格电子].gif"
+        "image": "{{image-path-new}}/ShangGuShenJian.gif",
+        "id": "ShangGuShenJian"
     },
     {
         "name": "上海大亨",
         "vendor": "外星科技",
         "filename": "上海大亨 [外星科技]",
-        "image": "{{image-path}}/上海大亨 [外星科技].gif"
+        "image": "{{image-path-new}}/ShangHaiDaHeng.gif",
+        "id": "ShangHaiDaHeng"
     },
     {
         "name": "东方传说 - 封印岛",
         "vendor": "南晶科技",
         "filename": "东方传说 - 封印岛 [南晶科技]",
-        "image": "{{image-path}}/东方传说 - 封印岛 [南晶科技].gif"
+        "image": "{{image-path-new}}/DongFangChuanShuo_FengYinDao.gif",
+        "id": "DongFangChuanShuo_FengYinDao"
     },
     {
         "name": "丝路传奇",
         "vendor": "恒格电子",
         "filename": "丝路传奇 [恒格电子]",
-        "image": "{{image-path}}/丝路传奇 [恒格电子].gif"
+        "image": "{{image-path-new}}/SiLuChuanQi.gif",
+        "id": "SiLuChuanQi"
     },
     {
         "name": "中国兔宝宝",
         "vendor": "未知",
         "filename": "中国兔宝宝 [未知]",
-        "image": "{{image-path}}/中国兔宝宝 [未知].gif"
+        "image": "{{image-path-new}}/ZhongGuoTuBaoBao.gif",
+        "id": "ZhongGuoTuBaoBao"
     },
     {
         "name": "中国大亨",
         "device": "nes",
         "vendor": "Sachen",
         "filename": "中国大亨 [Sachen]",
-        "image": "{{image-path}}/中国大亨 [Sachen].gif"
+        "image": "{{image-path-new}}/ZhongGuoDaHeng.gif",
+        "id": "ZhongGuoDaHeng"
     },
     {
         "name": "中国象棋",
         "vendor": "TXC",
         "filename": "中国象棋 [TXC]",
-        "image": "{{image-path}}/中国象棋 [TXC].gif"
+        "image": "{{image-path-new}}/ZhongGuoXiangQi.gif",
+        "id": "ZhongGuoXiangQi"
     },
     {
         "name": "九七港京拉力赛车",
         "vendor": "天苑软件",
         "filename": "九七港京拉力赛车 [天苑软件]",
-        "image": "{{image-path}}/九七港京拉力赛车 [天苑软件].gif"
+        "image": "{{image-path-new}}/JiuQiGangJingLaLiSaiChe.gif",
+        "id": "JiuQiGangJingLaLiSaiChe"
     },
     {
         "name": "仙剑奇侠",
         "vendor": "南晶科技",
         "filename": "仙剑奇侠 [南晶科技]",
-        "image": "{{image-path}}/仙剑奇侠 [南晶科技].gif"
+        "image": "{{image-path-new}}/XianJianQiXia.gif",
+        "id": "XianJianQiXia"
     },
     {
         "name": "仙界精灵",
         "vendor": "南晶科技",
         "filename": "仙界精灵 [南晶科技]",
-        "image": "{{image-path}}/仙界精灵 [南晶科技].gif"
+        "image": "{{image-path-new}}/XianJieJingLing.gif",
+        "id": "XianJieJingLing"
     },
     {
         "name": "侠客情 - 荆轲刺秦王",
         "vendor": "外星科技",
         "filename": "侠客情 - 荆轲刺秦王 [外星科技]",
-        "image": "{{image-path}}/侠客情 - 荆轲刺秦王 [外星科技].gif"
+        "image": "{{image-path-new}}/XiaKeQing_JingKeCiQinWang.gif",
+        "id": "XiaKeQing_JingKeCiQinWang"
     },
     {
         "name": "六角方块",
         "vendor": "TXC",
         "filename": "六角方块 [TXC]",
-        "image": "{{image-path}}/六角方块 [TXC].gif"
+        "image": "{{image-path-new}}/LiuJiaoFangKuai.gif",
+        "id": "LiuJiaoFangKuai"
     },
     {
         "name": "动动脑2 - 国中英文",
         "device": "nes",
         "vendor": "Sachen",
         "filename": "动动脑2 - 国中英文 [Sachen]",
-        "image": "{{image-path}}/动动脑2 - 国中英文 [Sachen].gif"
+        "image": "{{image-path-new}}/DongDongNao_2_GuoZhongYingWen.gif",
+        "id": "DongDongNao_2_GuoZhongYingWen"
     },
     {
         "name": "勇者斗恶龙8",
         "vendor": "外星科技",
         "filename": "勇者斗恶龙8 [外星科技]",
-        "image": "{{image-path}}/勇者斗恶龙8 [外星科技].gif"
+        "image": "{{image-path-new}}/YongCheDouELong_8.gif",
+        "id": "YongCheDouELong_8"
     },
     {
         "name": "包青天",
         "vendor": "卡圣",
         "filename": "包青天 [卡圣]",
-        "image": "{{image-path}}/包青天 [卡圣].gif"
+        "image": "{{image-path-new}}/BaoQingTian.gif",
+        "id": "BaoQingTian"
     },
     {
         "name": "匹诺槽的复苏",
         "vendor": "外星科技",
         "filename": "匹诺槽的复苏 [外星科技]",
-        "image": "{{image-path}}/匹诺槽的复苏 [外星科技].gif"
+        "image": "{{image-path-new}}/PiNuoCaoDeFuSu.gif",
+        "id": "PiNuoCaoDeFuSu"
     },
     {
         "name": "卡拉OK演示",
         "vendor": "maxzhou88",
         "filename": "卡拉OK演示 [maxzhou88]",
-        "image": "{{image-path}}/卡拉OK演示 [maxzhou88].gif"
+        "image": "{{image-path-new}}/KaLa_OK_YanShi.gif",
+        "id": "KaLa_OK_YanShi"
     },
     {
         "name": "双响炮",
         "vendor": "Majoy",
         "filename": "双响炮 [Majoy]",
-        "image": "{{image-path}}/双响炮 [Majoy].gif"
+        "image": "{{image-path-new}}/ShuangXiangPao.gif",
+        "id": "ShuangXiangPao"
     },
     {
         "name": "双鹰",
         "device": "nes",
         "vendor": "Joy Van",
         "filename": "双鹰 [Joy Van]",
-        "image": "{{image-path}}/双鹰 [Joy Van].gif"
+        "image": "{{image-path-new}}/ShuangYing.gif",
+        "id": "ShuangYing"
     },
     {
         "name": "反恐精英",
         "vendor": "恒格电子",
         "filename": "反恐精英 [恒格电子]",
-        "image": "{{image-path}}/反恐精英 [恒格电子].gif"
+        "image": "{{image-path-new}}/FanKongJingYing.gif",
+        "id": "FanKongJingYing"
     },
     {
         "name": "口袋妖怪 - 钻石",
         "vendor": "外星科技",
         "filename": "口袋妖怪 - 钻石 [外星科技]",
-        "image": "{{image-path}}/口袋妖怪 - 钻石 [外星科技].gif"
+        "image": "{{image-path-new}}/KouDaiYaoGuai_ZuanShi.gif",
+        "id": "KouDaiYaoGuai_ZuanShi"
     },
     {
         "name": "口袋妖怪四合一",
         "vendor": "火星电子",
         "filename": "口袋妖怪四合一 [火星电子]",
-        "image": "{{image-path}}/口袋妖怪四合一 [火星电子].gif"
+        "image": "{{image-path-new}}/KouDaiYaoGuaiSiHeYi.gif",
+        "id": "KouDaiYaoGuaiSiHeYi"
     },
     {
         "name": "口袋宝石 - 银",
         "vendor": "南晶科技",
         "filename": "口袋宝石 - 银 [南晶科技]",
-        "image": "{{image-path}}/口袋宝石 - 银 [南晶科技].gif"
+        "image": "{{image-path-new}}/KouDaiBaoShi_Yin.gif",
+        "id": "KouDaiBaoShi_Yin"
     },
     {
         "name": "口袋精灵 - 水晶",
         "vendor": "火星电子",
         "filename": "口袋精灵 - 水晶 [火星电子]",
-        "image": "{{image-path}}/口袋精灵 - 水晶 [火星电子].gif"
+        "image": "{{image-path-new}}/KouDaiJingLing_ShuiJing.gif",
+        "id": "KouDaiJingLing_ShuiJing"
     },
     {
         "name": "口袋精灵 - 金",
         "vendor": "火星电子 (147201688转简体版)",
         "filename": "口袋精灵 - 金 [火星电子 (147201688转简体版)]",
-        "image": "{{image-path}}/口袋精灵 - 金 [火星电子 (147201688转简体版)].gif"
+        "image": "{{image-path-new}}/KouDaiJingLing_Jin_Simp_Chi.gif",
+        "id": "KouDaiJingLing_Jin_Simp_Chi"
     },
     {
         "name": "口袋精灵 - 金",
         "vendor": "火星电子",
         "filename": "口袋精灵 - 金 [火星电子]",
-        "image": "{{image-path}}/口袋精灵 - 金 [火星电子].gif"
+        "image": "{{image-path-new}}/KouDaiJingLing_Jin.gif",
+        "id": "KouDaiJingLing_Jin"
     },
     {
         "name": "古墓丽影",
         "vendor": "南晶科技",
         "filename": "古墓丽影 [南晶科技]",
-        "image": "{{image-path}}/古墓丽影 [南晶科技].gif"
+        "image": "{{image-path-new}}/GuMuLiYing.gif",
+        "id": "GuMuLiYing"
     },
     {
         "name": "台湾花牌麻雀",
         "device": "nes",
         "vendor": "Sachen",
         "filename": "台湾花牌麻雀 [Sachen]",
-        "image": "{{image-path}}/台湾花牌麻雀 [Sachen].gif"
+        "image": "{{image-path-new}}/TaiWanHuaPaiMaQue.gif",
+        "id": "TaiWanHuaPaiMaQue"
     },
     {
         "name": "台湾麻雀",
         "device": "nes",
         "vendor": "Sachen",
         "filename": "台湾麻雀 [Sachen]",
-        "image": "{{image-path}}/台湾麻雀 [Sachen].gif"
+        "image": "{{image-path-new}}/TaiWanMaQue.gif",
+        "id": "TaiWanMaQue"
     },
     {
         "name": "哪吒传奇",
         "vendor": "南晶科技",
         "filename": "哪吒传奇 [南晶科技]",
-        "image": "{{image-path}}/哪吒传奇 [南晶科技].gif"
+        "image": "{{image-path-new}}/NeZhaChuanQi.gif",
+        "id": "NeZhaChuanQi"
     },
     {
         "name": "唐伯虎点秋香",
         "vendor": "南晶科技",
         "filename": "唐伯虎点秋香 [南晶科技]",
-        "image": "{{image-path}}/唐伯虎点秋香 [南晶科技].gif"
+        "image": "{{image-path-new}}/TangBoHuDianQiuXiang.gif",
+        "id": "TangBoHuDianQiuXiang"
     },
     {
         "name": "四川麻将 - 制服篇",
         "device": "nes",
         "vendor": "Sachen",
         "filename": "四川麻将 - 制服篇 [Sachen]",
-        "image": "{{image-path}}/四川麻将 - 制服篇 [Sachen].gif"
+        "image": "{{image-path-new}}/SiChuanMaJiang_ZhiFuPian.gif",
+        "id": "SiChuanMaJiang_ZhiFuPian"
     },
     {
         "name": "四川麻将",
         "device": "nes",
         "vendor": "Joy Van",
         "filename": "四川麻将 [Joy Van]",
-        "image": "{{image-path}}/四川麻将 [Joy Van].gif"
+        "image": "{{image-path-new}}/SiChuanMaJiang.gif",
+        "id": "SiChuanMaJiang"
     },
     {
         "name": "圣斗士星矢 - 天马之幻想",
         "vendor": "南晶科技",
         "filename": "圣斗士星矢 - 天马之幻想 [南晶科技]",
-        "image": "{{image-path}}/圣斗士星矢 - 天马之幻想 [南晶科技].gif"
+        "image": "{{image-path-new}}/ShengDouShiXingShi_TianMaZhiHuanXiang.gif",
+        "id": "ShengDouShiXingShi_TianMaZhiHuanXiang"
     },
     {
         "name": "圣火列传",
         "device": "nes",
         "vendor": "C&E Inc",
         "filename": "圣火列传 [CnE Inc]",
-        "image": "{{image-path}}/圣火列传 [C&E Inc].gif"
+        "image": "{{image-path-new}}/ShengHuoLieZhuan.gif",
+        "id": "ShengHuoLieZhuan"
     },
     {
         "name": "地道战",
         "vendor": "外星科技",
         "filename": "地道战 [外星科技]",
-        "image": "{{image-path}}/地道战 [外星科技].gif"
+        "image": "{{image-path-new}}/DiDaoZhan.gif",
+        "id": "DiDaoZhan"
     },
     {
         "name": "基督山恩仇记",
         "vendor": "外星科技",
         "filename": "基督山恩仇记 [外星科技]",
-        "image": "{{image-path}}/基督山恩仇记 [外星科技].gif"
+        "image": "{{image-path-new}}/JiDuShanEnChouJi.gif",
+        "id": "JiDuShanEnChouJi"
     },
     {
         "name": "塞尔达传说 - 神奇的帽子",
         "vendor": "南晶科技",
         "filename": "塞尔达传说 - 神奇的帽子 [南晶科技]",
-        "image": "{{image-path}}/塞尔达传说 - 神奇的帽子 [南晶科技].gif"
+        "image": "{{image-path-new}}/SaiErDaChuanShuo_ShenQiDeMaoZi.gif",
+        "id": "SaiErDaChuanShuo_ShenQiDeMaoZi"
     },
     {
         "name": "外星战士",
         "vendor": "外星科技 (147201688转简体版)",
         "filename": "外星战士 [外星科技 (147201688转简体版)]",
-        "image": "{{image-path}}/外星战士 [外星科技 (147201688转简体版)].gif"
+        "image": "{{image-path-new}}/WaiXingZhanShi_Simp_Chn.gif",
+        "id": "WaiXingZhanShi_Simp_Chn"
     },
     {
         "name": "外星战士",
         "vendor": "外星科技",
         "filename": "外星战士 [外星科技]",
-        "image": "{{image-path}}/外星战士 [外星科技].gif"
+        "image": "{{image-path-new}}/WaiXingZhanShi.gif",
+        "id": "WaiXingZhanShi"
     },
     {
         "name": "外星战士2",
         "vendor": "外星科技 (147201688转简体版)",
         "filename": "外星战士2 [外星科技 (147201688转简体版)]",
-        "image": "{{image-path}}/外星战士2 [外星科技 (147201688转简体版)].gif"
+        "image": "{{image-path-new}}/WaiXingZhanShi2_Simp_Chn.gif",
+        "id": "WaiXingZhanShi2_Simp_Chn"
     },
     {
         "name": "外星战士2",
         "vendor": "外星科技",
         "filename": "外星战士2 [外星科技]",
-        "image": "{{image-path}}/外星战士2 [外星科技].gif"
+        "image": "{{image-path-new}}/WaiXingZhanShi2.gif",
+        "id": "WaiXingZhanShi2"
     },
     {
         "name": "大航海7",
         "vendor": "外星科技",
         "filename": "大航海7 [外星科技]",
-        "image": "{{image-path}}/大航海7 [外星科技].gif"
+        "image": "{{image-path-new}}/DaHangHai7.gif",
+        "id": "DaHangHai7"
     },
     {
         "name": "大话西游",
         "vendor": "火星电子",
         "filename": "大话西游 [火星电子]",
-        "image": "{{image-path}}/大话西游 [火星电子].gif"
+        "image": "{{image-path-new}}/DaHuaXiYou.gif",
+        "id": "DaHuaXiYou"
     },
     {
         "name": "大金刚 - 香蕉船",
         "vendor": "两亦",
         "filename": "大金刚 - 香蕉船 [两亦]",
-        "image": "{{image-path}}/大金刚 - 香蕉船 [两亦].gif"
+        "image": "{{image-path-new}}/DaJinGang_XiangJiaoChuan.gif",
+        "id": "DaJinGang_XiangJiaoChuan"
     },
     {
         "name": "天龙八部",
         "vendor": "南晶科技",
         "filename": "天龙八部 [南晶科技]",
-        "image": "{{image-path}}/天龙八部 [南晶科技].gif"
+        "image": "{{image-path-new}}/TianLongBaBu.gif",
+        "id": "TianLongBaBu"
     },
     {
         "name": "太空幻想",
         "vendor": "南晶科技",
         "filename": "太空幻想 [南晶科技]",
-        "image": "{{image-path}}/太空幻想 [南晶科技].gif"
+        "image": "{{image-path-new}}/TaiKongHuanXiang.gif",
+        "id": "TaiKongHuanXiang"
     },
     {
         "name": "太空战士5",
         "vendor": "火星电子",
         "filename": "太空战士5 [火星电子]",
-        "image": "{{image-path}}/太空战士5 [火星电子].gif"
+        "image": "{{image-path-new}}/TaiKongZhanShi_5.gif",
+        "id": "TaiKongZhanShi_5"
     },
     {
         "name": "夺宝小英豪 - 光明与黑暗传说",
         "vendor": "外星科技",
         "filename": "夺宝小英豪 - 光明与黑暗传说 [外星科技]",
-        "image": "{{image-path}}/夺宝小英豪 - 光明与黑暗传说 [外星科技].gif"
+        "image": "{{image-path-new}}/DuoBaoXiaoYingHao_GuangMingYuHeiAnChuanShuo.gif",
+        "id": "DuoBaoXiaoYingHao_GuangMingYuHeiAnChuanShuo"
     },
     {
         "name": "宠物 - 红",
         "vendor": "外星科技",
         "filename": "宠物 - 红 [外星科技]",
-        "image": "{{image-path}}/宠物 - 红 [外星科技].gif"
+        "image": "{{image-path-new}}/ChongWu_Hong.gif",
+        "id": "ChongWu_Hong"
     },
     {
         "name": "宠物 - 翡翠",
         "vendor": "外星科技",
         "filename": "宠物 - 翡翠 [外星科技]",
-        "image": "{{image-path}}/宠物 - 翡翠 [外星科技].gif"
+        "image": "{{image-path-new}}/ChongWu_FeiCui.gif",
+        "id": "ChongWu_FeiCui"
     },
     {
         "name": "寻秦记",
         "vendor": "南晶科技",
         "filename": "寻秦记 [南晶科技]",
-        "image": "{{image-path}}/寻秦记 [南晶科技].gif"
+        "image": "{{image-path-new}}/XunQinJi.gif",
+        "id": "XunQinJi"
     },
     {
         "name": "导弹坦克",
         "vendor": "烟山科技修改",
         "filename": "导弹坦克 [烟山科技修改]",
-        "image": "{{image-path}}/导弹坦克 [烟山科技修改].gif"
+        "image": "{{image-path-new}}/DaoDanTanKe.gif",
+        "id": "DaoDanTanKe"
     },
     {
         "name": "封神榜 - 伏魔三太子",
         "vendor": "C&E Inc (147201688 转简体版)",
         "filename": "封神榜 - 伏魔三太子 [CnE Inc (147201688 转简体版)]",
-        "image": "{{image-path}}/封神榜 - 伏魔三太子 [C&E Inc (147201688 转简体版)].gif"
+        "image": "{{image-path-new}}/FengShenBang_FuMoSanTaiZi_Simp_Chn.gif",
+        "id": "FengShenBang_FuMoSanTaiZi_Simp_Chn"
     },
     {
         "name": "封神榜 - 伏魔三太子",
         "device": "nes",
         "vendor": "C&E Inc",
         "filename": "封神榜 - 伏魔三太子 [CnE Inc]",
-        "image": "{{image-path}}/封神榜 - 伏魔三太子 [C&E Inc].gif"
+        "image": "{{image-path-new}}/FengShenBang_FuMoSanTaiZi.gif",
+        "id": "FengShenBang_FuMoSanTaiZi"
     },
     {
         "name": "封神榜",
         "vendor": "外星科技",
         "filename": "封神榜 [外星科技]",
-        "image": "{{image-path}}/封神榜 [外星科技].gif"
+        "image": "{{image-path-new}}/FengShenBang.gif",
+        "id": "FengShenBang"
     },
     {
         "name": "小玛琍",
         "vendor": "Idea-Tek",
         "filename": "小玛琍 [Idea-Tek]",
-        "image": "{{image-path}}/小玛琍 [Idea-Tek].gif"
+        "image": "{{image-path-new}}/XiaoMaLi.gif",
+        "id": "XiaoMaLi"
     },
     {
         "name": "小红帽",
         "device": "nes",
         "vendor": "Joy Van",
         "filename": "小红帽 [Joy Van]",
-        "image": "{{image-path}}/小红帽 [Joy Van].gif"
+        "image": "{{image-path-new}}/XiaoHongMao.gif",
+        "id": "XiaoHongMao"
     },
     {
         "name": "少年游侠",
         "vendor": "外星科技",
         "filename": "少年游侠 [外星科技]",
-        "image": "{{image-path}}/少年游侠 [外星科技].gif"
+        "image": "{{image-path-new}}/ShaoNianYouXia.gif",
+        "id": "ShaoNianYouXia"
     },
     {
         "name": "少林武者",
         "device": "nes",
         "vendor": "Sachen",
         "filename": "少林武者 [Sachen]",
-        "image": "{{image-path}}/少林武者 [Sachen].gif"
+        "image": "{{image-path-new}}/ShaoLinWuZhe.gif",
+        "id": "ShaoLinWuZhe"
     },
     {
         "name": "岳飞传",
         "vendor": "火星电子",
         "filename": "岳飞传 [火星电子]",
-        "image": "{{image-path}}/岳飞传 [火星电子].gif"
+        "image": "{{image-path-new}}/YueFeiZhuan.gif",
+        "id": "YueFeiZhuan"
     },
     {
         "name": "帝国风暴",
         "vendor": "外星科技",
         "filename": "帝国风暴 [外星科技]",
-        "image": "{{image-path}}/帝国风暴 [外星科技].gif"
+        "image": "{{image-path-new}}/DiGuoFengBao.gif",
+        "id": "DiGuoFengBao"
     },
     {
         "name": "幻世录",
         "vendor": "南晶科技",
         "filename": "幻世录 [南晶科技]",
-        "image": "{{image-path}}/幻世录 [南晶科技].gif"
+        "image": "{{image-path-new}}/HuanShiLu.gif",
+        "id": "HuanShiLu"
     },
     {
         "name": "幻想传说",
         "vendor": "南晶科技",
         "filename": "幻想传说 [南晶科技]",
-        "image": "{{image-path}}/幻想传说 [南晶科技].gif"
+        "image": "{{image-path-new}}/HuanXiangChuanShuo.gif",
+        "id": "HuanXiangChuanShuo"
     },
     {
         "name": "幽游白书 - 魔界最强列传 Final",
         "vendor": "卡圣",
         "filename": "幽游白书 - 魔界最强列传 Final [卡圣]",
-        "image": "{{image-path}}/幽游白书 - 魔界最强列传 Final [卡圣].gif"
+        "image": "{{image-path-new}}/YouYouBaiShu_MoJieZuiQiangLieZhuan_Final.gif",
+        "id": "YouYouBaiShu_MoJieZuiQiangLieZhuan_Final"
     },
     {
         "name": "幽游白书97 V",
         "vendor": "卡圣",
         "filename": "幽游白书97 V [卡圣]",
-        "image": "{{image-path}}/幽游白书97 V [卡圣].gif"
+        "image": "{{image-path-new}}/YouTouBaiShu_97_V.gif",
+        "id": "YouTouBaiShu_97_V"
     },
     {
         "name": "幽灵行动",
         "vendor": "恒格电子",
         "filename": "幽灵行动 [恒格电子]",
-        "image": "{{image-path}}/幽灵行动 [恒格电子].gif"
+        "image": "{{image-path-new}}/YouLingXingDong.gif",
+        "id": "YouLingXingDong"
     },
     {
         "name": "异形之太空探险者",
         "vendor": "南晶科技",
         "filename": "异形之太空探险者 [南晶科技]",
-        "image": "{{image-path}}/异形之太空探险者 [南晶科技].gif"
+        "image": "{{image-path-new}}/YiXingZhiTaiKongTanXianZhe.gif",
+        "id": "YiXingZhiTaiKongTanXianZhe"
     },
     {
         "name": "快打传说",
         "vendor": "Gouder",
         "filename": "快打传说 [Gouder]",
-        "image": "{{image-path}}/快打传说 [Gouder].gif"
+        "image": "{{image-path-new}}/KuaiDaChuanShuo.gif",
+        "id": "KuaiDaChuanShuo"
     },
     {
         "name": "战国四川省",
         "device": "nes",
         "vendor": "C&E Inc",
         "filename": "战国四川省 [CnE Inc]",
-        "image": "{{image-path}}/战国四川省 [C&E Inc].gif"
+        "image": "{{image-path-new}}/ZhanGuoSiChuanSheng.gif",
+        "id": "ZhanGuoSiChuanSheng"
     },
     {
         "name": "战国无双",
         "vendor": "奔升",
         "filename": "战国无双 [奔升]",
-        "image": "{{image-path}}/战国无双 [奔升].gif"
+        "image": "{{image-path-new}}/ZhanGuoWuShuang.gif",
+        "id": "ZhanGuoWuShuang"
     },
     {
         "name": "战国群雄传",
         "vendor": "外星科技",
         "filename": "战国群雄传 [外星科技]",
-        "image": "{{image-path}}/战国群雄传 [外星科技].gif"
+        "image": "{{image-path-new}}/ZhanGuoQunXiongZhuan.gif",
+        "id": "ZhanGuoQunXiongZhuan"
     },
     {
         "name": "扑克精灵",
         "vendor": "Idea-Tek",
         "filename": "扑克精灵 [Idea-Tek]",
-        "image": "{{image-path}}/扑克精灵 [Idea-Tek].gif"
+        "image": "{{image-path-new}}/PuKeJingLing.gif",
+        "id": "PuKeJingLing"
     },
     {
         "name": "扑克集锦",
         "device": "nes",
         "vendor": "Sachen",
         "filename": "扑克集锦 [Sachen]",
-        "image": "{{image-path}}/扑克集锦 [Sachen].gif"
+        "image": "{{image-path-new}}/PuKeJiJin.gif",
+        "id": "PuKeJiJin"
     },
     {
         "name": "扑克麻雀",
         "device": "nes",
         "vendor": "Sachen",
         "filename": "扑克麻雀 [Sachen]",
-        "image": "{{image-path}}/扑克麻雀 [Sachen].gif"
+        "image": "{{image-path-new}}/PuKeMaQue.gif",
+        "id": "PuKeMaQue"
     },
     {
         "name": "挖地雷",
         "vendor": "未知",
         "filename": "挖地雷 [未知]",
-        "image": "{{image-path}}/挖地雷 [未知].gif"
+        "image": "{{image-path-new}}/WaDiLei.gif",
+        "id": "WaDiLei"
     },
     {
         "name": "撞球传说 - 花撞2",
         "vendor": "Sun Team",
         "filename": "撞球传说 - 花撞2 [Sun Team]",
-        "image": "{{image-path}}/撞球传说 - 花撞2 [Sun Team].gif"
+        "image": "{{image-path-new}}/ZhuangQiuChuanShuo_HuaZhuang2.gif",
+        "id": "ZhuangQiuChuanShuo_HuaZhuang2"
     },
     {
         "name": "数码战队2",
         "vendor": "南晶科技",
         "filename": "数码战队2 [南晶科技]",
-        "image": "{{image-path}}/数码战队2 [南晶科技].gif"
+        "image": "{{image-path-new}}/ShuMaZhanDui2.gif",
+        "id": "ShuMaZhanDui2"
     },
     {
         "name": "数码暴龙4 - 水晶版",
         "vendor": "外星科技",
         "filename": "数码暴龙4 - 水晶版 [外星科技]",
-        "image": "{{image-path}}/数码暴龙4 - 水晶版 [外星科技].gif"
+        "image": "{{image-path-new}}/ShuMaBaoLong4.gif",
+        "id": "ShuMaBaoLong4"
     },
     {
         "name": "斗智拼盘",
         "vendor": "Sun Team",
         "filename": "斗智拼盘 [Sun Team]",
-        "image": "{{image-path}}/斗智拼盘 [Sun Team].gif"
+        "image": "{{image-path-new}}/DouZhiPinPan.gif",
+        "id": "DouZhiPinPan"
     },
     {
         "name": "时空之轮",
         "vendor": "南晶科技",
         "filename": "时空之轮 [南晶科技]",
-        "image": "{{image-path}}/时空之轮 [南晶科技].gif"
+        "image": "{{image-path-new}}/ShiKongZhiLun.gif",
+        "id": "ShiKongZhiLun"
     },
     {
         "name": "星战情缘",
         "vendor": "恒格电子",
         "filename": "星战情缘 [恒格电子]",
-        "image": "{{image-path}}/星战情缘 [恒格电子].gif"
+        "image": "{{image-path-new}}/XingZhanQingYuan.gif",
+        "id": "XingZhanQingYuan"
     },
     {
         "name": "星河战士",
         "vendor": "恒格电子",
         "filename": "星河战士 [恒格电子]",
-        "image": "{{image-path}}/星河战士 [恒格电子].gif"
+        "image": "{{image-path-new}}/XingHeZhanShi.gif",
+        "id": "XingHeZhanShi"
     },
     {
         "name": "星空飞箭",
         "vendor": "强典",
         "filename": "星空飞箭 [强典]",
-        "image": "{{image-path}}/星空飞箭 [强典].gif"
+        "image": "{{image-path-new}}/XingKongFeiJian.gif",
+        "id": "XingKongFeiJian"
     },
     {
         "name": "星际争霸",
         "vendor": "恒格电子",
         "filename": "星际争霸 [恒格电子]",
-        "image": "{{image-path}}/星际争霸 [恒格电子].gif"
+        "image": "{{image-path-new}}/XingJiZhengBa.gif",
+        "id": "XingJiZhengBa"
     },
     {
         "name": "星际武士",
         "vendor": "未知",
         "filename": "星际武士 [未知]",
-        "image": "{{image-path}}/星际武士 [未知].gif"
+        "image": "{{image-path-new}}/XingJiWuShi.gif",
+        "id": "XingJiWuShi"
     },
     {
         "name": "暗棋",
         "device": "nes",
         "vendor": "Joy Van",
         "filename": "暗棋 [Joy Van]",
-        "image": "{{image-path}}/暗棋 [Joy Van].gif"
+        "image": "{{image-path-new}}/AnQi.gif",
+        "id": "AnQi"
     },
     {
         "name": "暗黑破坏神",
         "vendor": "南晶科技",
         "filename": "暗黑破坏神 [南晶科技]",
-        "image": "{{image-path}}/暗黑破坏神 [南晶科技].gif"
+        "image": "{{image-path-new}}/AnHeiPoHuaiShen.gif",
+        "id": "AnHeiPoHuaiShen"
     },
     {
         "name": "最游记之唐三藏",
         "vendor": "南晶科技",
         "filename": "最游记之唐三藏 [南晶科技]",
-        "image": "{{image-path}}/最游记之唐三藏 [南晶科技].gif"
+        "image": "{{image-path-new}}/ZuiYouJiZhiTangSanZang.gif",
+        "id": "ZuiYouJiZhiTangSanZang"
     },
     {
         "name": "最终幻想4 - 光与暗 水晶纷争",
         "vendor": "南晶科技",
         "filename": "最终幻想4 - 光与暗 水晶纷争 [南晶科技]",
-        "image": "{{image-path}}/最终幻想4 - 光与暗 水晶纷争 [南晶科技].gif"
+        "image": "{{image-path-new}}/ZuiZhongHuanXiang4_GuangYuAn_ShuiJingFenZheng.gif",
+        "id": "ZuiZhongHuanXiang4_GuangYuAn_ShuiJingFenZheng"
     },
     {
         "name": "最终幻想7",
         "vendor": "南晶科技",
         "filename": "最终幻想7 [南晶科技]",
-        "image": "{{image-path}}/最终幻想7 [南晶科技].gif"
+        "image": "{{image-path-new}}/ZuiZhongHuanXiang7.gif",
+        "id": "ZuiZhongHuanXiang7"
     },
     {
         "name": "未来小子",
         "device": "nes",
         "vendor": "Joy Van",
         "filename": "未来小子 [Joy Van]",
-        "image": "{{image-path}}/未来小子 [Joy Van].gif"
+        "image": "{{image-path-new}}/WeiLaiXiaoZi.gif",
+        "id": "WeiLaiXiaoZi"
     },
     {
         "name": "机器猫小叮当",
         "vendor": "外星科技",
         "filename": "机器猫小叮当 [外星科技]",
-        "image": "{{image-path}}/机器猫小叮当 [外星科技].gif"
+        "image": "{{image-path-new}}/JiQiMaoXiaoDingDang.gif",
+        "id": "JiQiMaoXiaoDingDang"
     },
     {
         "name": "杨家将",
         "vendor": "外星科技",
         "filename": "杨家将 [外星科技]",
-        "image": "{{image-path}}/杨家将 [外星科技].gif"
+        "image": "{{image-path-new}}/YangJiaJiang.gif",
+        "id": "YangJiaJiang"
     },
     {
         "name": "林则徐禁烟",
         "vendor": "外星科技 nfzxyd修正",
         "filename": "林则徐禁烟 [外星科技 nfzxyd修正]",
-        "image": "{{image-path}}/林则徐禁烟 [外星科技 nfzxyd修正].gif"
+        "image": "{{image-path-new}}/LinZeXuJinYan.gif",
+        "id": "LinZeXuJinYan"
     },
     {
         "name": "核心危机",
         "vendor": "南晶科技",
         "filename": "核心危机 [南晶科技]",
-        "image": "{{image-path}}/核心危机 [南晶科技].gif"
+        "image": "{{image-path-new}}/HeXinWeiJi.gif",
+        "id": "HeXinWeiJi"
     },
     {
         "name": "梁山英雄",
         "vendor": "南晶科技",
         "filename": "梁山英雄 [南晶科技]",
-        "image": "{{image-path}}/梁山英雄 [南晶科技].gif"
+        "image": "{{image-path-new}}/LiangShanYingXiong.gif",
+        "id": "LiangShanYingXiong"
     },
     {
         "name": "梦幻 - 香帅传奇之血海飘零",
         "vendor": "恒格电子",
         "filename": "梦幻 - 香帅传奇之血海飘零 [恒格电子]",
-        "image": "{{image-path}}/梦幻 - 香帅传奇之血海飘零 [恒格电子].gif"
+        "image": "{{image-path-new}}/MengHuan_XiangShuaiChuanQiZhiXueHaiPiaoLing.gif",
+        "id": "MengHuan_XiangShuaiChuanQiZhiXueHaiPiaoLing"
     },
     {
         "name": "梦幻沙漏",
         "vendor": "南晶科技",
         "filename": "梦幻沙漏 [南晶科技]",
-        "image": "{{image-path}}/梦幻沙漏 [南晶科技].gif"
+        "image": "{{image-path-new}}/MengHuanShaLou.gif",
+        "id": "MengHuanShaLou"
     },
     {
         "name": "棋王",
         "vendor": "TXC",
         "filename": "棋王 [TXC]",
-        "image": "{{image-path}}/棋王 [TXC].gif"
+        "image": "{{image-path-new}}/QiWang_TXC.gif",
+        "id": "QiWang_TXC"
     },
     {
         "name": "棋王",
         "vendor": "未知",
         "filename": "棋王 [未知]",
-        "image": "{{image-path}}/棋王 [未知].gif"
+        "image": "{{image-path-new}}/QiWang.gif",
+        "id": "QiWang"
     },
     {
         "name": "楚汉争霸",
         "vendor": "外星科技",
         "filename": "楚汉争霸 [外星科技]",
-        "image": "{{image-path}}/楚汉争霸 [外星科技].gif"
+        "image": "{{image-path-new}}/ChuHanZhengBa.gif",
+        "id": "ChuHanZhengBa"
     },
     {
         "name": "楚留香 - 香帅传奇之血海飘零",
         "vendor": "外星科技",
         "filename": "楚留香 - 香帅传奇之血海飘零 [外星科技]",
-        "image": "{{image-path}}/楚留香 - 香帅传奇之血海飘零 [外星科技].gif"
+        "image": "{{image-path-new}}/ChuLiuXiang_XiangShuaiChuanQiZhiXueHaiPiaoLing.gif",
+        "id": "ChuLiuXiang_XiangShuaiChuanQiZhiXueHaiPiaoLing"
     },
     {
         "name": "欧陆之战",
         "vendor": "外星科技",
         "filename": "欧陆之战 [外星科技]",
-        "image": "{{image-path}}/欧陆之战 [外星科技].gif"
+        "image": "{{image-path-new}}/OuLuZhiZhan.gif",
+        "id": "OuLuZhiZhan"
     },
     {
         "name": "武士魂",
         "vendor": "Rex",
         "filename": "武士魂 [Rex]",
-        "image": "{{image-path}}/武士魂 [Rex].gif"
+        "image": "{{image-path-new}}/WuShiHun.gif",
+        "id": "WuShiHun"
     },
     {
         "name": "武林外传",
         "vendor": "南晶科技",
         "filename": "武林外传 [南晶科技]",
-        "image": "{{image-path}}/武林外传 [南晶科技].gif"
+        "image": "{{image-path-new}}/WuLinWaiZhuan.gif",
+        "id": "WuLinWaiZhuan"
     },
     {
         "name": "水浒传",
         "vendor": "外星科技",
         "filename": "水浒传 [外星科技]",
-        "image": "{{image-path}}/水浒传 [外星科技].gif"
+        "image": "{{image-path-new}}/ShuiHuZhuan.gif",
+        "id": "ShuiHuZhuan"
     },
     {
         "name": "水浒神兽",
         "vendor": "南晶科技",
         "filename": "水浒神兽 [南晶科技]",
-        "image": "{{image-path}}/水浒神兽 [南晶科技].gif"
+        "image": "{{image-path-new}}/ShuiHuShenShou.gif",
+        "id": "ShuiHuShenShou"
     },
     {
         "name": "汉刘邦",
         "vendor": "南晶科技",
         "filename": "汉刘邦 [南晶科技]",
-        "image": "{{image-path}}/汉刘邦 [南晶科技].gif"
+        "image": "{{image-path-new}}/HanLiuBang.gif",
+        "id": "HanLiuBang"
     },
     {
         "name": "泰坦尼克号",
         "vendor": "南晶科技",
         "filename": "泰坦尼克号 [南晶科技]",
-        "image": "{{image-path}}/泰坦尼克号 [南晶科技].gif"
+        "image": "{{image-path-new}}/TaiTanNiKeHao.gif",
+        "id": "TaiTanNiKeHao"
     },
     {
         "name": "泰坦尼克号",
         "vendor": "火星电子",
         "filename": "泰坦尼克号 [火星电子]",
-        "image": "{{image-path}}/泰坦尼克号 [火星电子].gif"
+        "image": "{{image-path-new}}/TaiTanNiKeHao_HuoXing.gif",
+        "id": "TaiTanNiKeHao_HuoXing"
     },
     {
         "name": "洛克人X",
         "vendor": "外星科技",
         "filename": "洛克人X [外星科技]",
-        "image": "{{image-path}}/洛克人X [外星科技].gif"
+        "image": "{{image-path-new}}/LuoKeRenX.gif",
+        "id": "LuoKeRenX"
     },
     {
         "name": "游戏王",
         "vendor": "南晶科技",
         "filename": "游戏王 [南晶科技]",
-        "image": "{{image-path}}/游戏王 [南晶科技].gif"
+        "image": "{{image-path-new}}/YouXiWang.gif",
+        "id": "YouXiWang"
     },
     {
         "name": "熊猫太子",
         "vendor": "dragon2snow",
         "filename": "熊猫太子 [dragon2snow]",
-        "image": "{{image-path}}/熊猫太子 [dragon2snow].gif"
+        "image": "{{image-path-new}}/XiongMaoTaiZi.gif",
+        "id": "XiongMaoTaiZi"
     },
     {
         "name": "爆笑三国",
         "vendor": "外星科技 (147201688转简体版)",
         "filename": "爆笑三国 [外星科技 (147201688转简体版)]",
-        "image": "{{image-path}}/爆笑三国 [外星科技 (147201688转简体版)].gif"
+        "image": "{{image-path-new}}/BaoXiaoSanGuo_Simp_Chn.gif",
+        "id": "BaoXiaoSanGuo_Simp_Chn"
     },
     {
         "name": "爆笑三国",
         "vendor": "外星科技",
         "filename": "爆笑三国 [外星科技]",
-        "image": "{{image-path}}/爆笑三国 [外星科技].gif"
+        "image": "{{image-path-new}}/BaoXiaoSanGuo.gif",
+        "id": "BaoXiaoSanGuo"
     },
     {
         "name": "牧场物语",
         "vendor": "南晶科技",
         "filename": "牧场物语 [南晶科技]",
-        "image": "{{image-path}}/牧场物语 [南晶科技].gif"
+        "image": "{{image-path-new}}/MuChangWuYu.gif",
+        "id": "MuChangWuYu"
     },
     {
         "name": "王子复仇记",
         "vendor": "恒格电子",
         "filename": "王子复仇记 [恒格电子]",
-        "image": "{{image-path}}/王子复仇记 [恒格电子].gif"
+        "image": "{{image-path-new}}/WangZiFuChouJi.gif",
+        "id": "WangZiFuChouJi"
     },
     {
         "name": "生化危机",
         "vendor": "外星科技",
         "filename": "生化危机 [外星科技]",
-        "image": "{{image-path}}/生化危机 [外星科技].gif"
+        "image": "{{image-path-new}}/ShengHuaWeiJi.gif",
+        "id": "ShengHuaWeiJi"
     },
     {
         "name": "甲A",
         "vendor": "外星科技",
         "filename": "甲A [外星科技]",
-        "image": "{{image-path}}/甲A [外星科技].gif"
+        "image": "{{image-path-new}}/JiaA.gif",
+        "id": "JiaA"
     },
     {
         "name": "电视玛琍",
         "vendor": "未知",
         "filename": "电视玛琍 [未知]",
-        "image": "{{image-path}}/电视玛琍 [未知].gif"
+        "image": "{{image-path-new}}/DianShiMaLi.gif",
+        "id": "DianShiMaLi"
     },
     {
         "name": "疯狂鸡蛋仔",
         "vendor": "外星科技",
         "filename": "疯狂鸡蛋仔 [外星科技]",
-        "image": "{{image-path}}/疯狂鸡蛋仔 [外星科技].gif"
+        "image": "{{image-path-new}}/FengKuangJiDanZai.gif",
+        "id": "FengKuangJiDanZai"
     },
     {
         "name": "盗帅",
         "device": "nes",
         "vendor": "Joy Van",
         "filename": "盗帅 [Joy Van]",
-        "image": "{{image-path}}/盗帅 [Joy Van].gif"
+        "image": "{{image-path-new}}/DaoShuai.gif",
+        "id": "DaoShuai"
     },
     {
         "name": "盟军赶死队",
         "vendor": "外星科技",
         "filename": "盟军赶死队 [外星科技]",
-        "image": "{{image-path}}/盟军赶死队 [外星科技].gif"
+        "image": "{{image-path-new}}/MengJunGanSiDui.gif",
+        "id": "MengJunGanSiDui"
     },
     {
         "name": "真侍魂 - 武士道列传",
         "vendor": "南晶科技",
         "filename": "真侍魂 - 武士道列传 [南晶科技]",
-        "image": "{{image-path}}/真侍魂 - 武士道列传 [南晶科技].gif"
+        "image": "{{image-path-new}}/ZhenShiHun_WuShiDaoLieZhuan.gif",
+        "id": "ZhenShiHun_WuShiDaoLieZhuan"
     },
     {
         "name": "真侍魂 - 魂之利刃",
         "vendor": "南晶科技",
         "filename": "真侍魂 - 魂之利刃 [南晶科技]",
-        "image": "{{image-path}}/真侍魂 - 魂之利刃 [南晶科技].gif"
+        "image": "{{image-path-new}}/ZhenShiHun_HunZhiLiRen.gif",
+        "id": "ZhenShiHun_HunZhiLiRen"
     },
     {
         "name": "真本西游记",
         "vendor": "Asder",
         "filename": "真本西游记 [Asder]",
-        "image": "{{image-path}}/真本西游记 [Asder].gif"
+        "image": "{{image-path-new}}/ZhenBenXiYouJi.gif",
+        "id": "ZhenBenXiYouJi"
     },
     {
         "name": "神探柯南 (赤川次郎之幽灵列车)",
         "vendor": "星星科技",
         "filename": "神探柯南 (赤川次郎之幽灵列车) [星星科技]",
-        "image": "{{image-path}}/神探柯南 (赤川次郎之幽灵列车) [星星科技].gif"
+        "image": "{{image-path-new}}/ShenTanKeNan.gif",
+        "id": "ShenTanKeNan"
     },
     {
         "name": "神话剑云3",
         "vendor": "恒格电子",
         "filename": "神话剑云3 [恒格电子]",
-        "image": "{{image-path}}/神话剑云3 [恒格电子].gif"
+        "image": "{{image-path-new}}/ShenHuaJianYun3.gif",
+        "id": "ShenHuaJianYun3"
     },
     {
         "name": "笑傲江湖",
         "vendor": "外星科技",
         "filename": "笑傲江湖 [外星科技]",
-        "image": "{{image-path}}/笑傲江湖 [外星科技].gif"
+        "image": "{{image-path-new}}/XiaoAoJiangHu.gif",
+        "id": "XiaoAoJiangHu"
     },
     {
         "name": "绝代双娇",
         "vendor": "南晶科技",
         "filename": "绝代双娇 [南晶科技]",
-        "image": "{{image-path}}/绝代双娇 [南晶科技].gif"
+        "image": "{{image-path-new}}/JueDaiShuangJiao.gif",
+        "id": "JueDaiShuangJiao"
     },
     {
         "name": "绿野仙踪",
         "vendor": "外星科技",
         "filename": "绿野仙踪 [外星科技]",
-        "image": "{{image-path}}/绿野仙踪 [外星科技].gif"
+        "image": "{{image-path-new}}/LvYeXianZong.gif",
+        "id": "LvYeXianZong"
     },
     {
         "name": "美国富豪",
         "vendor": "恒格电子",
         "filename": "美国富豪 [恒格电子]",
-        "image": "{{image-path}}/美国富豪 [恒格电子].gif"
+        "image": "{{image-path-new}}/MeiGuoFuHao.gif",
+        "id": "MeiGuoFuHao"
     },
     {
         "name": "美女拳",
         "device": "nes",
         "vendor": "Sachen",
         "filename": "美女拳 [Sachen]",
-        "image": "{{image-path}}/美女拳 [Sachen].gif"
+        "image": "{{image-path-new}}/MeiNvQuan.gif",
+        "id": "MeiNvQuan"
     },
     {
         "name": "英汉词典1",
         "vendor": "未知",
         "filename": "英汉词典1 [未知]",
-        "image": "{{image-path}}/英汉词典1 [未知].gif"
+        "image": "{{image-path-new}}/YingHanCiDian_1.gif",
+        "id": "YingHanCiDian_1"
     },
     {
         "name": "英汉词典2",
         "vendor": "未知",
         "filename": "英汉词典2 [未知]",
-        "image": "{{image-path}}/英汉词典2 [未知].gif"
+        "image": "{{image-path-new}}/YingHanCiDian_2.gif",
+        "id": "YingHanCiDian_2"
     },
     {
         "name": "英烈群侠传",
         "vendor": "外星科技",
         "filename": "英烈群侠传 [外星科技]",
-        "image": "{{image-path}}/英烈群侠传 [外星科技].gif"
+        "image": "{{image-path-new}}/YingLieQunXiaZhuan.gif",
+        "id": "YingLieQunXiaZhuan"
     },
     {
         "name": "英雄传",
         "vendor": "未知",
         "filename": "英雄传 [未知]",
-        "image": "{{image-path}}/英雄传 [未知].gif"
+        "image": "{{image-path-new}}/YingXiongZhuan.gif",
+        "id": "YingXiongZhuan"
     },
     {
         "name": "英雄传奇",
         "vendor": "恒格电子",
         "filename": "英雄传奇 [恒格电子]",
-        "image": "{{image-path}}/英雄传奇 [恒格电子].gif"
+        "image": "{{image-path-new}}/YingXiongChuanQi.gif",
+        "id": "YingXiongChuanQi"
     },
     {
         "name": "英雄源义经传奇",
         "vendor": "恒格电子",
         "filename": "英雄源义经传奇 [恒格电子]",
-        "image": "{{image-path}}/英雄源义经传奇 [恒格电子].gif"
+        "image": "{{image-path-new}}/YingXiongYuanYiJingChuanQi.gif",
+        "id": "YingXiongYuanYiJingChuanQi"
     },
     {
         "name": "荆轲新传",
         "vendor": "Super Tone",
         "filename": "荆轲新传 [Super Tone]",
-        "image": "{{image-path}}/荆轲新传 [Super Tone].gif"
+        "image": "{{image-path-new}}/JingKeXinZhuan.gif",
+        "id": "JingKeXinZhuan"
     },
     {
         "name": "葫芦金刚",
         "vendor": "南晶科技",
         "filename": "葫芦金刚 [南晶科技]",
-        "image": "{{image-path}}/葫芦金刚 [南晶科技].gif"
+        "image": "{{image-path-new}}/HuLuJinGang.gif",
+        "id": "HuLuJinGang"
     },
     {
         "name": "蜡笔小新",
         "vendor": "Future",
         "filename": "蜡笔小新 [Future]",
-        "image": "{{image-path}}/蜡笔小新 [Future].gif"
+        "image": "{{image-path-new}}/LaBiXiaoXin.gif",
+        "id": "LaBiXiaoXin"
     },
     {
         "name": "西天取经",
         "vendor": "TXC",
         "filename": "西天取经 [TXC]",
-        "image": "{{image-path}}/西天取经 [TXC].gif"
+        "image": "{{image-path-new}}/XiTianQuJing.gif",
+        "id": "XiTianQuJing"
     },
     {
         "name": "西天取经2",
         "vendor": "外星科技",
         "filename": "西天取经2 [外星科技]",
-        "image": "{{image-path}}/西天取经2 [外星科技].gif"
+        "image": "{{image-path-new}}/XiTianQuJing_2.gif",
+        "id": "XiTianQuJing_2"
     },
     {
         "name": "西游记后传",
         "vendor": "外星科技",
         "filename": "西游记后传 [外星科技]",
-        "image": "{{image-path}}/西游记后传 [外星科技].gif"
+        "image": "{{image-path-new}}/XiYouJiHouZhuan.gif",
+        "id": "XiYouJiHouZhuan"
     },
     {
         "name": "象棋学园",
         "device": "nes",
         "vendor": "Sachen",
         "filename": "象棋学园 [Sachen]",
-        "image": "{{image-path}}/象棋学园 [Sachen].gif"
+        "image": "{{image-path-new}}/XiangQiXueYuan.gif",
+        "id": "XiangQiXueYuan"
     },
     {
         "name": "超级战魂",
         "vendor": "外星科技",
         "filename": "超级战魂 [外星科技]",
-        "image": "{{image-path}}/超级战魂 [外星科技].gif"
+        "image": "{{image-path-new}}/ChaoJiZhanHun.gif",
+        "id": "ChaoJiZhanHun"
     },
     {
         "name": "超级机器人大战A",
         "vendor": "南晶科技",
         "filename": "超级机器人大战A [南晶科技]",
-        "image": "{{image-path}}/超级机器人大战A [南晶科技].gif"
+        "image": "{{image-path-new}}/ChaoJiJiQiRenDaZhan_A.gif",
+        "id": "ChaoJiJiQiRenDaZhan_A"
     },
     {
         "name": "超级贪吃蛇",
         "vendor": "菜菜学堂",
         "filename": "超级贪吃蛇 [菜菜学堂]",
-        "image": "{{image-path}}/超级贪吃蛇 [菜菜学堂].gif"
+        "image": "{{image-path-new}}/ChaoJiTanChiShe.gif",
+        "id": "ChaoJiTanChiShe"
     },
     {
         "name": "超级魂2",
         "vendor": "烟山软件修改",
         "filename": "超级魂2 [烟山软件修改]",
-        "image": "{{image-path}}/超级魂2 [烟山软件修改].gif"
+        "image": "{{image-path-new}}/ChaoJiHun_2.gif",
+        "id": "ChaoJiHun_2"
     },
     {
         "name": "轰天至尊",
         "vendor": "TXC",
         "filename": "轰天至尊 [TXC]",
-        "image": "{{image-path}}/轰天至尊 [TXC].gif"
+        "image": "{{image-path-new}}/HongTianZhiZun.gif",
+        "id": "HongTianZhiZun"
     },
     {
         "name": "迷宫封印",
         "device": "nes",
         "vendor": "Sachen",
         "filename": "迷宫封印 [Sachen]",
-        "image": "{{image-path}}/迷宫封印 [Sachen].gif"
+        "image": "{{image-path-new}}/MiGongFengYin.gif",
+        "id": "MiGongFengYin"
     },
     {
         "name": "金庸群侠传 - 书剑江山",
         "vendor": "南晶科技",
         "filename": "金庸群侠传 - 书剑江山 [南晶科技]",
-        "image": "{{image-path}}/金庸群侠传 - 书剑江山 [南晶科技].gif"
+        "image": "{{image-path-new}}/JinYongQunXiaZhuan_ShuJianJiangShan.gif",
+        "id": "JinYongQunXiaZhuan_ShuJianJiangShan"
     },
     {
         "name": "金曲KTV",
         "vendor": "未知",
         "filename": "金曲KTV [未知]",
-        "image": "{{image-path}}/金曲KTV [未知].gif"
+        "image": "{{image-path-new}}/JinQu_KTV.gif",
+        "id": "JinQu_KTV"
     },
     {
         "name": "锄大D",
         "vendor": "台北裕威",
         "filename": "锄大D [台北裕威]",
-        "image": "{{image-path}}/锄大D [台北裕威].gif"
+        "image": "{{image-path-new}}/ChuDa_D.gif",
+        "id": "ChuDa_D"
     },
     {
         "name": "隋唐演义",
         "vendor": "外星科技",
         "filename": "隋唐演义 [外星科技]",
-        "image": "{{image-path}}/隋唐演义 [外星科技].gif"
+        "image": "{{image-path-new}}/SuiTangYanYi.gif",
+        "id": "SuiTangYanYi"
     },
     {
         "name": "隋唐英雄",
         "vendor": "南晶科技",
         "filename": "隋唐英雄 [南晶科技]",
-        "image": "{{image-path}}/隋唐英雄 [南晶科技].gif"
+        "image": "{{image-path-new}}/SuiTangYingXiong.gif",
+        "id": "SuiTangYingXiong"
     },
     {
         "name": "雷电2",
         "vendor": "三协资讯",
         "filename": "雷电2 [三协资讯]",
-        "image": "{{image-path}}/雷电2 [三协资讯].gif"
+        "image": "{{image-path-new}}/LeiDian_2.gif",
+        "id": "LeiDian_2"
     },
     {
         "name": "雷电皇 - 比卡丘传说",
         "vendor": "南晶科技",
         "filename": "雷电皇 - 比卡丘传说 [南晶科技]",
-        "image": "{{image-path}}/雷电皇 - 比卡丘传说 [南晶科技].gif"
+        "image": "{{image-path-new}}/LeiDianHuang_PiKaQiuChuanShuo.gif",
+        "id": "LeiDianHuang_PiKaQiuChuanShuo"
     },
     {
         "name": "香帅传奇",
         "vendor": "南晶科技",
         "filename": "香帅传奇 [南晶科技]",
-        "image": "{{image-path}}/香帅传奇 [南晶科技].gif"
+        "image": "{{image-path-new}}/XiangShuaiChuanQi.gif",
+        "id": "XiangShuaiChuanQi"
     },
     {
         "name": "魔域英雄传",
         "vendor": "外星科技",
         "filename": "魔域英雄传 [外星科技]",
-        "image": "{{image-path}}/魔域英雄传 [外星科技].gif"
+        "image": "{{image-path-new}}/MoYuYingXiongZhuan.gif",
+        "id": "MoYuYingXiongZhuan"
     },
     {
         "name": "魔幻世界",
         "vendor": "南晶科技",
         "filename": "魔幻世界 [南晶科技]",
-        "image": "{{image-path}}/魔幻世界 [南晶科技].gif"
+        "image": "{{image-path-new}}/MoHuanShiJie.gif",
+        "id": "MoHuanShiJie"
     },
     {
         "name": "魔法门之英雄无敌",
         "vendor": "外星科技",
         "filename": "魔法门之英雄无敌 [外星科技]",
-        "image": "{{image-path}}/魔法门之英雄无敌 [外星科技].gif"
+        "image": "{{image-path-new}}/MoFaMenZhiYingXiongWuDi.gif",
+        "id": "MoFaMenZhiYingXiongWuDi"
     },
     {
         "name": "魔界塔士",
         "vendor": "南晶科技",
         "filename": "魔界塔士 [南晶科技]",
-        "image": "{{image-path}}/魔界塔士 [南晶科技].gif"
+        "image": "{{image-path-new}}/MoJieTaShi.gif",
+        "id": "MoJieTaShi"
     },
     {
         "name": "魔界霸主",
         "vendor": "南晶科技",
         "filename": "魔界霸主 [南晶科技]",
-        "image": "{{image-path}}/魔界霸主 [南晶科技].gif"
+        "image": "{{image-path-new}}/MoJieBaZhu.gif",
+        "id": "MoJieBaZhu"
     },
     {
         "name": "魔神法师",
         "vendor": "外星科技",
         "filename": "魔神法师 [外星科技]",
-        "image": "{{image-path}}/魔神法师 [外星科技].gif"
+        "image": "{{image-path-new}}/MoShenFaShi.gif",
+        "id": "MoShenFaShi"
     },
     {
         "name": "麻将方块",
         "vendor": "Idea-Tek",
         "filename": "麻将方块 [Idea-Tek]",
-        "image": "{{image-path}}/麻将方块 [Idea-Tek].gif"
+        "image": "{{image-path-new}}/MaJiangFangKuai.gif",
+        "id": "MaJiangFangKuai"
     },
     {
         "name": "麻雀世界 - 歌舞伎町篇",
         "device": "nes",
         "vendor": "Sachen",
         "filename": "麻雀世界 - 歌舞伎町篇 [Sachen]",
-        "image": "{{image-path}}/麻雀世界 - 歌舞伎町篇 [Sachen].gif"
+        "image": "{{image-path-new}}/MaQueShiJie_GeWuJiTingPian.gif",
+        "id": "MaQueShiJie_GeWuJiTingPian"
     },
     {
         "name": "麻雀世界",
         "device": "nes",
         "vendor": "Sachen",
         "filename": "麻雀世界 [Sachen]",
-        "image": "{{image-path}}/麻雀世界 [Sachen].gif"
+        "image": "{{image-path-new}}/MaQueShiJie.gif",
+        "id": "MaQueShiJie"
     },
     {
         "name": "黄帝 - 涿鹿之战",
         "vendor": "Asder",
         "filename": "黄帝 - 涿鹿之战 [Asder]",
-        "image": "{{image-path}}/黄帝 - 涿鹿之战 [Asder].gif"
+        "image": "{{image-path-new}}/HuangDi_ZhuLuZhiZhan.gif",
+        "id": "HuangDi_ZhuLuZhiZhan"
     },
     {
         "name": "黄金太阳",
         "vendor": "南晶科技",
         "filename": "黄金太阳 [南晶科技]",
-        "image": "{{image-path}}/黄金太阳 [南晶科技].gif"
+        "image": "{{image-path-new}}/HuangJinTaiYang.gif",
+        "id": "HuangJinTaiYang"
     },
     {
         "name": "黑客",
         "vendor": "南晶科技",
         "filename": "黑客 [南晶科技]",
-        "image": "{{image-path}}/黑客 [南晶科技].gif"
+        "image": "{{image-path-new}}/HeiKe.gif",
+        "id": "HeiKe"
     },
     {
         "name": "黑暗之蛊",
         "vendor": "火星电子",
         "filename": "黑暗之蛊 [火星电子]",
-        "image": "{{image-path}}/黑暗之蛊 [火星电子].gif"
+        "image": "{{image-path-new}}/HeiAnZhiGu.gif",
+        "id": "HeiAnZhiGu"
     }
 ]

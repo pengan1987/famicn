@@ -35,12 +35,17 @@ function showMachines(machines) {
         var machine = machines[i];
         var clone = base.clone();
         var title = machine.name + " - " + machine.vendor;
-        var playerlink = platform + "?game=" + encodeURI(machine.filename);
+        var playerlink = platform + "?game=" + encodeURI(machine.id);
 
-        var imageServer = "http://famicn-1255835060.file.myqcloud.com/game-images";
+        var imagePathNew = "http://famicn-1255835060.file.myqcloud.com/game-image";
+        var imagePathEdu = "http://famicn-1255835060.file.myqcloud.com/edu-cart-image";
+        var imagePathGenesis = "http://famicn-1255835060.file.myqcloud.com/genesis-image";
         var imageLink = "cart.gif";
         if (machine.image) {
-            imageLink = machine.image.replace("{{image-path}}", imageServer);
+            imageLink = machine.image;
+            imageLink = imageLink.replace("{{image-path-new}}", imagePathNew);
+            imageLink = imageLink.replace("{{image-path-edu}}", imagePathEdu);
+            imageLink = imageLink.replace("{{image-path-genesis}}", imagePathGenesis);
         }
         if (machine.device) {
             playerlink = playerlink + "&device=" + machine.device;

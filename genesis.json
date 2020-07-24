@@ -3,70 +3,80 @@
         "name": "水浒传",
         "vendor": "川普科技",
         "filename": "水浒传 (繁) (川普科技)",
-        "image": "http://dnbwg3.cdn.bcebos.com/image-genesis/水浒传 (繁) (川普科技).gif",
-        "device": "genesis"
+        "image": "{{image-path-genesis}}/ShuiHuZhuan.gif",
+        "device": "genesis",
+        "id": "ShuiHuZhuan"
     },
     {
         "name": "小魔女铃铃",
         "vendor": "三协资讯",
         "filename": "小魔女铃铃 (繁) (RED TRADEMARKS)",
-        "image": "http://dnbwg3.cdn.bcebos.com/image-genesis/小魔女铃铃 (繁) (RED TRADEMARKS).gif",
-        "device": "genesis"
+        "image": "{{image-path-genesis}}/XiaoMoNvLingLing.gif",
+        "device": "genesis",
+        "id": "XiaoMoNvLingLing"
     },
     {
         "name": "悟空外传",
         "vendor": "三协资讯",
         "filename": "悟空外传 (繁) (RED TRADEMARKS)",
-        "image": "http://dnbwg3.cdn.bcebos.com/image-genesis/悟空外传 (繁) (RED TRADEMARKS).gif",
-        "device": "genesis"
+        "image": "{{image-path-genesis}}/WuKongWaiZhuan.gif",
+        "device": "genesis",
+        "id": "WuKongWaiZhuan"
     },
     {
         "name": "台湾大亨",
         "vendor": "全崴资讯",
         "filename": "台湾大亨 (繁) (全崴资讯)",
-        "image": "http://dnbwg3.cdn.bcebos.com/image-genesis/台湾大亨 (繁) (全崴资讯).gif",
-        "device": "genesis"
+        "image": "{{image-path-genesis}}/TaiWanDaHeng.gif",
+        "device": "genesis",
+        "id": "TaiWanDaHeng"
     },
     {
         "name": "阿Q连环泡",
         "vendor": "全崴资讯",
         "filename": "阿Q连环泡 (繁) (全崴资讯)",
-        "image": "http://dnbwg3.cdn.bcebos.com/image-genesis/阿Q连环泡 (繁) (全崴资讯).gif",
-        "device": "genesis"
+        "image": "{{image-path-genesis}}/A_Q_LianHuanPao.gif",
+        "device": "genesis",
+        "id": "A_Q_LianHuanPao"
     },
     {
         "name": "超级大富翁",
         "vendor": "三协资讯",
         "filename": "超级大富翁 (繁) (RED TRADEMARKS)",
-        "image": "http://dnbwg3.cdn.bcebos.com/image-genesis/超级大富翁 (繁) (RED TRADEMARKS).gif",
-        "device": "genesis"
+        "image": "{{image-path-genesis}}/ChaoJiDaFuWeng.gif",
+        "device": "genesis",
+        "id": "ChaoJiDaFuWeng"
     },
     {
         "name": "帝国皇朝 - 亚瑟传说",
         "vendor": "川普科技",
         "filename": "帝国皇朝 - 亚瑟传说 (繁) (川普科技)",
-        "image": "http://dnbwg3.cdn.bcebos.com/image-genesis/帝国皇朝 - 亚瑟传说 (繁) (川普科技).gif",
-        "device": "genesis"
+        "image": "{{image-path-genesis}}/DiGuoHuangChao_YaSeChuanShuo.gif",
+        "device": "genesis",
+        "id": "DiGuoHuangChao_YaSeChuanShuo"
     },
     {
         "name": "封神英杰传",
         "vendor": "川普科技",
         "filename": "封神英杰传 (繁) (川普科技)",
-        "image": "http://dnbwg3.cdn.bcebos.com/image-genesis/封神英杰传 (繁) (川普科技).gif",
-        "device": "genesis"
+        "image": "{{image-path-genesis}}/FengShenYingJieZhuan.gif",
+        "device": "genesis",
+        "id": "FengShenYingJieZhuan"
     },
     {
         "name": "冒险小子",
         "vendor": "三协资讯",
         "filename": "冒险小子 (繁) (RED TRADEMARKS)",
-        "image": "http://dnbwg3.cdn.bcebos.com/image-genesis/冒险小子 (繁) (RED TRADEMARKS).gif",
-        "device": "genesis"
+        "image": "{{image-path-genesis}}/MaoXianXiaoZi.gif",
+        "device": "genesis",
+        "id": "MaoXianXiaoZi"
     },
     {
         "name": "世界职棒争霸战",
         "vendor": "三协资讯",
         "filename": "世界职棒争霸战 (繁) (全崴资讯)",
-        "image": "http://dnbwg3.cdn.bcebos.com/image-genesis/世界职棒争霸战 (繁) (全崴资讯).gif",
-        "device": "genesis"
+        "image": "{{image-path-genesis}}/ShiJieZhiBangZhengBaZhan.gif",
+        "device": "genesis",
+        "id": "ShiJieZhiBangZhengBaZhan"
     }
 ]

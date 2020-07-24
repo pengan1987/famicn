@@ -65,13 +65,17 @@ if (!String.prototype.includes) {
 }
 
 $(document).ready(function () {
-    console.log("ready!");
-    var gameBaseUrl = "http://dnbwg3.cdn.bcebos.com/roms-zip/"
-    var game = getUrlVars()["game"];
-    var cart = gameBaseUrl + game + ".zip"
     var device = getUrlVars()["device"];
     if (!device) {
         device = "nespal"
     }
+
+    var gameBaseUrl = "http://dnbwg3.cdn.bcebos.com/roms-nes-zip/"
+    if (device == "sb486") {
+        gameBaseUrl = "http://dnbwg3.cdn.bcebos.com/roms-edu-zip/"
+    }
+
+    var game = getUrlVars()["game"];
+    var cart = gameBaseUrl + game + ".zip"
     runMAME(cart, device);
 });
