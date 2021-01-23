@@ -1,0 +1,458 @@
+[
+    {
+        "name": "4-in-1",
+        "vendor": "普泽",
+        "year": "1991",
+        "filename": "4-in-1",
+        "image": "{{image-path-new}}/4-in-1.png",
+        "id": "4-in-1"
+    },
+    {
+        "name": "包青天",
+        "vendor": "普泽",
+        "year": "1994",
+        "filename": "Bao_Qing_Tian",
+        "image": "{{image-path-new}}/Bao_Qing_Tian.png",
+        "id": "Bao_Qing_Tian"
+    },
+    {
+        "name": "Baseball",
+        "vendor": "普泽",
+        "year": "1991",
+        "filename": "Baseball",
+        "image": "{{image-path-new}}/Baseball.png",
+        "id": "Baseball"
+    },
+    {
+        "name": "Basketball",
+        "vendor": "普泽",
+        "year": "199X",
+        "filename": "Basketball",
+        "image": "{{image-path-new}}/Basketball.png",
+        "id": "Basketball"
+    },
+    {
+        "name": "Bomb Blaster",
+        "vendor": "普泽",
+        "year": "1990",
+        "filename": "Bomb_Blaster",
+        "image": "{{image-path-new}}/Bomb_Blaster.png",
+        "id": "Bomb_Blaster"
+    },
+    {
+        "name": "Boom",
+        "vendor": "普泽",
+        "year": "1991",
+        "filename": "Boom",
+        "image": "{{image-path-new}}/Boom.png",
+        "id": "Boom"
+    },
+    {
+        "name": "Box Forum",
+        "vendor": "普泽",
+        "year": "1991",
+        "filename": "Box_Forum",
+        "image": "{{image-path-new}}/Box_Forum.png",
+        "id": "Box_Forum"
+    },
+    {
+        "name": "Brick Blaster",
+        "vendor": "普泽",
+        "year": "1990",
+        "filename": "Brick_Blaster",
+        "image": "{{image-path-new}}/Brick_Blaster.png",
+        "id": "Brick_Blaster"
+    },
+    {
+        "name": "Cosmic Fighter",
+        "vendor": "普泽",
+        "year": "1990",
+        "filename": "Cosmic_Fighter",
+        "image": "{{image-path-new}}/Cosmic_Fighter.png",
+        "id": "Cosmic_Fighter"
+    },
+    {
+        "name": "Cube Up",
+        "vendor": "普泽",
+        "year": "1990",
+        "filename": "Cube_Up",
+        "image": "{{image-path-new}}/Cube_Up.png",
+        "id": "Cube_Up"
+    },
+    {
+        "name": "Devil Castle",
+        "vendor": "普泽",
+        "year": "1991",
+        "filename": "Devil_Castle",
+        "image": "{{image-path-new}}/Devil_Castle.png",
+        "id": "Devil_Castle"
+    },
+    {
+        "name": "Dino Ball",
+        "vendor": "普泽",
+        "year": "1991",
+        "filename": "Dino_Ball",
+        "image": "{{image-path-new}}/Dino_Ball.png",
+        "id": "Dino_Ball"
+    },
+    {
+        "name": "Dino Bibo",
+        "vendor": "普泽",
+        "year": "1991",
+        "filename": "Dino_Bibo",
+        "image": "{{image-path-new}}/Dino_Bibo.png",
+        "id": "Dino_Bibo"
+    },
+    {
+        "name": "戎猫极界",
+        "vendor": "Phinnex",
+        "year": "1993",
+        "filename": "Dinosaur_Park",
+        "image": "{{image-path-new}}/Dinosaur_Park.png",
+        "id": "Dinosaur_Park"
+    },
+    {
+        "name": "Enchanted Bricks",
+        "vendor": "普泽",
+        "year": "1990",
+        "filename": "Enchanted_Bricks",
+        "image": "{{image-path-new}}/Enchanted_Bricks.png",
+        "id": "Enchanted_Bricks"
+    },
+    {
+        "name": "Famous 7",
+        "vendor": "联华电子",
+        "year": "1993",
+        "filename": "Famous_7",
+        "image": "{{image-path-new}}/Famous_7.png",
+        "id": "Famous_7"
+    },
+    {
+        "name": "Fantasy Travel",
+        "vendor": "联华电子",
+        "year": "1993",
+        "filename": "Fantasy_Travel",
+        "image": "{{image-path-new}}/Fantasy_Travel.png",
+        "id": "Fantasy_Travel"
+    },
+    {
+        "name": "伏魔神拳",
+        "vendor": "普泽",
+        "year": "1991",
+        "filename": "Fist_of_Thunder",
+        "image": "{{image-path-new}}/Fist_of_Thunder.png",
+        "id": "Fist_of_Thunder"
+    },
+    {
+        "name": "Flipuzzle",
+        "vendor": "普泽",
+        "year": "1991",
+        "filename": "Flipuzzle",
+        "image": "{{image-path-new}}/Flipuzzle.png",
+        "id": "Flipuzzle"
+    },
+    {
+        "name": "Flying Goblin",
+        "vendor": "普泽",
+        "year": "1991",
+        "filename": "Flying_Goblin",
+        "image": "{{image-path-new}}/Flying_Goblin.png",
+        "id": "Flying_Goblin"
+    },
+    {
+        "name": "Fortune & Luck",
+        "vendor": "普泽",
+        "year": "1992",
+        "filename": "Fortune_n_Luck",
+        "image": "{{image-path-new}}/Fortune_n_Luck.png",
+        "id": "Fortune_n_Luck"
+    },
+    {
+        "name": "郁卒戎猫",
+        "vendor": "普泽",
+        "year": "1993",
+        "filename": "Further_Adventures_of_Hannibal_The_Cat",
+        "image": "{{image-path-new}}/Further_Adventures_of_Hannibal_The_Cat.png",
+        "id": "Further_Adventures_of_Hannibal_The_Cat"
+    },
+    {
+        "name": "Galaxy Invaders",
+        "vendor": "普泽",
+        "year": "1990",
+        "filename": "Galaxy_Invaders",
+        "image": "{{image-path-new}}/Galaxy_Invaders.png",
+        "id": "Galaxy_Invaders"
+    },
+    {
+        "name": "GP Race",
+        "vendor": "普泽",
+        "year": "1992",
+        "filename": "GP_Race",
+        "image": "{{image-path-new}}/GP_Race.png",
+        "id": "GP_Race"
+    },
+    {
+        "name": "火爆英雄",
+        "vendor": "普泽",
+        "year": "199X",
+        "filename": "Hot_Hero",
+        "image": "{{image-path-new}}/Hot_Hero.png",
+        "id": "Hot_Hero"
+    },
+    {
+        "name": "Insect War",
+        "vendor": "联华电子",
+        "year": "1995",
+        "filename": "Insect_War",
+        "image": "{{image-path-new}}/Insect_War.png",
+        "id": "Insect_War"
+    },
+    {
+        "name": "Jewelriss",
+        "vendor": "普泽",
+        "year": "1990",
+        "filename": "Jewelriss",
+        "image": "{{image-path-new}}/Jewelriss.png",
+        "id": "Jewelriss"
+    },
+    {
+        "name": "Kill Shot",
+        "vendor": "普泽",
+        "year": "1991",
+        "filename": "Kill_Shot",
+        "image": "{{image-path-new}}/Kill_Shot.png",
+        "id": "Kill_Shot"
+    },
+    {
+        "name": "武行",
+        "vendor": "普泽",
+        "year": "1990",
+        "filename": "Kung-Fu_Fighter",
+        "image": "{{image-path-new}}/Kung-Fu_Fighter.png",
+        "id": "Kung-Fu_Fighter"
+    },
+    {
+        "name": "龙之传奇",
+        "vendor": "普泽",
+        "year": "1991",
+        "filename": "Legend_of_Dragon_Knight",
+        "image": "{{image-path-new}}/Legend_of_Dragon_Knight.png",
+        "id": "Legend_of_Dragon_Knight"
+    },
+    {
+        "name": "Magic Jigsaw",
+        "vendor": "普泽",
+        "year": "1991",
+        "filename": "Magic_Jigsaw",
+        "image": "{{image-path-new}}/Magic_Jigsaw.png",
+        "id": "Magic_Jigsaw"
+    },
+    {
+        "name": "Marauder",
+        "vendor": "普泽",
+        "year": "1991",
+        "filename": "Marauder",
+        "image": "{{image-path-new}}/Marauder.png",
+        "id": "Marauder"
+    },
+    {
+        "name": "Mars Voyage",
+        "vendor": "普泽",
+        "year": "1991",
+        "filename": "Mars_Voyage",
+        "image": "{{image-path-new}}/Mars_Voyage.png",
+        "id": "Mars_Voyage"
+    },
+    {
+        "name": "Mighty Tank",
+        "vendor": "普泽",
+        "year": "1990",
+        "filename": "Mighty_Tank",
+        "image": "{{image-path-new}}/Mighty_Tank.png",
+        "id": "Mighty_Tank"
+    },
+    {
+        "name": "Mini Golf",
+        "vendor": "普泽",
+        "year": "1990",
+        "filename": "Mini_Golf",
+        "image": "{{image-path-new}}/Mini_Golf.png",
+        "id": "Mini_Golf"
+    },
+    {
+        "name": "Money Maze",
+        "vendor": "普泽",
+        "year": "1990",
+        "filename": "Money_Maze",
+        "image": "{{image-path-new}}/Money_Maze.png",
+        "id": "Money_Maze"
+    },
+    {
+        "name": "Monster Pitfall",
+        "vendor": "普泽",
+        "year": "1990",
+        "filename": "Monster_Pitfall",
+        "image": "{{image-path-new}}/Monster_Pitfall.png",
+        "id": "Monster_Pitfall"
+    },
+    {
+        "name": "Myth of Asamia",
+        "vendor": "普泽",
+        "year": "1990",
+        "filename": "Myth_of_Asamia",
+        "image": "{{image-path-new}}/Myth_of_Asamia.png",
+        "id": "Myth_of_Asamia"
+    },
+    {
+        "name": "Nightmare of Santa Claus",
+        "vendor": "普泽",
+        "year": "1991",
+        "filename": "Nightmare_of_Santa_Claus",
+        "image": "{{image-path-new}}/Nightmare_of_Santa_Claus.png",
+        "id": "Nightmare_of_Santa_Claus"
+    },
+    {
+        "name": "绿野迷踪",
+        "vendor": "联华电子",
+        "year": "1993",
+        "filename": "One_Million_Whys",
+        "image": "{{image-path-new}}/One_Million_Whys.png",
+        "id": "One_Million_Whys"
+    },
+    {
+        "name": "Pharaoh Revenger",
+        "vendor": "普泽",
+        "year": "1991",
+        "filename": "Pharaoh_Revenger",
+        "image": "{{image-path-new}}/Pharaoh_Revenger.png",
+        "id": "Pharaoh_Revenger"
+    },
+    {
+        "name": "Pipemania",
+        "vendor": "普泽",
+        "year": "1991",
+        "filename": "Pipemania",
+        "image": "{{image-path-new}}/Pipemania.png",
+        "id": "Pipemania"
+    },
+    {
+        "name": "Punk Boy",
+        "vendor": "普泽",
+        "year": "1992",
+        "filename": "Punk_Boy",
+        "image": "{{image-path-new}}/Punk_Boy.png",
+        "id": "Punk_Boy"
+    },
+    {
+        "name": "天罗煞",
+        "vendor": "联华电子",
+        "year": "1993",
+        "filename": "QuizFighter",
+        "image": "{{image-path-new}}/QuizFighter.png",
+        "id": "QuizFighter"
+    },
+    {
+        "name": "宝藏之谜",
+        "vendor": "普泽",
+        "year": "1994",
+        "filename": "Riddle_of_the_Ancient_Tomb",
+        "image": "{{image-path-new}}/Riddle_of_the_Ancient_Tomb.png",
+        "id": "Riddle_of_the_Ancient_Tomb"
+    },
+    {
+        "name": "侠盗罗宾汉",
+        "vendor": "Phinnex",
+        "year": "1994",
+        "filename": "Robin_Hood",
+        "image": "{{image-path-new}}/Robin_Hood.png",
+        "id": "Robin_Hood"
+    },
+    {
+        "name": "Snowman Legend",
+        "vendor": "普泽",
+        "year": "1991",
+        "filename": "Snowman_Legend",
+        "image": "{{image-path-new}}/Snowman_Legend.png",
+        "id": "Snowman_Legend"
+    },
+    {
+        "name": "Tennis",
+        "vendor": "普泽",
+        "year": "1991",
+        "filename": "Tennis",
+        "image": "{{image-path-new}}/Tennis.png",
+        "id": "Tennis"
+    },
+    {
+        "name": "金鼎2000万",
+        "vendor": "普泽",
+        "year": "199X",
+        "filename": "The_Golden_Pyramid",
+        "image": "{{image-path-new}}/The_Golden_Pyramid.png",
+        "id": "The_Golden_Pyramid"
+    },
+    {
+        "name": "Time Warrior",
+        "vendor": "普泽",
+        "year": "1990",
+        "filename": "Time_Warrior",
+        "image": "{{image-path-new}}/Time_Warrior.png",
+        "id": "Time_Warrior"
+    },
+    {
+        "name": "Tornado",
+        "vendor": "普泽",
+        "year": "1991",
+        "filename": "Tornado",
+        "image": "{{image-path-new}}/Tornado.png",
+        "id": "Tornado"
+    },
+    {
+        "name": "Tough Guy",
+        "vendor": "联华电子",
+        "year": "1993",
+        "filename": "Tough_Guy",
+        "image": "{{image-path-new}}/Tough_Guy.png",
+        "id": "Tough_Guy"
+    },
+    {
+        "name": "Treasure Hunter",
+        "vendor": "普泽",
+        "year": "1990",
+        "filename": "Treasure_Hunter",
+        "image": "{{image-path-new}}/Treasure_Hunter.png",
+        "id": "Treasure_Hunter"
+    },
+    {
+        "name": "Vindicators",
+        "vendor": "普泽",
+        "year": "1990",
+        "filename": "Vindicators",
+        "image": "{{image-path-new}}/Vindicators.png",
+        "id": "Vindicators"
+    },
+    {
+        "name": "Volcano Panic",
+        "vendor": "普泽",
+        "year": "1991",
+        "filename": "Volcano_Panic",
+        "image": "{{image-path-new}}/Volcano_Panic.png",
+        "id": "Volcano_Panic"
+    },
+    {
+        "name": "Witty Apee",
+        "vendor": "普泽",
+        "year": "1990",
+        "filename": "Witty_Apee",
+        "image": "{{image-path-new}}/Witty_Apee.png",
+        "id": "Witty_Apee"
+    },
+    {
+        "name": "World Cup Soccer",
+        "vendor": "普泽",
+        "year": "199X",
+        "filename": "World_Cup_Soccer",
+        "image": "{{image-path-new}}/World_Cup_Soccer.png",
+        "id": "World_Cup_Soccer"
+    }
+]

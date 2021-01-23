@@ -1,4 +1,5 @@
-﻿<html>
+﻿<!DOCTYPE html>
+<html>
 
 <head>
   <title>中文家用游戏博物馆</title>
@@ -9,17 +10,10 @@
   <link rel="stylesheet" href="base.css" />
   <script src="baidustat.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-  <script src="index.js"></script>
-  <script data-ad-client="ca-pub-8059782341685908" async
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script src="console_list.js"></script>
+  <script data-ad-client="ca-pub-8059782341685908" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <meta charset="UTF-8">
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
-
-  <style>
-    .row {
-      margin-bottom: 8px;
-    }
-  </style>
 </head>
 
 <body>
@@ -48,28 +42,30 @@
       </li>
     </ul>
   </nav>
-  <div class="feature-wrapper  pt-5 pb-5 mt-0 mt-lg-0">
+  <div class="feature-wrapper pb-5 mt-0 mt-lg-0">
     <div class="container">
-      <div class="col-12" style="margin-bottom: 16px;">
-        <h2>专题展览：失落的国产掌机</h2>
+      <div class="form-inline">
+        <input class="form-control col-sm-1 col-md-3 my-3" type="search" id="search-text" oninput="search()" placeholder="搜索">
       </div>
-      <div class="row">
+      <div class="row" id="machine-list">
+        <div id="base-cell" class="col-sm-12 col-md-3" style="display:none">
 
-        <a class="col-sm-6 col-md-2" href="gamate_list.html">
-          <img class="col-12" src="logo/gamate.jpg">
-        </a>
-        <div class="col-sm-6 col-md-10">
-
-          <h3><a href="gamate_list.html">Gamate: 超级小子/超级神童</a></h3>
-          <p>
-            Gamate是1990年由台湾普泽独立开发的游戏机，在台湾中文名为“超级小子”，在大陆则称为“超级神童”，它是GameBoy最早的竞争者之一。它使用基于6502的处理器，和与GameBoy类似的单色液晶屏。普泽在1992年停业之后，Gamate由联华电子继续生产和销售直到1994年。
-          </p>
+          <figure>
+            <a href="#">
+              <img class="figure-img img-fluid rounded" src="" alt="">
+            </a>
+            <figcaption class="machine-fig">Apple II</figcaption>
+          </figure>
         </div>
       </div>
-
     </div>
   </div>
-
+  <div>
+    <a id="loadmore" href="#" onclick="loadmore()">加载更多</a>
+  </div>
+  <div style="display: none;">
+    <img src="cart.gif">
+  </div>
 </body>
 
 </html>

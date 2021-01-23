@@ -34,6 +34,12 @@ body {
     display: block;
 }
 
+.emucanvas{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 #mobile-tools {
     display: none;
     margin-top: 4px;
