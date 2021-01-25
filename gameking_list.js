@@ -2,7 +2,7 @@ var machineList;
 var newMachineList = [];
 var pages = [];
 var loadedPage = 0;
-var platform = "famiclone.html";
+var device = "gameking";
 
 function getUrlVars() {
     var vars = {};
@@ -35,17 +35,19 @@ function showMachines(machines) {
         var machine = machines[i];
         var clone = base.clone();
         var title = machine.name + " - " + machine.vendor;
-        var playerlink = platform + "?game=" + encodeURI(machine.id);
 
-        var imagePathNew = "http://famicn-1255835060.file.myqcloud.com/game-image";
-        var imagePathEdu = "http://famicn-1255835060.file.myqcloud.com/edu-cart-image";
-        var imagePathGenesis = "http://famicn-1255835060.file.myqcloud.com/genesis-image";
-        var imageLink = "cart.gif";
+        if (machine.id) {
+            var playerlink = "gameking.html?game=" + encodeURI(machine.id) + "&device=" + device;
+        } else {
+            var playerlink = "gameking.html?device=" + device;
+        }
+
+        var imagePathNew = "http://famicn-1255835060.file.myqcloud.com/gameking-images";
+        var imageLink = "gamate_card_blank.jpg";
+        machine.image = false;
         if (machine.image) {
             imageLink = machine.image;
             imageLink = imageLink.replace("{{image-path-new}}", imagePathNew);
-            imageLink = imageLink.replace("{{image-path-edu}}", imagePathEdu);
-            imageLink = imageLink.replace("{{image-path-genesis}}", imagePathGenesis);
         }
         if (machine.device) {
             playerlink = playerlink + "&device=" + machine.device;
@@ -100,12 +102,11 @@ function splitArrayByTime(someArray) {
 
 $(document).ready(function () {
     var menu = getUrlVars()["menu"];
-    if (!menu) {
-        menu = "games.json";
-    } else if (menu.includes("genesis")) {
-        platform = "genesis.html";
+
+    if (menu && menu.includes("gamekin3")) {
+        device = "gamekin3";
     }
-    $.getJSON(menu, processJson);
+    $.getJSON("gameking.json", processJson);
 });
 
 $(window).scroll(function () {

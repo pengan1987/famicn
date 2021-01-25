@@ -103,23 +103,3 @@ $(window).scroll(function () {
         showMachines(pages[loadedPage]);
     }
 });
-
-function testImage() {
-    for (var i = 0; i < machineList.length; i++) {
-        var machine = machineList[i];
-        $.ajax({
-            url: 'images/' + machine.filename + ".gif",
-            type: 'HEAD',
-            async: false,
-
-            error: function () {
-                //do something depressing
-                newMachineList.push(machine);
-            },
-            success: function () {
-                machine.image = 'images/' + machine.filename + ".gif";
-                newMachineList.push(machine);
-            }
-        });
-    }
-}

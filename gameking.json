@@ -1,0 +1,146 @@
+[
+  {
+    "name": "内置游戏三合一",
+    "vendor": "代代星",
+    "gameking3": false,
+    "filename": "",
+    "image": "{{image-path-new}}/built-in.png",
+    "id": ""
+  },
+  {
+    "name": "2004",
+    "vendor": "代代星",
+    "gameking3": false,
+    "filename": "2004",
+    "image": "{{image-path-new}}/2004.png",
+    "id": "2004"
+  },
+  {
+    "name": "Adventure Legend Carlo",
+    "vendor": "代代星",
+    "gameking3": false,
+    "filename": "Adventure_Legend_Carlo",
+    "image": "{{image-path-new}}/Adventure_Legend_Carlo.png",
+    "id": "Adventure_Legend_Carlo"
+  },
+  {
+    "name": "Aries",
+    "vendor": "代代星",
+    "gameking3": false,
+    "filename": "Aries",
+    "image": "{{image-path-new}}/Aries.png",
+    "id": "Aries"
+  },
+  {
+    "name": "Dino Adventure Legend",
+    "vendor": "代代星",
+    "gameking3": false,
+    "filename": "Dino_Adventure_Legend",
+    "image": "{{image-path-new}}/Dino_Adventure_Legend.png",
+    "id": "Dino_Adventure_Legend"
+  },
+  {
+    "name": "Duck Man",
+    "vendor": "代代星",
+    "gameking3": false,
+    "filename": "Duck_Man",
+    "image": "{{image-path-new}}/Duck_Man.png",
+    "id": "Duck_Man"
+  },
+  {
+    "name": "F1-2004 Racing",
+    "vendor": "代代星",
+    "gameking3": false,
+    "filename": "F1-2004_Racing",
+    "image": "{{image-path-new}}/F1-2004_Racing.png",
+    "id": "F1-2004_Racing"
+  },
+  {
+    "name": "Feichuan VII",
+    "vendor": "代代星",
+    "gameking3": false,
+    "filename": "Feichuan_VII",
+    "image": "{{image-path-new}}/Feichuan_VII.png",
+    "id": "Feichuan_VII"
+  },
+  {
+    "name": "Happy Ball",
+    "vendor": "代代星",
+    "gameking3": false,
+    "filename": "Happy_Ball",
+    "image": "{{image-path-new}}/Happy_Ball.png",
+    "id": "Happy_Ball"
+  },
+  {
+    "name": "Happy Killer",
+    "vendor": "代代星",
+    "gameking3": false,
+    "filename": "Happy_Killer",
+    "image": "{{image-path-new}}/Happy_Killer.png",
+    "id": "Happy_Killer"
+  },
+  {
+    "name": "Lanneret",
+    "vendor": "代代星",
+    "gameking3": false,
+    "filename": "Lanneret",
+    "image": "{{image-path-new}}/Lanneret.png",
+    "id": "Lanneret"
+  },
+  {
+    "name": "Penguin",
+    "vendor": "代代星",
+    "gameking3": false,
+    "filename": "Penguin",
+    "image": "{{image-path-new}}/Penguin.png",
+    "id": "Penguin"
+  },
+  {
+    "name": "Popper",
+    "vendor": "代代星",
+    "gameking3": false,
+    "filename": "Popper",
+    "image": "{{image-path-new}}/Popper.png",
+    "id": "Popper"
+  },
+  {
+    "name": "Seatercel",
+    "vendor": "代代星",
+    "gameking3": false,
+    "filename": "Seatercel",
+    "image": "{{image-path-new}}/Seatercel.png",
+    "id": "Seatercel"
+  },
+  {
+    "name": "Soldier",
+    "vendor": "代代星",
+    "gameking3": false,
+    "filename": "Soldier",
+    "image": "{{image-path-new}}/Soldier.png",
+    "id": "Soldier"
+  },
+  {
+    "name": "Street Hero",
+    "vendor": "代代星",
+    "gameking3": false,
+    "filename": "Street_Hero",
+    "image": "{{image-path-new}}/Street_Hero.png",
+    "id": "Street_Hero"
+  },
+  {
+    "name": "Supermoto",
+    "vendor": "代代星",
+    "gameking3": false,
+    "filename": "Supermoto",
+    "image": "{{image-path-new}}/Supermoto.png",
+    "id": "Supermoto"
+  },
+  {
+    "name": "Trojan Legend",
+    "vendor": "代代星",
+    "gameking3": false,
+    "filename": "Trojan_Legend",
+    "image": "{{image-path-new}}/Trojan_Legend.png",
+    "id": "Trojan_Legend"
+  }
+]

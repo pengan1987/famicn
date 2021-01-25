@@ -1,0 +1,71 @@
+﻿<html>
+
+<head>
+  <title>中文家用游戏博物馆</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset.css@2.0.2/reset.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sindresorhus/github-markdown-css@2.10.0/github-markdown.css">
+  <link rel="stylesheet" href="base.css" />
+  <link rel="stylesheet" href="emularity.css" />
+  <script src="baidustat.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/showdown@1.8.7/dist/showdown.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/es6-promise@2.0.0/dist/es6-promise.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/browserfs@1.2.1/dist/browserfs.min.js"></script>
+  <script src="http://dnbwg.cdn.bcebos.com/emularity-common/loader.js"></script>
+  <script src="gameking.js"></script>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+</head>
+
+<body>
+  <nav id="mainnav" style="position: relative; z-index: 2;">
+    <ul>
+      <li>
+        <a href="index.html">首页</a>
+      </li>
+      <li>
+        <a href="console_list.html">红白机</a>
+      </li>
+      <li>
+        <a href="console_list.html?menu=genesis.json">世嘉机</a>
+      </li>
+      <li>
+        <a href="console_list.html?menu=learn.json">学习机</a>
+      </li>
+      <li>
+        <a href="http://www.dnbwg.com">电脑</a>
+      </li>
+      <li>
+        <a href="https://zhuanlan.zhihu.com/retrocomputing">知乎专栏</a>
+      </li>
+      <li>
+        <a href="https://github.com/pengan1987/famicn">Github</a>
+      </li>
+    </ul>
+  </nav>
+  <div id="main-wrapper">
+    <input type="password" id="mobile-keyboard-helper">
+    <div id="emulator-container">
+      <div id="emularity-splash-screen"></div>
+      <canvas id="canvas" class="emucanvas"></canvas>
+    </div>
+  </div>
+  <div style="display: none;">
+    <img src="cart.gif">
+  </div>
+  <div id="mobile-tools">
+    <button id="toggleKeyboard" onclick="toggleMobileKeyboard()">显示键盘</button>
+    <button id="toggleKeyboard" onclick="resizeCanvas()">调整屏幕</button>
+  </div>
+  <div id="introduction" class="markdown-body">
+    操作指南：
+    方向键<br>
+    1 - Start<br>
+    5 - Select<br>
+    A - Alt<br>
+    B - Ctrl<br>
+    C - 空格键
+  </div>
+
+</body>
+
+</html>
