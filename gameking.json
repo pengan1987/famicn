@@ -4,7 +4,15 @@
     "vendor": "代代星",
     "gameking3": false,
     "filename": "",
-    "image": "{{image-path-new}}/built-in.png",
+    "image": "{{image-path-new}}/Built-in.png",
+    "id": ""
+  },
+  {
+    "name": "Galaxy Crisis",
+    "vendor": "代代星",
+    "gameking3": true,
+    "filename": "",
+    "image": "{{image-path-new}}/Galaxy_Crisis.png",
     "id": ""
   },
   {
@@ -56,7 +64,7 @@
     "id": "F1-2004_Racing"
   },
   {
-    "name": "Feichuan VII",
+    "name": "神州六号",
     "vendor": "代代星",
     "gameking3": false,
     "filename": "Feichuan_VII",
@@ -142,5 +150,29 @@
     "filename": "Trojan_Legend",
     "image": "{{image-path-new}}/Trojan_Legend.png",
     "id": "Trojan_Legend"
+  },
+  {
+    "name": "Adventure",
+    "vendor": "代代星",
+    "gameking3": true,
+    "filename": "Adventure",
+    "image": "{{image-path-new}}/Adventure.png",
+    "id": "Adventure"
+  },
+  {
+    "name": "Fly Cab",
+    "vendor": "代代星",
+    "gameking3": true,
+    "filename": "Fly_Cab",
+    "image": "{{image-path-new}}/Fly_Cab.png",
+    "id": "Fly_Cab"
+  },
+  {
+    "name": "Urgent Action",
+    "vendor": "代代星",
+    "gameking3": true,
+    "filename": "Urgent_Action",
+    "image": "{{image-path-new}}/Urgent_Action.png",
+    "id": "Urgent_Action"
   }
 ]

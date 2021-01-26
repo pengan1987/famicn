@@ -13,7 +13,21 @@ function getUrlVars() {
 }
 
 function processJson(data) {
-    machineList = data;
+    machineList = [];
+    for (i = 0; i < data.length; i++) {
+        currentData = data[i];
+        var addToList = true;
+        if (device == "gamekin3") {
+            //Remove Gameking default games for gameking3
+            if (currentData.filename.length == 0 && !currentData.gameking3)
+                addToList = false;
+        } else {
+            //Remove Gameking3 only games for Gameking
+            if (currentData.gameking3) addToList = false;
+        }
+        if (addToList)
+            machineList.push(currentData);
+    }
     reorderedList = splitArrayByTime(machineList);
 
     var i, j, temparray, chunk = 32;
@@ -43,14 +57,22 @@ function showMachines(machines) {
         }
 
         var imagePathNew = "http://famicn-1255835060.file.myqcloud.com/gameking-images";
+        if (device == 'gamekin3') {
+            imagePathNew = "http://famicn-1255835060.file.myqcloud.com/gameking-images/gamekin3";
+        }
+
         var imageLink = "gamate_card_blank.jpg";
-        machine.image = false;
+
         if (machine.image) {
             imageLink = machine.image;
             imageLink = imageLink.replace("{{image-path-new}}", imagePathNew);
         }
         if (machine.device) {
             playerlink = playerlink + "&device=" + machine.device;
+        }
+
+        if (machine.gameking3) {
+            playerlink = playerlink + "&gamekin3only=1"
         }
 
         clone.show();

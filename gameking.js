@@ -85,10 +85,15 @@ if (!String.prototype.includes) {
 
 $(document).ready(function () {
     console.log("ready!");
-    var gameBaseUrl = "https://famicn-1255835060.file.myqcloud.com/gameking-roms/"
+    var gameBaseUrl = "https://famicn-1255835060.file.myqcloud.com/gameking-roms/";
+    var gamekin3BaseUrl = "https://famicn-1255835060.file.myqcloud.com/gameking-roms/gamekin3/";
     var game = getUrlVars()["game"];
-    var cart = gameBaseUrl + game + ".zip"
+    var gamekin3only = getUrlVars()["gamekin3only"];
+    var cart = gameBaseUrl + game + ".zip";
 
+    if (gamekin3only) {
+        cart = gamekin3BaseUrl + game + ".zip";
+    }
     var device = getUrlVars()["device"];
     if (!device) {
         device = "gameking";
