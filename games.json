@@ -208,20 +208,6 @@
         "id": "DongDongNao_2_GuoZhongYingWen"
     },
     {
-        "name": "勇者斗恶龙8",
-        "vendor": "外星科技",
-        "filename": "勇者斗恶龙8 [外星科技]",
-        "image": "{{image-path-new}}/YongCheDouELong_8.gif",
-        "id": "YongCheDouELong_8"
-    },
-    {
-        "name": "包青天",
-        "vendor": "卡圣",
-        "filename": "包青天 [卡圣]",
-        "image": "{{image-path-new}}/BaoQingTian.gif",
-        "id": "BaoQingTian"
-    },
-    {
         "name": "匹诺槽的复苏",
         "vendor": "外星科技",
         "filename": "匹诺槽的复苏 [外星科技]",

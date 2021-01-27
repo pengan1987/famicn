@@ -13,7 +13,7 @@ function runMAME(cart, device) {
     var wasm_filename = "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes_wasm.wasm"
     var js_filename = "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes.js"
 
-    var emulator = new Emulator(document.querySelector("#emularity-canvas"),
+    var emulator = new Emulator(document.querySelector("#canvas"),
         postRun,
         new JSMESSLoader(JSMESSLoader.driver(device),
             JSMESSLoader.nativeResolution(640, 480),
