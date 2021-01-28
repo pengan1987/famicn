@@ -25,6 +25,7 @@
     },
     {
         "name": "Balloon Fight",
+        "chinese_name": "气球大战",
         "vendor": "圣谦",
         "year": "1992",
         "filename": "Balloon_Fight",
@@ -98,6 +99,7 @@
     },
     {
         "name": "Chinese Checkers",
+        "chinese_name": "跳棋",
         "vendor": "圣谦(Sachen)",
         "year": "1992",
         "filename": "Chinese_Checkers",
@@ -106,6 +108,7 @@
     },
     {
         "name": "Classic Casino",
+        "chinese_name": "3合1拉斯维加斯之战",
         "vendor": "Bon Treasure",
         "year": "1993",
         "filename": "Classic_Casino",
@@ -179,6 +182,7 @@
     },
     {
         "name": "Final Combat",
+        "chinese_name": "最后决战",
         "vendor": "圣谦",
         "year": "1992",
         "filename": "Final_Combat",
@@ -203,6 +207,7 @@
     },
     {
         "name": "Galaxy Fighter",
+        "chinese_name": "银河战机",
         "vendor": "圣谦",
         "year": "1992",
         "filename": "Galaxy_Fighter",
@@ -219,6 +224,7 @@
     },
     {
         "name": "Happy Pairs",
+        "chinese_name": "欢乐对对碰",
         "vendor": "圣谦(Sachen)",
         "year": "1992",
         "filename": "Happy_Pairs",
@@ -302,6 +308,7 @@
     },
     {
         "name": "Kabi Island",
+        "chinese_name": "卡比之岛",
         "vendor": "圣谦(Sachen)",
         "year": "1992",
         "filename": "Kabi_Island",
@@ -310,6 +317,7 @@
     },
     {
         "name": "Kitchen War",
+        "chinese_name": "厨房战争",
         "vendor": "Bon Treasure",
         "year": "1992",
         "filename": "Kitchen_War",
@@ -318,6 +326,7 @@
     },
     {
         "name": "Kung-Fu Street",
+        "chinese_name": "功夫擂台",
         "vendor": "圣谦",
         "year": "1993",
         "filename": "Kung_Fu_Street",
@@ -327,7 +336,6 @@
     {
         "name": "Linear Racing",
         "chinese_name": "迷幻之旅",
-
         "vendor": "",
         "year": "199x",
         "filename": "Linear_Racing",
@@ -436,6 +444,7 @@
     },
     {
         "name": "Scaffolder",
+        "chinese_name": "架子功",
         "vendor": "Bon Treasure",
         "year": "1992",
         "filename": "Scaffolder",
@@ -518,6 +527,7 @@
     },
     {
         "name": "Thunder Shooting",
+        "chinese_name": "闪电射击",
         "vendor": "圣谦",
         "year": "1992",
         "filename": "Thunder_Shooting",
