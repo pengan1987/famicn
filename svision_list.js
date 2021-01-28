@@ -2,7 +2,7 @@ var machineList;
 var newMachineList = [];
 var pages = [];
 var loadedPage = 0;
-var platform = "gamate.html";
+var platform = "svision.html";
 
 function getUrlVars() {
     var vars = {};
@@ -34,15 +34,22 @@ function showMachines(machines) {
     for (i = 0; i < machines.length; i++) {
         var machine = machines[i];
         var clone = base.clone();
-        var title = machine.name + " (" + machine.year + ") - " + machine.vendor;
+        var title = machine.name + " (" + machine.year + ")";
+        if (machine.chinese_name) {
+            var title = machine.chinese_name + " (" + machine.year + ")";
+        }
+        if (machine.vendor.length > 0) {
+            title = title + " - " + machine.vendor;
+        }
         var playerlink = platform + "?game=" + encodeURI(machine.id);
 
-        var imagePathNew = "http://famicn-1255835060.file.myqcloud.com/gamate-images";
-        var imageLink = "gamate_card_blank.jpg";
+        var imagePathNew = "http://famicn-1255835060.file.myqcloud.com/svision-images";
+        var imageLink = "cart.gif";
         if (machine.image) {
             imageLink = machine.image;
             imageLink = imageLink.replace("{{image-path-new}}", imagePathNew);
         }
+
         if (machine.device) {
             playerlink = playerlink + "&device=" + machine.device;
         }
@@ -95,7 +102,7 @@ function splitArrayByTime(someArray) {
 }
 
 $(document).ready(function () {
-    $.getJSON("gamate.json", processJson);
+    $.getJSON("svision.json", processJson);
 });
 
 $(window).scroll(function () {
