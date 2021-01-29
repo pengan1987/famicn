@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Arctic Zone",
+        "vendor": "圣谦(Commin)",
+        "year": "1993",
+        "filename": "Arctic_Zone",
+        "image": "{{image-path-new}}/Arctic_Zone.png",
+        "id": "Arctic_Zone"
+    },
+    {
+        "name": "The Brick Wall",
+        "vendor": "添益(Timlex)",
+        "year": "1993",
+        "filename": "Brick_Wall__The",
+        "image": "{{image-path-new}}/Brick_Wall__The.png",
+        "id": "Brick_Wall__The"
+    },
+    {
+        "name": "Commin 5 in 1",
+        "vendor": "圣谦(Commin)",
+        "year": "1993",
+        "filename": "Commin_5_in_1",
+        "image": "{{image-path-new}}/Commin_5_in_1.png",
+        "id": "Commin_5_in_1"
+    },
+    {
+        "name": "Magical Tower",
+        "vendor": "圣谦(Sachen)",
+        "year": "1993",
+        "filename": "Magical_Tower",
+        "image": "{{image-path-new}}/Magical_Tower.png",
+        "id": "Magical_Tower"
+    },
+    {
+        "name": "Mega Duck 4 in 1 Game",
+        "vendor": "圣谦(Sachen)",
+        "year": "1993",
+        "filename": "Mega_Duck_4_in_1_Game",
+        "image": "{{image-path-new}}/Mega_Duck_4_in_1_Game.png",
+        "id": "Mega_Duck_4_in_1_Game"
+    },
+    {
+        "name": "Pile Wonder",
+        "vendor": "圣谦(Commin)",
+        "year": "1993",
+        "filename": "Pile_Wonder",
+        "image": "{{image-path-new}}/Pile_Wonder.png",
+        "id": "Pile_Wonder"
+    },
+    {
+        "name": "Railway",
+        "vendor": "圣谦(Sachen)",
+        "year": "1993",
+        "filename": "Railway",
+        "image": "{{image-path-new}}/Railway.png",
+        "id": "Railway"
+    },
+    {
+        "name": "Street Rider",
+        "vendor": "圣谦(Commin)",
+        "year": "1993",
+        "filename": "Street_Rider",
+        "image": "{{image-path-new}}/Street_Rider.png",
+        "id": "Street_Rider"
+    },
+    {
+        "name": "Suleimans Treasure",
+        "vendor": "圣谦(Commin)",
+        "year": "1993",
+        "filename": "Suleimans_Treasure",
+        "image": "{{image-path-new}}/Suleimans_Treasure.png",
+        "id": "Suleimans_Treasure"
+    }
+]
