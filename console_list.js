@@ -37,9 +37,9 @@ function showMachines(machines) {
         var title = machine.name + " - " + machine.vendor;
         var playerlink = platform + "?game=" + encodeURI(machine.id);
 
-        var imagePathNew = "http://famicn-1255835060.file.myqcloud.com/game-image";
-        var imagePathEdu = "http://famicn-1255835060.file.myqcloud.com/edu-cart-image";
-        var imagePathGenesis = "http://famicn-1255835060.file.myqcloud.com/genesis-image";
+        var imagePathNew = "https://famicn-1255835060.file.myqcloud.com/game-image";
+        var imagePathEdu = "https://famicn-1255835060.file.myqcloud.com/edu-cart-image";
+        var imagePathGenesis = "https://famicn-1255835060.file.myqcloud.com/genesis-image";
         var imageLink = "cart.gif";
         if (machine.image) {
             imageLink = machine.image;

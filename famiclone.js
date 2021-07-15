@@ -9,9 +9,9 @@ function getUrlVars() {
 
 function runMAME(cart, device) {
     var wantsWASM = 'WebAssembly' in window;
-    var wasmjs_filename = "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes_wasm.js";
-    var wasm_filename = "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes_wasm.wasm"
-    var js_filename = "http://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes.js"
+    var wasmjs_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes_wasm.js";
+    var wasm_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes_wasm.wasm"
+    var js_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamenes.js"
 
     var emulator = new Emulator(document.querySelector("#canvas"),
         postRun,
@@ -70,9 +70,9 @@ $(document).ready(function () {
         device = "nespal"
     }
 
-    var gameBaseUrl = "http://dnbwg3.cdn.bcebos.com/roms-nes-zip/"
+    var gameBaseUrl = "https://dnbwg3.cdn.bcebos.com/roms-nes-zip/"
     if (device == "sb486") {
-        gameBaseUrl = "http://dnbwg3.cdn.bcebos.com/roms-edu-zip/"
+        gameBaseUrl = "https://dnbwg3.cdn.bcebos.com/roms-edu-zip/"
     }
 
     var game = getUrlVars()["game"];

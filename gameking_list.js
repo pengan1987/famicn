@@ -56,9 +56,9 @@ function showMachines(machines) {
             var playerlink = "gameking.html?device=" + device;
         }
 
-        var imagePathNew = "http://famicn-1255835060.file.myqcloud.com/gameking-images";
+        var imagePathNew = "https://famicn-1255835060.file.myqcloud.com/gameking-images";
         if (device == 'gamekin3') {
-            imagePathNew = "http://famicn-1255835060.file.myqcloud.com/gameking-images/gamekin3";
+            imagePathNew = "https://famicn-1255835060.file.myqcloud.com/gameking-images/gamekin3";
         }
 
         var imageLink = "gamate_card_blank.jpg";

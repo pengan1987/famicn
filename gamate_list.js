@@ -37,7 +37,7 @@ function showMachines(machines) {
         var title = machine.name + " (" + machine.year + ") - " + machine.vendor;
         var playerlink = platform + "?game=" + encodeURI(machine.id);
 
-        var imagePathNew = "http://famicn-1255835060.file.myqcloud.com/gamate-images";
+        var imagePathNew = "https://famicn-1255835060.file.myqcloud.com/gamate-images";
         var imageLink = "gamate_card_blank.jpg";
         if (machine.image) {
             imageLink = machine.image;
