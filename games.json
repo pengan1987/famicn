@@ -150,14 +150,6 @@
         "id": "ZhongGuoTuBaoBao"
     },
     {
-        "name": "中国大亨",
-        "device": "nes",
-        "vendor": "Sachen",
-        "filename": "中国大亨 [Sachen]",
-        "image": "{{image-path-new}}/ZhongGuoDaHeng.gif",
-        "id": "ZhongGuoDaHeng"
-    },
-    {
         "name": "中国象棋",
         "vendor": "TXC",
         "filename": "中国象棋 [TXC]",
