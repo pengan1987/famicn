@@ -67,5 +67,9 @@ $(document).ready(function () {
     var gameBaseUrl = "https://famicn-1255835060.file.myqcloud.com/pdc-roms/"
     var game = getUrlVars()["game"];
     var cart = gameBaseUrl + game + ".zip"
-    runMAME(cart, game);
+    if (screen.width < 600) {
+        sessionStorage.setItem('fallback_page', 'index.html');
+    } else {
+        runMAME(cart, game);
+    }
 });

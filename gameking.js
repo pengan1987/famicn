@@ -98,6 +98,9 @@ $(document).ready(function () {
     if (!device) {
         device = "gameking";
     }
-
-    runMAME(cart, game, device);
+    if (screen.width < 600) {
+        sessionStorage.setItem('fallback_page', 'gameking_list.html');
+    } else {
+        runMAME(cart, game, device);
+    }
 });

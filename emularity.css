@@ -26,6 +26,9 @@ body {
     #emularity-splash-screen {
         width: 100%;
     }
+    .markdown-body .mobile-only{
+        display: block;
+    }
 }
 
 #emularity-canvas {
@@ -68,4 +71,8 @@ body {
     #introduction {
         margin: 10px;
     }
+}
+
+.mobile-only{
+    display: none;
 }

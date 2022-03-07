@@ -70,6 +70,9 @@ $(document).ready(function () {
     var gameBaseUrl = "https://famicn-1255835060.file.myqcloud.com/megaduck-roms/"
     var game = getUrlVars()["game"];
     var cart = gameBaseUrl + game + ".zip"
-
-    runMAME(cart, game);
+    if (screen.width < 600) {
+        sessionStorage.setItem('fallback_page', 'megaduck_list.html');
+    } else {
+        runMAME(cart, game);
+    }
 });

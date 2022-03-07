@@ -1,0 +1,66 @@
+#mobile-control {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+}
+
+#dpad {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 10px;
+    top: 0px;
+}
+
+#dpad td {
+    height: 30px;
+    width: 30px;
+}
+
+
+#abButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#abButton .nesbutton {
+    height: 30px;
+    width: 30px;
+  
+}
+
+#controlBtn {
+    position: absolute;
+    left: 40%;
+    bottom: 10px;
+}
+
+#mobile-control td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#mobile-control button {
+    height: 100%;
+    width: 100%;
+}
+
+.nesbutton {
+    background-color: lightgray;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+    #mobile-control {
+        display: block;
+    }
+
+    #introduction {
+        display: none;
+    }
+}

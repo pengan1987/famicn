@@ -7,9 +7,8 @@ function getUrlVars() {
     return vars;
 }
 
-function runMAME(cart,game) {
+function runMAME(cart, game) {
     var wantsWASM = 'WebAssembly' in window;
-   
     var wasmjs_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamegamate_wasm.js";
     var wasm_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamegamate_wasm.wasm"
     var js_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamegamate.js";
@@ -75,6 +74,9 @@ $(document).ready(function () {
     var gameBaseUrl = "https://famicn-1255835060.file.myqcloud.com/gamate-roms/"
     var game = getUrlVars()["game"];
     var cart = gameBaseUrl + game + ".zip"
-
-    runMAME(cart, game);
+    if (screen.width < 600) {
+        sessionStorage.setItem('fallback_page', 'gamate_list.html');
+    } else {
+        runMAME(cart, game);
+    }
 });

@@ -73,5 +73,9 @@ $(document).ready(function () {
     if (!device) {
         device = "genesis"
     }
-    runMAME(cart, device);
+    if (screen.width < 600) {
+        sessionStorage.setItem('fallback_page', 'console_list.html?menu=genesis.json');
+    } else {
+        runMAME(cart, device);
+    }
 });

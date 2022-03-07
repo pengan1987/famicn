@@ -77,5 +77,9 @@ $(document).ready(function () {
 
     var game = getUrlVars()["game"];
     var cart = gameBaseUrl + game + ".zip"
-    runMAME(cart, device);
+    if (screen.width < 600) {
+        sessionStorage.setItem('fallback_page', 'console_list.html');
+    } else {
+        runMAME(cart, device);
+    }
 });
