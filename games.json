@@ -4,7 +4,8 @@
         "vendor": "Idea-Tek",
         "filename": "1991赌马 [Idea-Tek]",
         "image": "{{image-path-new}}/1991DuMa.gif",
-        "id": "1991DuMa"
+        "id": "1991DuMa",
+        "jsnes": true
     },
     {
         "name": "75宾果",
@@ -12,7 +13,8 @@
         "vendor": "Sachen",
         "filename": "75宾果 [Sachen]",
         "image": "{{image-path-new}}/75BinGuo.gif",
-        "id": "75BinGuo"
+        "id": "75BinGuo",
+        "jsnes": true
     },
     {
         "name": "AV美少女战士",
@@ -28,7 +30,8 @@
         "vendor": "Sachen",
         "filename": "AV麻雀俱乐部 [Sachen]",
         "image": "{{image-path-new}}/AV_MaQueJuLeBu.gif",
-        "id": "AV_MaQueJuLeBu"
+        "id": "AV_MaQueJuLeBu",
+        "jsnes": true
     },
     {
         "name": "Fengli跳舞机",
@@ -133,7 +136,8 @@
         "vendor": "南晶科技",
         "filename": "东方传说 - 封印岛 [南晶科技]",
         "image": "{{image-path-new}}/DongFangChuanShuo_FengYinDao.gif",
-        "id": "DongFangChuanShuo_FengYinDao"
+        "id": "DongFangChuanShuo_FengYinDao",
+        "jsnes": true
     },
     {
         "name": "丝路传奇",
@@ -154,14 +158,16 @@
         "vendor": "TXC",
         "filename": "中国象棋 [TXC]",
         "image": "{{image-path-new}}/ZhongGuoXiangQi.gif",
-        "id": "ZhongGuoXiangQi"
+        "id": "ZhongGuoXiangQi",
+        "jsnes": true
     },
     {
         "name": "九七港京拉力赛车",
         "vendor": "天苑软件",
         "filename": "九七港京拉力赛车 [天苑软件]",
         "image": "{{image-path-new}}/JiuQiGangJingLaLiSaiChe.gif",
-        "id": "JiuQiGangJingLaLiSaiChe"
+        "id": "JiuQiGangJingLaLiSaiChe",
+        "jsnes": true
     },
     {
         "name": "仙剑奇侠",
@@ -182,7 +188,8 @@
         "vendor": "外星科技",
         "filename": "侠客情 - 荆轲刺秦王 [外星科技]",
         "image": "{{image-path-new}}/XiaKeQing_JingKeCiQinWang.gif",
-        "id": "XiaKeQing_JingKeCiQinWang"
+        "id": "XiaKeQing_JingKeCiQinWang",
+        "jsnes": true
     },
     {
         "name": "六角方块",
@@ -197,28 +204,32 @@
         "vendor": "Sachen",
         "filename": "动动脑2 - 国中英文 [Sachen]",
         "image": "{{image-path-new}}/DongDongNao_2_GuoZhongYingWen.gif",
-        "id": "DongDongNao_2_GuoZhongYingWen"
+        "id": "DongDongNao_2_GuoZhongYingWen",
+        "jsnes": true
     },
     {
         "name": "匹诺槽的复苏",
         "vendor": "外星科技",
         "filename": "匹诺槽的复苏 [外星科技]",
         "image": "{{image-path-new}}/PiNuoCaoDeFuSu.gif",
-        "id": "PiNuoCaoDeFuSu"
+        "id": "PiNuoCaoDeFuSu",
+        "jsnes": true
     },
     {
         "name": "卡拉OK演示",
         "vendor": "maxzhou88",
         "filename": "卡拉OK演示 [maxzhou88]",
         "image": "{{image-path-new}}/KaLa_OK_YanShi.gif",
-        "id": "KaLa_OK_YanShi"
+        "id": "KaLa_OK_YanShi",
+        "jsnes": true
     },
     {
         "name": "双响炮",
         "vendor": "Majoy",
         "filename": "双响炮 [Majoy]",
         "image": "{{image-path-new}}/ShuangXiangPao.gif",
-        "id": "ShuangXiangPao"
+        "id": "ShuangXiangPao",
+        "jsnes": true
     },
     {
         "name": "双鹰",
@@ -226,7 +237,8 @@
         "vendor": "Joy Van",
         "filename": "双鹰 [Joy Van]",
         "image": "{{image-path-new}}/ShuangYing.gif",
-        "id": "ShuangYing"
+        "id": "ShuangYing",
+        "jsnes": true
     },
     {
         "name": "反恐精英",
@@ -247,7 +259,8 @@
         "vendor": "火星电子",
         "filename": "口袋妖怪四合一 [火星电子]",
         "image": "{{image-path-new}}/KouDaiYaoGuaiSiHeYi.gif",
-        "id": "KouDaiYaoGuaiSiHeYi"
+        "id": "KouDaiYaoGuaiSiHeYi",
+        "jsnes": true
     },
     {
         "name": "口袋宝石 - 银",
@@ -282,7 +295,8 @@
         "vendor": "南晶科技",
         "filename": "古墓丽影 [南晶科技]",
         "image": "{{image-path-new}}/GuMuLiYing.gif",
-        "id": "GuMuLiYing"
+        "id": "GuMuLiYing",
+        "jsnes": true
     },
     {
         "name": "台湾花牌麻雀",
@@ -320,7 +334,8 @@
         "vendor": "Sachen",
         "filename": "四川麻将 - 制服篇 [Sachen]",
         "image": "{{image-path-new}}/SiChuanMaJiang_ZhiFuPian.gif",
-        "id": "SiChuanMaJiang_ZhiFuPian"
+        "id": "SiChuanMaJiang_ZhiFuPian",
+        "jsnes": true
     },
     {
         "name": "四川麻将",
@@ -328,7 +343,8 @@
         "vendor": "Joy Van",
         "filename": "四川麻将 [Joy Van]",
         "image": "{{image-path-new}}/SiChuanMaJiang.gif",
-        "id": "SiChuanMaJiang"
+        "id": "SiChuanMaJiang",
+        "jsnes": true
     },
     {
         "name": "圣斗士星矢 - 天马之幻想",
@@ -350,14 +366,16 @@
         "vendor": "外星科技",
         "filename": "地道战 [外星科技]",
         "image": "{{image-path-new}}/DiDaoZhan.gif",
-        "id": "DiDaoZhan"
+        "id": "DiDaoZhan",
+        "jsnes": true
     },
     {
         "name": "基督山恩仇记",
         "vendor": "外星科技",
         "filename": "基督山恩仇记 [外星科技]",
         "image": "{{image-path-new}}/JiDuShanEnChouJi.gif",
-        "id": "JiDuShanEnChouJi"
+        "id": "JiDuShanEnChouJi",
+        "jsnes": true
     },
     {
         "name": "塞尔达传说 - 神奇的帽子",
@@ -413,7 +431,8 @@
         "vendor": "两亦",
         "filename": "大金刚 - 香蕉船 [两亦]",
         "image": "{{image-path-new}}/DaJinGang_XiangJiaoChuan.gif",
-        "id": "DaJinGang_XiangJiaoChuan"
+        "id": "DaJinGang_XiangJiaoChuan",
+        "jsnes": true
     },
     {
         "name": "天龙八部",
@@ -469,7 +488,8 @@
         "vendor": "烟山科技修改",
         "filename": "导弹坦克 [烟山科技修改]",
         "image": "{{image-path-new}}/DaoDanTanKe.gif",
-        "id": "DaoDanTanKe"
+        "id": "DaoDanTanKe",
+        "jsnes": true
     },
     {
         "name": "封神榜 - 伏魔三太子",
@@ -498,7 +518,8 @@
         "vendor": "Idea-Tek",
         "filename": "小玛琍 [Idea-Tek]",
         "image": "{{image-path-new}}/XiaoMaLi.gif",
-        "id": "XiaoMaLi"
+        "id": "XiaoMaLi",
+        "jsnes": true
     },
     {
         "name": "小红帽",
@@ -506,7 +527,8 @@
         "vendor": "Joy Van",
         "filename": "小红帽 [Joy Van]",
         "image": "{{image-path-new}}/XiaoHongMao.gif",
-        "id": "XiaoHongMao"
+        "id": "XiaoHongMao",
+        "jsnes": true
     },
     {
         "name": "少年游侠",
@@ -535,7 +557,8 @@
         "vendor": "外星科技",
         "filename": "帝国风暴 [外星科技]",
         "image": "{{image-path-new}}/DiGuoFengBao.gif",
-        "id": "DiGuoFengBao"
+        "id": "DiGuoFengBao",
+        "jsnes": true
     },
     {
         "name": "幻世录",
@@ -577,7 +600,8 @@
         "vendor": "南晶科技",
         "filename": "异形之太空探险者 [南晶科技]",
         "image": "{{image-path-new}}/YiXingZhiTaiKongTanXianZhe.gif",
-        "id": "YiXingZhiTaiKongTanXianZhe"
+        "id": "YiXingZhiTaiKongTanXianZhe",
+        "jsnes": true
     },
     {
         "name": "快打传说",
@@ -599,21 +623,24 @@
         "vendor": "奔升",
         "filename": "战国无双 [奔升]",
         "image": "{{image-path-new}}/ZhanGuoWuShuang.gif",
-        "id": "ZhanGuoWuShuang"
+        "id": "ZhanGuoWuShuang",
+        "jsnes": true
     },
     {
         "name": "战国群雄传",
         "vendor": "外星科技",
         "filename": "战国群雄传 [外星科技]",
         "image": "{{image-path-new}}/ZhanGuoQunXiongZhuan.gif",
-        "id": "ZhanGuoQunXiongZhuan"
+        "id": "ZhanGuoQunXiongZhuan",
+        "jsnes": true
     },
     {
         "name": "扑克精灵",
         "vendor": "Idea-Tek",
         "filename": "扑克精灵 [Idea-Tek]",
         "image": "{{image-path-new}}/PuKeJingLing.gif",
-        "id": "PuKeJingLing"
+        "id": "PuKeJingLing",
+        "jsnes": true
     },
     {
         "name": "扑克集锦",
@@ -621,7 +648,8 @@
         "vendor": "Sachen",
         "filename": "扑克集锦 [Sachen]",
         "image": "{{image-path-new}}/PuKeJiJin.gif",
-        "id": "PuKeJiJin"
+        "id": "PuKeJiJin",
+        "jsnes": true
     },
     {
         "name": "扑克麻雀",
@@ -636,14 +664,16 @@
         "vendor": "未知",
         "filename": "挖地雷 [未知]",
         "image": "{{image-path-new}}/WaDiLei.gif",
-        "id": "WaDiLei"
+        "id": "WaDiLei",
+        "jsnes": true
     },
     {
         "name": "撞球传说 - 花撞2",
         "vendor": "Sun Team",
         "filename": "撞球传说 - 花撞2 [Sun Team]",
         "image": "{{image-path-new}}/ZhuangQiuChuanShuo_HuaZhuang2.gif",
-        "id": "ZhuangQiuChuanShuo_HuaZhuang2"
+        "id": "ZhuangQiuChuanShuo_HuaZhuang2",
+        "jsnes": true
     },
     {
         "name": "数码战队2",
@@ -664,7 +694,8 @@
         "vendor": "Sun Team",
         "filename": "斗智拼盘 [Sun Team]",
         "image": "{{image-path-new}}/DouZhiPinPan.gif",
-        "id": "DouZhiPinPan"
+        "id": "DouZhiPinPan",
+        "jsnes": true
     },
     {
         "name": "时空之轮",
@@ -692,7 +723,8 @@
         "vendor": "强典",
         "filename": "星空飞箭 [强典]",
         "image": "{{image-path-new}}/XingKongFeiJian.gif",
-        "id": "XingKongFeiJian"
+        "id": "XingKongFeiJian",
+        "jsnes": true
     },
     {
         "name": "星际争霸",
@@ -706,7 +738,8 @@
         "vendor": "未知",
         "filename": "星际武士 [未知]",
         "image": "{{image-path-new}}/XingJiWuShi.gif",
-        "id": "XingJiWuShi"
+        "id": "XingJiWuShi",
+        "jsnes": true
     },
     {
         "name": "暗棋",
@@ -714,7 +747,8 @@
         "vendor": "Joy Van",
         "filename": "暗棋 [Joy Van]",
         "image": "{{image-path-new}}/AnQi.gif",
-        "id": "AnQi"
+        "id": "AnQi",
+        "jsnes": true
     },
     {
         "name": "暗黑破坏神",
@@ -728,7 +762,8 @@
         "vendor": "南晶科技",
         "filename": "最游记之唐三藏 [南晶科技]",
         "image": "{{image-path-new}}/ZuiYouJiZhiTangSanZang.gif",
-        "id": "ZuiYouJiZhiTangSanZang"
+        "id": "ZuiYouJiZhiTangSanZang",
+        "jsnes": true
     },
     {
         "name": "最终幻想4 - 光与暗 水晶纷争",
@@ -750,28 +785,32 @@
         "vendor": "Joy Van",
         "filename": "未来小子 [Joy Van]",
         "image": "{{image-path-new}}/WeiLaiXiaoZi.gif",
-        "id": "WeiLaiXiaoZi"
+        "id": "WeiLaiXiaoZi",
+        "jsnes": true
     },
     {
         "name": "机器猫小叮当",
         "vendor": "外星科技",
         "filename": "机器猫小叮当 [外星科技]",
         "image": "{{image-path-new}}/JiQiMaoXiaoDingDang.gif",
-        "id": "JiQiMaoXiaoDingDang"
+        "id": "JiQiMaoXiaoDingDang",
+        "jsnes": true
     },
     {
         "name": "杨家将",
         "vendor": "外星科技",
         "filename": "杨家将 [外星科技]",
         "image": "{{image-path-new}}/YangJiaJiang.gif",
-        "id": "YangJiaJiang"
+        "id": "YangJiaJiang",
+        "jsnes": true
     },
     {
         "name": "林则徐禁烟",
         "vendor": "外星科技 nfzxyd修正",
         "filename": "林则徐禁烟 [外星科技 nfzxyd修正]",
         "image": "{{image-path-new}}/LinZeXuJinYan.gif",
-        "id": "LinZeXuJinYan"
+        "id": "LinZeXuJinYan",
+        "jsnes": true
     },
     {
         "name": "核心危机",
@@ -792,7 +831,8 @@
         "vendor": "恒格电子",
         "filename": "梦幻 - 香帅传奇之血海飘零 [恒格电子]",
         "image": "{{image-path-new}}/MengHuan_XiangShuaiChuanQiZhiXueHaiPiaoLing.gif",
-        "id": "MengHuan_XiangShuaiChuanQiZhiXueHaiPiaoLing"
+        "id": "MengHuan_XiangShuaiChuanQiZhiXueHaiPiaoLing",
+        "jsnes": true
     },
     {
         "name": "梦幻沙漏",
@@ -820,35 +860,40 @@
         "vendor": "外星科技",
         "filename": "楚汉争霸 [外星科技]",
         "image": "{{image-path-new}}/ChuHanZhengBa.gif",
-        "id": "ChuHanZhengBa"
+        "id": "ChuHanZhengBa",
+        "jsnes": true
     },
     {
         "name": "楚留香 - 香帅传奇之血海飘零",
         "vendor": "外星科技",
         "filename": "楚留香 - 香帅传奇之血海飘零 [外星科技]",
         "image": "{{image-path-new}}/ChuLiuXiang_XiangShuaiChuanQiZhiXueHaiPiaoLing.gif",
-        "id": "ChuLiuXiang_XiangShuaiChuanQiZhiXueHaiPiaoLing"
+        "id": "ChuLiuXiang_XiangShuaiChuanQiZhiXueHaiPiaoLing",
+        "jsnes": true
     },
     {
         "name": "欧陆之战",
         "vendor": "外星科技",
         "filename": "欧陆之战 [外星科技]",
         "image": "{{image-path-new}}/OuLuZhiZhan.gif",
-        "id": "OuLuZhiZhan"
+        "id": "OuLuZhiZhan",
+        "jsnes": true
     },
     {
         "name": "武士魂",
         "vendor": "Rex",
         "filename": "武士魂 [Rex]",
         "image": "{{image-path-new}}/WuShiHun.gif",
-        "id": "WuShiHun"
+        "id": "WuShiHun",
+        "jsnes": true
     },
     {
         "name": "武林外传",
         "vendor": "南晶科技",
         "filename": "武林外传 [南晶科技]",
         "image": "{{image-path-new}}/WuLinWaiZhuan.gif",
-        "id": "WuLinWaiZhuan"
+        "id": "WuLinWaiZhuan",
+        "jsnes": true
     },
     {
         "name": "水浒传",
@@ -876,14 +921,16 @@
         "vendor": "南晶科技",
         "filename": "泰坦尼克号 [南晶科技]",
         "image": "{{image-path-new}}/TaiTanNiKeHao.gif",
-        "id": "TaiTanNiKeHao"
+        "id": "TaiTanNiKeHao",
+        "jsnes": true
     },
     {
         "name": "泰坦尼克号",
         "vendor": "火星电子",
         "filename": "泰坦尼克号 [火星电子]",
         "image": "{{image-path-new}}/TaiTanNiKeHao_HuoXing.gif",
-        "id": "TaiTanNiKeHao_HuoXing"
+        "id": "TaiTanNiKeHao_HuoXing",
+        "jsnes": true
     },
     {
         "name": "洛克人X",
@@ -946,21 +993,24 @@
         "vendor": "外星科技",
         "filename": "甲A [外星科技]",
         "image": "{{image-path-new}}/JiaA.gif",
-        "id": "JiaA"
+        "id": "JiaA",
+        "jsnes": true
     },
     {
         "name": "电视玛琍",
         "vendor": "未知",
         "filename": "电视玛琍 [未知]",
         "image": "{{image-path-new}}/DianShiMaLi.gif",
-        "id": "DianShiMaLi"
+        "id": "DianShiMaLi",
+        "jsnes": true
     },
     {
         "name": "疯狂鸡蛋仔",
         "vendor": "外星科技",
         "filename": "疯狂鸡蛋仔 [外星科技]",
         "image": "{{image-path-new}}/FengKuangJiDanZai.gif",
-        "id": "FengKuangJiDanZai"
+        "id": "FengKuangJiDanZai",
+        "jsnes": true
     },
     {
         "name": "盗帅",
@@ -968,7 +1018,8 @@
         "vendor": "Joy Van",
         "filename": "盗帅 [Joy Van]",
         "image": "{{image-path-new}}/DaoShuai.gif",
-        "id": "DaoShuai"
+        "id": "DaoShuai",
+        "jsnes": true
     },
     {
         "name": "盟军赶死队",
@@ -1003,7 +1054,8 @@
         "vendor": "星星科技",
         "filename": "神探柯南 (赤川次郎之幽灵列车) [星星科技]",
         "image": "{{image-path-new}}/ShenTanKeNan.gif",
-        "id": "ShenTanKeNan"
+        "id": "ShenTanKeNan",
+        "jsnes": true
     },
     {
         "name": "神话剑云3",
@@ -1031,7 +1083,8 @@
         "vendor": "外星科技",
         "filename": "绿野仙踪 [外星科技]",
         "image": "{{image-path-new}}/LvYeXianZong.gif",
-        "id": "LvYeXianZong"
+        "id": "LvYeXianZong",
+        "jsnes": true
     },
     {
         "name": "美国富豪",
@@ -1123,7 +1176,8 @@
         "vendor": "外星科技",
         "filename": "西天取经2 [外星科技]",
         "image": "{{image-path-new}}/XiTianQuJing_2.gif",
-        "id": "XiTianQuJing_2"
+        "id": "XiTianQuJing_2",
+        "jsnes": true
     },
     {
         "name": "西游记后传",
@@ -1145,7 +1199,8 @@
         "vendor": "外星科技",
         "filename": "超级战魂 [外星科技]",
         "image": "{{image-path-new}}/ChaoJiZhanHun.gif",
-        "id": "ChaoJiZhanHun"
+        "id": "ChaoJiZhanHun",
+        "jsnes": true
     },
     {
         "name": "超级机器人大战A",
@@ -1159,14 +1214,16 @@
         "vendor": "菜菜学堂",
         "filename": "超级贪吃蛇 [菜菜学堂]",
         "image": "{{image-path-new}}/ChaoJiTanChiShe.gif",
-        "id": "ChaoJiTanChiShe"
+        "id": "ChaoJiTanChiShe",
+        "jsnes": true
     },
     {
         "name": "超级魂2",
         "vendor": "烟山软件修改",
         "filename": "超级魂2 [烟山软件修改]",
         "image": "{{image-path-new}}/ChaoJiHun_2.gif",
-        "id": "ChaoJiHun_2"
+        "id": "ChaoJiHun_2",
+        "jsnes": true
     },
     {
         "name": "轰天至尊",
@@ -1195,21 +1252,24 @@
         "vendor": "未知",
         "filename": "金曲KTV [未知]",
         "image": "{{image-path-new}}/JinQu_KTV.gif",
-        "id": "JinQu_KTV"
+        "id": "JinQu_KTV",
+        "jsnes": true
     },
     {
         "name": "锄大D",
         "vendor": "台北裕威",
         "filename": "锄大D [台北裕威]",
         "image": "{{image-path-new}}/ChuDa_D.gif",
-        "id": "ChuDa_D"
+        "id": "ChuDa_D",
+        "jsnes": true
     },
     {
         "name": "隋唐演义",
         "vendor": "外星科技",
         "filename": "隋唐演义 [外星科技]",
         "image": "{{image-path-new}}/SuiTangYanYi.gif",
-        "id": "SuiTangYanYi"
+        "id": "SuiTangYanYi",
+        "jsnes": true
     },
     {
         "name": "隋唐英雄",
@@ -1244,7 +1304,8 @@
         "vendor": "外星科技",
         "filename": "魔域英雄传 [外星科技]",
         "image": "{{image-path-new}}/MoYuYingXiongZhuan.gif",
-        "id": "MoYuYingXiongZhuan"
+        "id": "MoYuYingXiongZhuan",
+        "jsnes": true
     },
     {
         "name": "魔幻世界",
@@ -1258,7 +1319,8 @@
         "vendor": "外星科技",
         "filename": "魔法门之英雄无敌 [外星科技]",
         "image": "{{image-path-new}}/MoFaMenZhiYingXiongWuDi.gif",
-        "id": "MoFaMenZhiYingXiongWuDi"
+        "id": "MoFaMenZhiYingXiongWuDi",
+        "jsnes": true
     },
     {
         "name": "魔界塔士",
@@ -1279,7 +1341,8 @@
         "vendor": "外星科技",
         "filename": "魔神法师 [外星科技]",
         "image": "{{image-path-new}}/MoShenFaShi.gif",
-        "id": "MoShenFaShi"
+        "id": "MoShenFaShi",
+        "jsnes": true
     },
     {
         "name": "麻将方块",
@@ -1323,7 +1386,8 @@
         "vendor": "南晶科技",
         "filename": "黑客 [南晶科技]",
         "image": "{{image-path-new}}/HeiKe.gif",
-        "id": "HeiKe"
+        "id": "HeiKe",
+        "jsnes": true
     },
     {
         "name": "黑暗之蛊",

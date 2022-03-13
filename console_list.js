@@ -14,6 +14,9 @@ function getUrlVars() {
 
 function processJson(data) {
     machineList = data;
+    if (screen.width < 600) {
+        machineList = machineList.filter(machine => machine.jsnes)
+    }
     reorderedList = splitArrayByTime(machineList);
 
     var i, j, temparray, chunk = 32;
@@ -36,6 +39,10 @@ function showMachines(machines) {
         var clone = base.clone();
         var title = machine.name + " - " + machine.vendor;
         var playerlink = platform + "?game=" + encodeURI(machine.id);
+        if (machine.jsnes) {
+            playerlink = "jsnes.html?game=" + encodeURI(machine.id);
+            title = String.fromCodePoint(0x1F4F1) + title;
+        }
 
         var imagePathNew = "https://famicn-1255835060.file.myqcloud.com/game-image";
         var imagePathEdu = "https://famicn-1255835060.file.myqcloud.com/edu-cart-image";

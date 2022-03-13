@@ -14,6 +14,8 @@ var audio_write_cursor = 0, audio_read_cursor = 0;
 
 var running = false;
 
+var audioSp = null;
+
 var nes = new jsnes.NES({
     onFrame: function (framebuffer_24) {
         for (var i = 0; i < FRAMEBUFFER_SIZE; i++) framebuffer_u32[i] = 0xFF000000 | framebuffer_24[i];
@@ -41,7 +43,18 @@ function audio_callback(event) {
     var len = dst.length;
 
     // Attempt to avoid buffer underruns.
-    if (audio_remain() < AUDIO_BUFFERING) nes.frame();
+    if (audio_remain() < AUDIO_BUFFERING) {
+        try {
+            nes.frame();
+        } catch (exception) {
+            audioSp.disconnect();
+            if (running) {
+                handleCrash();
+                alert('crashed');
+            }
+            running = false;
+        }
+    }
 
     var dst_l = dst.getChannelData(0);
     var dst_r = dst.getChannelData(1);
@@ -97,20 +110,20 @@ function nes_init(canvas_id) {
     var script_processor = audio_ctx.createScriptProcessor(AUDIO_BUFFERING, 0, 2);
     script_processor.onaudioprocess = audio_callback;
     script_processor.connect(audio_ctx.destination);
+    audioSp = script_processor;
 }
 
 function nes_boot(rom_data) {
+
     nes.loadROM(rom_data);
     window.requestAnimationFrame(onAnimationFrame);
+
 }
 
 function nes_load_data(canvas_id, rom_data) {
     nes_init(canvas_id);
     nes_boot(rom_data);
 }
-
-document.addEventListener('keydown', (event) => { keyboard(nes.buttonDown, event) });
-document.addEventListener('keyup', (event) => { keyboard(nes.buttonUp, event) });
 
 function getUrlVars() {
     var vars = {};
@@ -129,7 +142,7 @@ function loadFS(cartZipUrl) {
         var loaded = Math.round(e.loaded / 1024) + " KB";
         var total = Math.round(e.total / 1024) + " KB";
         var loadingState = loaded + " / " + total;
-        
+
         $("#loading_status").text(loadingState);
     };
     xhr.onload = function (e) {
@@ -161,9 +174,7 @@ function prepareFs(zipData) {
             // An error occurred.
             throw e;
         }
-
         // Otherwise, BrowserFS is ready to use!
-
     });
 }
 
@@ -182,6 +193,17 @@ function playGame() {
 
 }
 
+function handleCrash() {
+    var unsupportedGamesStr = localStorage.getItem('jsemu_unsupported');
+    if (null == unsupportedGamesStr) {
+        unsupportedGames = {}
+    } else {
+        unsupportedGames = JSON.parse(unsupportedGamesStr)
+    }
+    unsupportedGames[getUrlVars()["game"]] = 1;
+    localStorage.setItem('jsemu_unsupported', JSON.stringify(unsupportedGames));
+}
+
 $(document).ready(function () {
     var device = getUrlVars()["device"];
     if (!device) {
@@ -195,11 +217,15 @@ $(document).ready(function () {
 
     var game = getUrlVars()["game"];
     var cart = gameBaseUrl + game + ".zip"
+
+    var mameLink = "famiclone.html?game=" + game + "&device=" + device;
+    $("#mameLink").attr("href", mameLink);
+
     loadFS(cart)
     document.getElementById("status-display").addEventListener('click', function () {
         $("#status-display").hide();
         $("#display_canvas").show();
-    
+
         playGame();
     })
 });

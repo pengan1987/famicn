@@ -13,7 +13,6 @@
     <script type="text/javascript" src="https://lib.baomitu.com/BrowserFS/1.4.3/browserfs.min.js"></script>
     <script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/jsnes/1.2.1/jsnes.js"
         type="application/javascript"></script>
-    <script src="jsnes.js"></script>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
     <style>
         #display_canvas {
@@ -43,6 +42,10 @@
             max-width: 512px;
             background-color: black;
             display: none;
+        }
+
+        .active {
+            background-color: darkgrey;
         }
     </style>
 </head>
@@ -89,55 +92,58 @@
         <button id="toggleKeyboard" onclick="toggleMobileKeyboard()">显示键盘</button>
     </div>
     <div id="introduction" class="markdown-body">
-        操作指南：
+        操作指南：<br>
         方向键<br>
         [键盘] - 游戏<br>
         [Enter] - Start<br>
         [Tab] - Select<br>
         [A] - A<br>
-        [S] - B
+        [S] - B<br>
+        如果您遇到兼容性的问题，<a id="mameLink" href="#">请尝试MAME版本</a>
     </div>
     <div id="mobile-control">
         <table id="abButton">
-            <tr>
-                <td class="nesbutton">AA</td>
-                <td>&nbsp;</td> 
-                <td class="nesbutton">BB</td>
+            <tr id="controls-turbofire">
+                <td class="nesbutton a">AA</td>
+                <td class="c">&nbsp;</td>
+                <td class="nesbutton b">BB</td>
             </tr>
-            <tr>
-                <td class="nesbutton">A</td>  
-                <td>&nbsp;</td>    
-                <td class="nesbutton">B</td>
+            <tr id="controls-fire">
+                <td class="nesbutton a">A</td>
+                <td class="c">&nbsp;</td>
+                <td class="nesbutton b">B</td>
             </tr>
         </table>
         <table id="controlBtn">
             <tr>
-                <td class="nesbutton">Pause</td>
-                <td>&nbsp;</td> 
-                <td class="nesbutton">Start</td>
+                <td class="nesbutton" id="joystick_btn_select">SEL</td>
+                <td>&nbsp;</td>
+                <td class="nesbutton" id="joystick_btn_start">SRT</td>
             </tr>
         </table>
         <table id="dpad">
             <tr>
-                <td></td>
-                <td class="nesbutton">U</td>
-                <td></td>
+                <td class="leftup"></td>
+                <td class="nesbutton up">U</td>
+                <td class="rightup"></td>
             </tr>
             <tr>
-                <td class="nesbutton">L</td>
-                <td></td>
-                <td class="nesbutton">R</td>
+                <td class="nesbutton left">L</td>
+                <td class="center"></td>
+                <td class="nesbutton right">R</td>
             </tr>
             <tr>
-                <td></td>
-                <td class="nesbutton">D</td>
-                <td></td>
+                <td class="leftdown"></td>
+                <td class="nesbutton down">D</td>
+                <td class="rightdown"></td>
             </tr>
         </table>
 
 
     </div>
 
+    <script src="jsnes-mobile/jsnes-controller.js" type="text/javascript" charset="utf-8"></script>
+    <script src="jsnes.js" type="text/javascript" charset="utf-8"></script>
 </body>
 
 </html>
