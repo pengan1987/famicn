@@ -221,7 +221,7 @@ $(document).ready(function () {
     var mameLink = "famiclone.html?game=" + game + "&device=" + device;
     $("#mameLink").attr("href", mameLink);
 
-    loadFS(cart)
+    loadFS(cart);
     document.getElementById("status-display").addEventListener('click', function () {
         $("#status-display").hide();
         $("#display_canvas").show();

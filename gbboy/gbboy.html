@@ -1,0 +1,155 @@
+﻿<html>
+
+<head>
+  <title>中文家用游戏博物馆</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://lib.baomitu.com/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="/base.css" />
+  <link rel="stylesheet" href="/emularity.css" />
+  <link rel="stylesheet" href="/jsnes-mobile/jsnes-controller.css" />
+  <script src="/baidustat.js"></script>
+  <script src="https://lib.baomitu.com/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://lib.baomitu.com/es6-promise/2.1.0/es6-promise.js"></script>
+  <script type="text/javascript" src="https://lib.baomitu.com/BrowserFS/1.4.3/browserfs.min.js"></script>
+  <script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/jsnes/1.2.1/jsnes.js"
+    type="application/javascript"></script>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+  <style>
+    #display_canvas {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #status-display {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: 50%;
+      background-color: black;
+      max-height: 400px;
+      max-width: 512px;
+    }
+
+    #loading_status {
+      color: white;
+      top: 50%;
+      vertical-align: middle;
+
+    }
+
+    #display_canvas {
+      width: 100%;
+      max-width: 512px;
+      background-color: black;
+      display: none;
+    }
+
+    .active {
+      background-color: darkgrey;
+    }
+  </style>
+</head>
+
+<body>
+  <nav id="mainnav" style="position: relative; z-index: 2; overflow-x:hidden;">
+    <ul>
+      <li>
+        <a href="/index.html">首页</a>
+      </li>
+      <li>
+        <a href="/console_list.html">红白机</a>
+      </li>
+      <li>
+        <a href="/console_list.html?menu=genesis.json">世嘉机</a>
+      </li>
+      <li>
+        <a href="/console_list.html?menu=learn.json">学习机</a>
+      </li>
+      <li>
+        <a href="http://www.compumuseum.com">电脑</a>
+      </li>
+      <li>
+        <a href="https://zhuanlan.zhihu.com/retrocomputing">知乎专栏</a>
+      </li>
+      <li>
+        <a href="https://github.com/pengan1987/famicn">Github</a>
+      </li>
+    </ul>
+  </nav>
+  <div id="main-wrapper" style="text-align: center; margin: 10px auto 0;">
+    <div id="status-display">
+      <p id="loading_status"></p>
+
+    </div>
+    <div id="screen_container">
+      <canvas id="display_canvas" style="height:288px; width: 320px; image-rendering: pixelated;"></canvas>
+    </div>
+  </div>
+  <div style="display: none;">
+    <img src="/cart.gif">
+  </div>
+  <div id="mobile-tools">
+    <button id="toggleKeyboard" onclick="toggleMobileKeyboard()">显示键盘</button>
+  </div>
+  <div id="introduction" class="markdown-body">
+    操作指南：<br>
+    方向键<br>
+    [键盘] - 游戏<br>
+    [Enter] - Start<br>
+    [Shift] - Select<br>
+    [X] - A<br>
+    [Z] - B<br>
+  </div>
+  <div id="mobile-control">
+    <table id="abButton">
+      <tr id="controls-turbofire">
+        <td class="nesbutton a">AA</td>
+        <td class="c">&nbsp;</td>
+        <td class="nesbutton b">BB</td>
+      </tr>
+      <tr id="controls-fire">
+        <td class="nesbutton a">A</td>
+        <td class="c">&nbsp;</td>
+        <td class="nesbutton b">B</td>
+      </tr>
+    </table>
+    <table id="controlBtn">
+      <tr>
+        <td class="nesbutton" id="joystick_btn_select">SEL</td>
+        <td>&nbsp;</td>
+        <td class="nesbutton" id="joystick_btn_start">SRT</td>
+      </tr>
+    </table>
+    <table id="dpad">
+      <tr>
+        <td class="leftup"></td>
+        <td class="nesbutton up">U</td>
+        <td class="rightup"></td>
+      </tr>
+      <tr>
+        <td class="nesbutton left">L</td>
+        <td class="center"></td>
+        <td class="nesbutton right">R</td>
+      </tr>
+      <tr>
+        <td class="leftdown"></td>
+        <td class="nesbutton down">D</td>
+        <td class="rightdown"></td>
+      </tr>
+    </table>
+
+
+  </div>
+  <div id="terminal_output" style="display: none;"></div>
+
+  <script src="https://famicn-1255835060.file.myqcloud.com/gameboy-online/other/terminal.js"></script>
+  <script src="https://famicn-1255835060.file.myqcloud.com/gameboy-online/other/resampler.js"></script>
+  <script src="https://famicn-1255835060.file.myqcloud.com/gameboy-online/other/resize.js"></script>
+  <script src="https://famicn-1255835060.file.myqcloud.com/gameboy-online/other/XAudioServer.js"></script>
+  <script src="https://famicn-1255835060.file.myqcloud.com/gameboy-online/GameBoyCore.js"></script>
+  <script src="https://famicn-1255835060.file.myqcloud.com/gameboy-online/GameBoyIO.js"></script>
+  <script src="gbboy.js"></script>
+  <script src="gbboy-controller.js"></script>
+</body>
+
+</html>

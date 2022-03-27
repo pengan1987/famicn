@@ -1,0 +1,138 @@
+[
+    {
+        "name": "龙行天下",
+        "vendor": "Gowin高远",
+        "filename": "LongXingTianXia",
+        "id": "LongXingTianXia",
+        "year": "1998",
+        "image": "{{image-path-new}}/LongXingTianXia.png"
+    },
+    {
+        "name": "魔法球",
+        "vendor": "Gowin高远",
+        "filename": "MoFaQiu",
+        "id": "MoFaQiu",
+        "year": "2002",
+        "image": "{{image-path-new}}/MoFaQiu.png"
+    },
+    {
+        "name": "雷驽机神",
+        "vendor": "Gowin高远",
+        "filename": "LeiNuJiShen",
+        "id": "LeiNuJiShen",
+        "year": "2000",
+        "image": "{{image-path-new}}/LeiNuJiShen.png"
+    },
+    {
+        "name": "迷途之旅",
+        "vendor": "Gowin高远",
+        "filename": "MiTuZhiLv",
+        "id": "MiTuZhiLv",
+        "year": "1998",
+        "image": "{{image-path-new}}/MiTuZhiLv.png"
+    },
+    {
+        "name": "石器时代-精灵王诞生",
+        "vendor": "Gowin高远",
+        "filename": "ShiQiShiDai-JingLingWangDanSheng",
+        "id": "ShiQiShiDai-JingLingWangDanSheng",
+        "year": "2002",
+        "image": "{{image-path-new}}/ShiQiShiDai-JingLingWangDanSheng.png"
+    },
+    {
+        "name": "彩虹战士",
+        "vendor": "Gowin高远",
+        "filename": "CaiHongZhanShi",
+        "id": "CaiHongZhanShi",
+        "year": "2002",
+        "image": "{{image-path-new}}/CaiHongZhanShi.png"
+    },
+    {
+        "name": "拉萨玛传奇",
+        "vendor": "Gowin高远",
+        "filename": "LaSaMaChuanQi",
+        "id": "LaSaMaChuanQi",
+        "year": "2002",
+        "image": "{{image-path-new}}/LaSaMaChuanQi.png"
+    },
+    {
+        "name": "梦幻之星-拯救地球",
+        "vendor": "SKOB上川",
+        "filename": "MengHuanZhiXing-ZhengJiuDiQiu",
+        "id": "MengHuanZhiXing-ZhengJiuDiQiu",
+        "year": "200?",
+        "image": "{{image-path-new}}/MengHuanZhiXing-ZhengJiuDiQiu.png"
+    },
+    {
+        "name": "超进化数码宝贝D3",
+        "vendor": "SKOB上川",
+        "filename": "ChaoJinHuaShuMaBaoBeiD3",
+        "id": "ChaoJinHuaShuMaBaoBeiD3",
+        "year": "200?",
+        "image": "{{image-path-new}}/ChaoJinHuaShuMaBaoBeiD3.png"
+    },
+    {
+        "name": "天之痕",
+        "vendor": "外星科技",
+        "filename": "TianZhiHen",
+        "id": "TianZhiHen",
+        "year": "2004",
+        "image": "{{image-path-new}}/TianZhiHen.png"
+    },
+    {
+        "name": "圣火徽章",
+        "vendor": "外星科技",
+        "filename": "ShengHuoHuiZhang",
+        "id": "ShengHuoHuiZhang",
+        "year": "2003",
+        "image": "{{image-path-new}}/ShengHuoHuiZhang.png"
+    },
+    {
+        "name": "恶狼2003",
+        "vendor": "新特奇",
+        "filename": "ELang2003",
+        "id": "ELang2003",
+        "year": "2003",
+        "image": "{{image-path-new}}/ELang2003.png"
+    },
+    {
+        "name": "指环王首部曲",
+        "vendor": "新特奇",
+        "filename": "ZhiHuanWangShouBuQu",
+        "id": "ZhiHuanWangShouBuQu",
+        "year": "200?",
+        "image": "{{image-path-new}}/ZhiHuanWangShouBuQu.png"
+    },
+    {
+        "name": "少林十三棍-英雄救主",
+        "vendor": "新特奇",
+        "filename": "ShaoLinShiSanGun-YingXiongJiuZhu",
+        "id": "ShaoLinShiSanGun-YingXiongJiuZhu",
+        "year": "200?",
+        "image": "{{image-path-new}}/ShaoLinShiSanGun-YingXiongJiuZhu.png"
+    },
+    {
+        "name": "合金弹头2001",
+        "vendor": "Windy",
+        "filename": "HeJinDanTou2001",
+        "id": "HeJinDanTou2001",
+        "year": "2001",
+        "image": "{{image-path-new}}/HeJinDanTou2001.png"
+    },
+    {
+        "name": "e时代热血格斗",
+        "vendor": "五合企业",
+        "filename": "eShiDaiReXueGeDou",
+        "id": "eShiDaiReXueGeDou",
+        "year": "200?",
+        "image": "{{image-path-new}}/eShiDaiReXueGeDou.png"
+    },
+    {
+        "name": "数码暴龙-格斗天王",
+        "vendor": "未知",
+        "filename": "ShuMaBaoLong-GeDouTianWang",
+        "id": "ShuMaBaoLong-GeDouTianWang",
+        "year": "200?",
+        "image": "{{image-path-new}}/ShuMaBaoLong-GeDouTianWang.png"
+    }
+]
