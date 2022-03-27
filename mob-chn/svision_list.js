@@ -2,7 +2,7 @@ var machineList;
 var newMachineList = [];
 var pages = [];
 var loadedPage = 0;
-var device = "gameking";
+var platform = "svision.html";
 
 function getUrlVars() {
     var vars = {};
@@ -13,21 +13,7 @@ function getUrlVars() {
 }
 
 function processJson(data) {
-    machineList = [];
-    for (i = 0; i < data.length; i++) {
-        currentData = data[i];
-        var addToList = true;
-        if (device == "gamekin3") {
-            //Remove Gameking default games for gameking3
-            if (currentData.filename.length == 0 && !currentData.gameking3)
-                addToList = false;
-        } else {
-            //Remove Gameking3 only games for Gameking
-            if (currentData.gameking3) addToList = false;
-        }
-        if (addToList)
-            machineList.push(currentData);
-    }
+    machineList = data;
     reorderedList = splitArrayByTime(machineList);
 
     var i, j, temparray, chunk = 32;
@@ -48,31 +34,24 @@ function showMachines(machines) {
     for (i = 0; i < machines.length; i++) {
         var machine = machines[i];
         var clone = base.clone();
-        var title = machine.name + " - " + machine.vendor;
-
-        if (machine.id) {
-            var playerlink = "gameking.html?game=" + encodeURI(machine.id) + "&device=" + device;
-        } else {
-            var playerlink = "gameking.html?device=" + device;
+        var title = machine.name + " (" + machine.year + ")";
+        if (machine.chinese_name) {
+            var title = machine.chinese_name + " (" + machine.year + ")";
         }
-
-        var imagePathNew = "https://famicn-1255835060.file.myqcloud.com/gameking-images";
-        if (device == 'gamekin3') {
-            imagePathNew = "https://famicn-1255835060.file.myqcloud.com/gameking-images/gamekin3";
+        if (machine.vendor.length > 0) {
+            title = title + " - " + machine.vendor;
         }
+        var playerlink = platform + "?game=" + encodeURI(machine.id);
 
-        var imageLink = "gamate_card_blank.jpg";
-
+        var imagePathNew = "https://famicn-1255835060.file.myqcloud.com/svision-images";
+        var imageLink = "cart.gif";
         if (machine.image) {
             imageLink = machine.image;
             imageLink = imageLink.replace("{{image-path-new}}", imagePathNew);
         }
+
         if (machine.device) {
             playerlink = playerlink + "&device=" + machine.device;
-        }
-
-        if (machine.gameking3) {
-            playerlink = playerlink + "&gamekin3only=1"
         }
 
         clone.show();
@@ -101,6 +80,8 @@ function search() {
     var searchResult = [];
     for (i = 0; i < machineList.length; i++) {
         var text = machineList[i].name + machineList[i].vendor;
+        text = text.toLowerCase();
+        keyword = keyword.toLowerCase();
         if (text.includes(keyword)) {
             searchResult.push(machineList[i]);
         }
@@ -123,12 +104,7 @@ function splitArrayByTime(someArray) {
 }
 
 $(document).ready(function () {
-    var menu = getUrlVars()["menu"];
-
-    if (menu && menu.includes("gamekin3")) {
-        device = "gamekin3";
-    }
-    $.getJSON("gameking.json", processJson);
+    $.getJSON("svision.json", processJson);
 });
 
 $(window).scroll(function () {
