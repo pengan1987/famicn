@@ -72,7 +72,7 @@ function search() {
     }
     var searchResult = [];
     for (i = 0; i < machineList.length; i++) {
-        var text = machineList[i].name + machineList[i].vendor;
+        var text = machineList[i].name + machineList[i].vendor + machineList[i].id;
         text = text.toLowerCase();
         keyword = keyword.toLowerCase();
         if (text.includes(keyword)) {
