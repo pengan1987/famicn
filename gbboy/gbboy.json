@@ -113,7 +113,7 @@
     },
     {
         "name": "合金弹头2001",
-        "vendor": "Windy",
+        "vendor": "BBD",
         "filename": "HeJinDanTou2001",
         "id": "HeJinDanTou2001",
         "year": "2001",
@@ -492,7 +492,7 @@
         "vendor": "外星科技",
         "filename": "HuanLingYouXia",
         "id": "HuanLingYouXia",
-        "year": "200?",
+        "year": "2002",
         "image": "{{image-path-new}}/HuanLingYouXia.png"
     },
     {
@@ -704,7 +704,7 @@
         "image": "{{image-path-new}}/ShenGuiDiGuoZhiEMoCheng.png"
     },
     {
-        "name": "獅子王",
+        "name": "狮子王",
         "vendor": "新特奇",
         "filemane": "ShiZiWang",
         "id": "ShiZiWang",
@@ -868,7 +868,7 @@
         "vendor": "Gowin",
         "filename": "WoHuCangLong",
         "id": "WoHuCangLong",
-        "year": "200?",
+        "year": "2002",
         "image": "{{image-path-new}}/WoHuCangLong.png"
     },
     {
@@ -972,7 +972,7 @@
         "vendor": "Hitek",
         "filename": "TeShuBuDui-JiDi2",
         "id": "TeShuBuDui-JiDi2",
-        "year": "200?",
+        "year": "2001",
         "image": "{{image-path-new}}/TeShuBuDui-JiDi2.png"
     },
     {

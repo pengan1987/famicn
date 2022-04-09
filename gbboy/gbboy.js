@@ -11,16 +11,17 @@ function getUrlVars() {
 
 function playGame() {
     var fs = BrowserFS.BFSRequire('fs');
-    var filename = getUrlVars()["game"] + ".gb"
-    fs.readdir('/', function (e, contents) {
-        var diskBuffer = fs.readFileSync("zip/" + filename, { encoding: 'binary' });
+    var filename = "zip/" + getUrlVars()["game"] + ".gbc"
+    var isGBC = fs.existsSync(filename)
+    if (!isGBC) {
+        filename = "zip/" + getUrlVars()["game"] + ".gb"
+    }
+    var diskBuffer = fs.readFileSync(filename, { encoding: 'binary' });
+    var canvas = document.getElementById('display_canvas');
+    settings[0] = true;
+    start(canvas, diskBuffer);
 
-        console.log("check point 2");
-        var canvas = document.getElementById('display_canvas');
-        settings[0] = true;
-        start(canvas, diskBuffer);
 
-    });
 
 }
 
