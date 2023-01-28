@@ -45,13 +45,13 @@ function showMachines(machines) {
         }
 
         var imagePathNew = "https://famicn-1255835060.file.myqcloud.com/game-image";
-        var imagePathEdu = "https://famicn-1255835060.file.myqcloud.com/edu-cart-image";
+        var imagePathSuperAcan = "https://famicn-1255835060.file.myqcloud.com/superacan-images";
         var imagePathGenesis = "https://famicn-1255835060.file.myqcloud.com/genesis-image";
         var imageLink = "cart.gif";
         if (machine.image) {
             imageLink = machine.image;
             imageLink = imageLink.replace("{{image-path-new}}", imagePathNew);
-            imageLink = imageLink.replace("{{image-path-edu}}", imagePathEdu);
+            imageLink = imageLink.replace("{{image-path-superacan}}", imagePathSuperAcan);
             imageLink = imageLink.replace("{{image-path-genesis}}", imagePathGenesis);
         }
         if (machine.device) {
@@ -113,6 +113,8 @@ $(document).ready(function () {
         menu = "games.json";
     } else if (menu.includes("genesis")) {
         platform = "genesis.html";
+    } else if (menu.includes("superacan")) {
+        platform = "superacan.html"
     }
     $.getJSON(menu, processJson);
 });

@@ -1,0 +1,50 @@
+[
+    {
+        "name": "非洲探险",
+        "vendor": "熊猫软体",
+        "filename": "非洲探险",
+        "image": "{{image-path-superacan}}/Adventure_in_Africa.png",
+        "device": "supracan",
+        "id": "Adventure_in_Africa"
+    },
+    {
+        "name": "爆爆动物园",
+        "vendor": "敦煌科技",
+        "filename": "爆爆动物园",
+        "image": "{{image-path-superacan}}/Boom_Zoo.png",
+        "device": "supracan",
+        "id": "Boom_Zoo"
+    },
+    {
+        "name": "音速飞龙",
+        "vendor": "钜崴科技",
+        "filename": "音速飞龙",
+        "image": "{{image-path-superacan}}/Speedy_Dragon.png",
+        "device": "supracan",
+        "id": "Speedy_Dragon"
+    },
+    {
+        "name": "嘻游记",
+        "vendor": "敦煌科技",
+        "filename": "嘻游记",
+        "image": "{{image-path-superacan}}/Journey_to_the_Laugh.png",
+        "device": "supracan",
+        "id": "Journey_to_the_Laugh"
+    },
+    {
+        "name": "福尔摩沙大对决",
+        "vendor": "巨峰科技",
+        "filename": "福尔摩沙大对决",
+        "image": "{{image-path-superacan}}/Formosa_Duel.png",
+        "device": "supracan",
+        "id": "Formosa_Duel"
+    },
+    {
+        "name": "武将争霸",
+        "vendor": "熊猫软体",
+        "filename": "武将争霸",
+        "image": "{{image-path-superacan}}/Sango_Fighter.png",
+        "device": "supracan",
+        "id": "Sango_Fighter"
+    }
+]
