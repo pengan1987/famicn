@@ -3,10 +3,10 @@
  */
 
 var keyZones = {
-    13: "start",
-    16: "select",
-    88: "a",
-    90: "b",
+    49: "start",
+    53: "select",
+    18: "a",
+    17: "b",
     37: "left",
     38: "up",
     39: "right",
