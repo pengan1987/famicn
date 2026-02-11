@@ -37,7 +37,7 @@ function showMachines(machines) {
         var title = machine.name + " (" + machine.year + ") - " + machine.vendor;
         var playerlink = platform + "?game=" + encodeURI(machine.id);
 
-        var imagePathNew = "https://famicn-1255835060.file.myqcloud.com/gbboy-images";
+        var imagePathNew = "../images/gbboy";
         var imageLink = "gbboy_cart_blank.png";
         if (machine.image) {
             imageLink = machine.image;

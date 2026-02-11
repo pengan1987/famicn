@@ -44,9 +44,9 @@ function showMachines(machines) {
             title = String.fromCodePoint(0x1F4F1) + title;
         }
 
-        var imagePathNew = "https://famicn-1255835060.file.myqcloud.com/game-image";
-        var imagePathSuperAcan = "https://famicn-1255835060.file.myqcloud.com/superacan-images";
-        var imagePathGenesis = "https://famicn-1255835060.file.myqcloud.com/genesis-image";
+        var imagePathNew = "images/famiclone";
+        var imagePathSuperAcan = "images/superacan";
+        var imagePathGenesis = "images/genesis";
         var imageLink = "cart.gif";
         if (machine.image) {
             imageLink = machine.image;

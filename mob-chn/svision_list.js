@@ -43,7 +43,7 @@ function showMachines(machines) {
         }
         var playerlink = platform + "?game=" + encodeURI(machine.id);
 
-        var imagePathNew = "https://famicn-1255835060.file.myqcloud.com/svision-images";
+        var imagePathNew = "../images/svision";
         var imageLink = "cart.gif";
         if (machine.image) {
             imageLink = machine.image;
