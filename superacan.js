@@ -8,8 +8,8 @@ function getUrlVars() {
 }
 
 function runMAME(cart, device) {
-    var wasmjs_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamesupracan.js";
-    var wasm_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamesupracan.wasm"
+    var wasmjs_filename = "emularity/jsmess/mamesupracan.js";
+    var wasm_filename = "emularity/jsmess/mamesupracan.wasm"
     var emulator = new Emulator(document.querySelector("#canvas"),
         postRun,
         new JSMESSLoader(JSMESSLoader.driver(device),
@@ -63,7 +63,7 @@ if (!String.prototype.includes) {
 
 $(document).ready(function () {
     console.log("ready!");
-    var gameBaseUrl = "https://famicn-1255835060.file.myqcloud.com/superacan-roms/"
+    var gameBaseUrl = "../rom/superacan/"
     game = getUrlVars()["game"];
     var cart = gameBaseUrl + game + ".zip"
     var device = getUrlVars()["device"];

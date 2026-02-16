@@ -9,9 +9,9 @@ function getUrlVars() {
 
 function runMAME(cart, device) {
     var wantsWASM = 'WebAssembly' in window;
-    var wasmjs_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamemegadriv_wasm.js";
-    var wasm_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamemegadriv_wasm.wasm"
-    var js_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamemegadriv.js"
+    var wasmjs_filename = "emularity/jsmess/mamemegadriv_wasm.js";
+    var wasm_filename = "emularity/jsmess/mamemegadriv_wasm.wasm"
+    var js_filename = "emularity/jsmess/mamemegadriv.js"
 
     var emulator = new Emulator(document.querySelector("#canvas"),
         postRun,
@@ -66,7 +66,7 @@ if (!String.prototype.includes) {
 
 $(document).ready(function () {
     console.log("ready!");
-    var gameBaseUrl = "https://dnbwg3.cdn.bcebos.com/roms-genesis-zip/"
+    var gameBaseUrl = "rom/genesis/"
     var game = getUrlVars()["game"];
     var cart = gameBaseUrl + game + ".zip"
     var device = getUrlVars()["device"];

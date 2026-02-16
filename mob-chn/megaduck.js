@@ -10,8 +10,8 @@ function getUrlVars() {
 function runMAME(cart, game) {
     var wantsWASM = 'WebAssembly' in window;
 
-    var wasmjs_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamegb.js";
-    var wasm_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamegb.wasm"
+    var wasmjs_filename = "../emularity/jsmess/mamegb.js";
+    var wasm_filename = "../emularity/jsmess/mamegb.wasm"
 
     var emulator = new Emulator(document.querySelector(".emucanvas"),
         postRun,
@@ -67,7 +67,7 @@ if (!String.prototype.includes) {
 
 $(document).ready(function () {
     console.log("ready!");
-    var gameBaseUrl = "https://famicn-1255835060.file.myqcloud.com/megaduck-roms/"
+    var gameBaseUrl = "../rom/megaduck/"
     var game = getUrlVars()["game"];
     var cart = gameBaseUrl + game + ".zip"
     if (screen.width < 600) {

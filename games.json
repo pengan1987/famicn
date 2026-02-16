@@ -604,13 +604,6 @@
         "jsnes": true
     },
     {
-        "name": "快打传说",
-        "vendor": "Gouder",
-        "filename": "快打传说 [Gouder]",
-        "image": "{{image-path-new}}/KuaiDaChuanShuo.gif",
-        "id": "KuaiDaChuanShuo"
-    },
-    {
         "name": "战国四川省",
         "device": "nes",
         "vendor": "C&E Inc",

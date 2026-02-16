@@ -9,10 +9,10 @@ function getUrlVars() {
 
 function runMAME(cart, game) {
     var wantsWASM = 'WebAssembly' in window;
-    var wasmjs_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamegamate_wasm.js";
-    var wasm_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamegamate_wasm.wasm"
-    var js_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamegamate.js";
-    var bios = "https://dnbwg.cdn.bcebos.com/emularity-common/bios/gamate.zip"
+    var wasmjs_filename = "../emularity/jsmess/mamegamate_wasm.js";
+    var wasm_filename = "../emularity/jsmess/mamegamate_wasm.wasm"
+    var js_filename = "../emularity/jsmess/mamegamate.js";
+    var bios = "../emularity/bios/gamate.zip"
 
     var emulator = new Emulator(document.querySelector(".emucanvas"),
         postRun,
@@ -71,7 +71,7 @@ if (!String.prototype.includes) {
 
 $(document).ready(function () {
     console.log("ready!");
-    var gameBaseUrl = "https://famicn-1255835060.file.myqcloud.com/gamate-roms/"
+    var gameBaseUrl = "../rom/gamate/"
     var game = getUrlVars()["game"];
     var cart = gameBaseUrl + game + ".zip"
     if (screen.width < 600) {

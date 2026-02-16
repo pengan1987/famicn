@@ -9,8 +9,8 @@ function getUrlVars() {
 
 function runMAME(cart) {
 
-    var wasmjs_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamepdc.js";
-    var wasm_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamepdc.wasm"
+    var wasmjs_filename = "../emularity/jsmess/mamepdc.js";
+    var wasm_filename = "../emularity/jsmess/mamepdc.wasm"
 
     var emulator = new Emulator(document.querySelector(".emucanvas"),
         postRun,
@@ -64,7 +64,7 @@ if (!String.prototype.includes) {
 
 $(document).ready(function () {
     console.log("ready!");
-    var gameBaseUrl = "https://famicn-1255835060.file.myqcloud.com/pdc-roms/"
+    var gameBaseUrl = "../rom/pdc/"
     var game = getUrlVars()["game"];
     var cart = gameBaseUrl + game + ".zip"
     if (screen.width < 600) {

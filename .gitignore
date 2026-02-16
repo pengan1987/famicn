@@ -2,3 +2,6 @@ experiment/
 *.nes
 images/svision_games.jpg
 wqx/
+rom/
+emularity/
+gbboy/gameboy-online/

@@ -110,7 +110,7 @@ function prepareFs(zipData) {
 
 $(document).ready(function () {
     console.log("ready!");
-    var gameBaseUrl = "https://famicn-1255835060.file.myqcloud.com/gbboy-roms/"
+    var gameBaseUrl = "../rom/gbboy/"
     var game = getUrlVars()["game"];
     var cart = gameBaseUrl + game + ".zip"
     loadFS(cart);

@@ -9,8 +9,8 @@ function getUrlVars() {
 
 function runMAME(cart, game) {
 
-    var wasmjs_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamesvision_wasm.js";
-    var wasm_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamesvision_wasm.wasm"
+    var wasmjs_filename = "../emularity/jsmess/mamesvision_wasm.js";
+    var wasm_filename = "../emularity/jsmess/mamesvision_wasm.wasm"
 
     var emulator = new Emulator(document.querySelector(".emucanvas"),
         postRun,
@@ -66,7 +66,7 @@ if (!String.prototype.includes) {
 
 $(document).ready(function () {
     console.log("ready!");
-    var gameBaseUrl = "https://famicn-1255835060.file.myqcloud.com/svision-roms/"
+    var gameBaseUrl = "../rom/svision/"
     var game = getUrlVars()["game"];
     var cart = gameBaseUrl + game + ".zip"
     if (screen.width < 600) {

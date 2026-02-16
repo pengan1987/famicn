@@ -10,10 +10,10 @@ function getUrlVars() {
 function runMAME(cart, game, device) {
     var wantsWASM = 'WebAssembly' in window;
 
-    var wasmjs_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamegameking_wasm.js";
-    var wasm_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamegameking_wasm.wasm"
-    var js_filename = "https://dnbwg.cdn.bcebos.com/emularity-common/emulators/jsmess/mamegameking.js";
-    var biosPath = "https://dnbwg.cdn.bcebos.com/emularity-common/bios/"
+    var wasmjs_filename = "../emularity/jsmess/mamegameking_wasm.js";
+    var wasm_filename = "../emularity/jsmess/mamegameking_wasm.wasm"
+    var js_filename = "../emularity/jsmess/mamegameking.js";
+    var biosPath = "../emularity/bios/"
 
     var biosFileName = device + ".zip";
 
@@ -85,8 +85,8 @@ if (!String.prototype.includes) {
 
 $(document).ready(function () {
     console.log("ready!");
-    var gameBaseUrl = "https://famicn-1255835060.file.myqcloud.com/gameking-roms/";
-    var gamekin3BaseUrl = "https://famicn-1255835060.file.myqcloud.com/gameking-roms/gamekin3/";
+    var gameBaseUrl = "../rom/gameking/";
+    var gamekin3BaseUrl = "../rom/gamekin3/";
     var game = getUrlVars()["game"];
     var gamekin3only = getUrlVars()["gamekin3only"];
     var cart = gameBaseUrl + game + ".zip";

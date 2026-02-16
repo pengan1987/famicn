@@ -210,9 +210,9 @@ $(document).ready(function () {
         device = "nespal"
     }
 
-    var gameBaseUrl = "https://dnbwg3.cdn.bcebos.com/roms-nes-zip/"
+    var gameBaseUrl = "rom/famiclone/"
     if (device == "sb486") {
-        gameBaseUrl = "https://dnbwg3.cdn.bcebos.com/roms-edu-zip/"
+        gameBaseUrl = "rom/subor/"
     }
 
     var game = getUrlVars()["game"];
